@@ -78,7 +78,7 @@ These are downloads from APIs and from a web archive. Nothing here scrapes HTML 
 
 ## How AI was used
 
-The code was written with an AI coding assistant (Claude Code), working under my direction: I set the question, said what the pipeline should do and approved its design choices. The assistant wrote most of the code and the tests, and drafted this README.
+The code was written with an AI coding assistant (Claude Code), working under my direction: I set the question, said what the pipeline should do and reviewed its output. The AI assisted in most of the code and the tests.
 
 ## Data source and reuse
 
