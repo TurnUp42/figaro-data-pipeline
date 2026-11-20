@@ -1,0 +1,262 @@
+{
+  "status": "passed",
+  "schema_version": 1,
+  "input_integrity": "All four raw extracts and all official source references verified by SHA-256 and size",
+  "cross_year_alignment": "Exact code/label/universe and active-mask agreement",
+  "years": {
+    "2022": {
+      "year": 2022,
+      "status": "passed",
+      "industries": 64,
+      "economies": 50,
+      "active_industries": 63,
+      "inactive_industries": [
+        "U"
+      ],
+      "unit": "MIO_EUR",
+      "valuation": "current basic prices",
+      "matrix_convention": "supplier rows, user columns",
+      "source_updated": "2026-07-20T11:00:00+0200",
+      "complete_intermediate_cells_per_slice": 204800,
+      "complete_final_use_cells_per_slice": 16000,
+      "dom_accounting_cells": 414,
+      "structural_absences_uses": 25116,
+      "structural_absences_sales": 20700,
+      "missing_required_observations": 0,
+      "negative_intermediate_observations": 0,
+      "domestic_overlap": "exact equality for intermediate and final uses",
+      "domestic_flow_identifier": {
+        "origin": "DE",
+        "destination": "DE"
+      },
+      "tax_and_accounting_rows": {
+        "B2A3G": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 1528811.087
+        },
+        "D1": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 2080969.4989999998
+        },
+        "D21X31": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 99623.901
+        },
+        "D29X39": {
+          "count": 64,
+          "negative_count": 47,
+          "minimum": -6692.995,
+          "sum": -17903.966
+        },
+        "OP_RES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        },
+        "OP_NRES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        }
+      },
+      "signed_final_uses_received": {
+        "count": 16000,
+        "negative_count": 691,
+        "minimum": -36529.276,
+        "sum": 3551219.1870000004
+      },
+      "signed_final_sales": {
+        "count": 16000,
+        "negative_count": 351,
+        "minimum": -36529.276,
+        "sum": 3630701.6089999997
+      },
+      "output_reconciliation": {
+        "absolute_tolerance_million_eur": 1e-07,
+        "max_absolute_gap_million_eur": 1.1641532182693481e-10,
+        "max_relative_gap_active": 4.816681048894962e-16,
+        "exceptions": []
+      },
+      "totals_million_eur": {
+        "domestic_intermediate": 3260890.8000000003,
+        "all_imported_intermediate": 865035.057,
+        "china_intermediate": 43025.153,
+        "rest_of_world_intermediate": 87391.852,
+        "gross_output": 7817426.3780000005
+      },
+      "observation_status": {
+        "uses": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        },
+        "sales": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        }
+      }
+    },
+    "2023": {
+      "year": 2023,
+      "status": "passed",
+      "industries": 64,
+      "economies": 50,
+      "active_industries": 63,
+      "inactive_industries": [
+        "U"
+      ],
+      "unit": "MIO_EUR",
+      "valuation": "current basic prices",
+      "matrix_convention": "supplier rows, user columns",
+      "source_updated": "2026-07-20T11:00:00+0200",
+      "complete_intermediate_cells_per_slice": 204800,
+      "complete_final_use_cells_per_slice": 16000,
+      "dom_accounting_cells": 414,
+      "structural_absences_uses": 25116,
+      "structural_absences_sales": 20700,
+      "missing_required_observations": 0,
+      "negative_intermediate_observations": 0,
+      "domestic_overlap": "exact equality for intermediate and final uses",
+      "domestic_flow_identifier": {
+        "origin": "DE",
+        "destination": "DE"
+      },
+      "tax_and_accounting_rows": {
+        "B2A3G": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 1639232.892
+        },
+        "D1": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 2229906.719
+        },
+        "D21X31": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 87247.204
+        },
+        "D29X39": {
+          "count": 64,
+          "negative_count": 38,
+          "minimum": -15885.993,
+          "sum": -15200.976999999999
+        },
+        "OP_RES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        },
+        "OP_NRES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        }
+      },
+      "signed_final_uses_received": {
+        "count": 16000,
+        "negative_count": 706,
+        "minimum": -40721.043,
+        "sum": 3719728.284
+      },
+      "signed_final_sales": {
+        "count": 16000,
+        "negative_count": 527,
+        "minimum": -40721.043,
+        "sum": 3827349.67
+      },
+      "output_reconciliation": {
+        "absolute_tolerance_million_eur": 1e-07,
+        "max_absolute_gap_million_eur": 1.7462298274040222e-10,
+        "max_relative_gap_active": 7.400960578449501e-16,
+        "exceptions": []
+      },
+      "totals_million_eur": {
+        "domestic_intermediate": 3374127.5830000006,
+        "all_imported_intermediate": 812294.942,
+        "china_intermediate": 32044.45600000001,
+        "rest_of_world_intermediate": 92872.181,
+        "gross_output": 8127608.363
+      },
+      "observation_status": {
+        "uses": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        },
+        "sales": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        }
+      }
+    }
+  },
+  "reproducibility": {
+    "python": "3.13.7",
+    "numpy": "2.4.3",
+    "reference_python": "3.13.7",
+    "randomness": "None; no random seed required",
+    "source_hashes": {
+      "data/manifest.json": "17b342bacfe3f5968bac207e3e394fa68e81e4f3de5adcb2eb5dd00c7509b91c",
+      "data/metadata/figaro/classification.json": "5493f8779f36cf19d35b4be331b33806f7b6bef19802b1d6679296dbf1178be9",
+      "requirements.txt": "8ef1e195da44fdc1ec73f534e6554e21c86debb83acbc91e993c3f8ce69a5c25",
+      ".python-version": "3ce16e94590543a327d3e5ae412e663206e0ed1b46628ed3dd5ad29caa1ff5ac",
+      "code/figaro.py": "0bf1fca8bbc5311e42bd90f1c026ac44dc07d6ed908fa71ca413b33ccc6f6a89",
+      "code/build_matrices.py": "71cc16f84cab5ec3c5ffa5d83903747e07b27d3f92ec03f2119b08bf304dea06"
+    }
+  },
+  "artifacts": {
+    "accounting_2022.csv": {
+      "sha256": "f0bc1614af7869584cac66c6e3ad2d3cf3f9842fc9015265d8740edd4a509a21",
+      "bytes": 10441
+    },
+    "accounting_2023.csv": {
+      "sha256": "81b1a471f3017ecb07a391b4ff539ef57b24b20392b424fcdbc96315fb71dfe7",
+      "bytes": 10519
+    },
+    "D_2022.csv": {
+      "sha256": "4f6d4c360b0a4904dbf8b5c46489e8639c5bd150004d5ab1884fe54376fb606d",
+      "bytes": 63140
+    },
+    "D_2023.csv": {
+      "sha256": "439cafd36ddb66537942d8babeb2509e0c29054f6a1bd90cf9d2fc97ba8a844c",
+      "bytes": 63405
+    },
+    "M_2022.csv": {
+      "sha256": "a435942f8426a29ccdda3bc78e70a806073a69ae63d8fbc7a89fbea352d388ea",
+      "bytes": 71411
+    },
+    "M_2023.csv": {
+      "sha256": "74a7bd22354a2eec1068f42651eb8b00e97a3e4d7898ee892dfb45142f567d45",
+      "bytes": 72304
+    },
+    "matrices_2022.npz": {
+      "sha256": "032893fabfea681570b7dd793c46777a98249ccd3ec18c4f2b8cffed44de4313",
+      "bytes": 3683994
+    },
+    "matrices_2023.npz": {
+      "sha256": "22adc5d6976aac93bf8b4d0b278320ccde055078cb1f3802661580eab9e8cf50",
+      "bytes": 3683994
+    },
+    "T0_2022.csv": {
+      "sha256": "32c8e464f212bbc262335b9cc368f9a63b6b6567292c0dacb466ccf75b413490",
+      "bytes": 44417
+    },
+    "T0_2023.csv": {
+      "sha256": "e6a8be480c6fd6346bca2323d320e9aa30627d5bd896b66b61f9eabd977cafe0",
+      "bytes": 45779
+    }
+  }
+}

@@ -1,0 +1,2586 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "reference_years": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "scope": "Data audit and preparation only; no exposure or ranking analysis",
+  "unit": "MIO_EUR",
+  "valuation": "current basic prices",
+  "cleaning": {
+    "imputed_values": 0,
+    "clipped_values": 0,
+    "rebalanced_values": 0,
+    "dropped_published_observations": 0,
+    "raw_files_modified": 0,
+    "action": "Canonical code alignment, explicit axis transposition, documented sums and stacking by year"
+  },
+  "coverage": {
+    "annual_extracts": 30,
+    "published_observations_in_two_views": 6630210,
+    "domestic_overlap_per_year": 4416,
+    "unique_source_observations": 6563970,
+    "overlap_handling": "DE-to-DE flows compared exactly and retained in distinct named uses/sales arrays; never summed as disjoint flows"
+  },
+  "cross_year_alignment": "Exact codes, labels and 63-active/one-inactive classification in all 15 years",
+  "sources": {
+    "extensions/history-2010-2024/data/raw/figaro/2026-07-20/de2010_sales.json": {
+      "bytes": 3005600,
+      "sha256": "b74eb1f10197afc0a620d06697fd9ae69f06e08ffd0469fcc60cc0161b33ee98"
+    },
+    "extensions/history-2010-2024/data/raw/figaro/2026-07-20/de2010_uses.json": {
+      "bytes": 3020343,
+      "sha256": "057c6684a5cee99c3f3dea91f743b8d2cbbfa4c9b6c284fdee1c02e12960ef13"
+    },
+    "extensions/history-2010-2024/data/raw/figaro/2026-07-20/de2011_sales.json": {
+      "bytes": 3010788,
+      "sha256": "b66694caad2c517532ae79fbdac3247ad78aba68c470c467e18d54b04ed296b5"
+    },
+    "extensions/history-2010-2024/data/raw/figaro/2026-07-20/de2011_uses.json": {
+      "bytes": 3025161,
+      "sha256": "cfbc1574221ab8f1cb55f1e67c1462f45070bc53e9cb0dfd9f18e3ab949520c4"
+    },
+    "extensions/history-2010-2024/data/raw/figaro/2026-07-20/de2012_sales.json": {
+      "bytes": 3016822,
+      "sha256": "aef7370de31ddc090c2b67703da4960d57d335279d771877f33440b08dc11dfd"
+    },
+    "extensions/history-2010-2024/data/raw/figaro/2026-07-20/de2012_uses.json": {
+      "bytes": 3001644,
+      "sha256": "5248cbbb75ec6ce321b4423023d317d04103d6bd0dce41b96c8c79e25fec048e"
+    },
+    "extensions/history-2010-2024/data/raw/figaro/2026-07-20/de2013_sales.json": {
+      "bytes": 3019448,
+      "sha256": "ef7d8dfd846d9d70556cb691f9e4488603066b0fca7af2ba02d47f361e37cd83"
+    },
+    "extensions/history-2010-2024/data/raw/figaro/2026-07-20/de2013_uses.json": {
+      "bytes": 3000604,
+      "sha256": "fc17d57c08ed055b863b4416cc59b4bbf3d69ff199e32efd30b1e18bc45568c8"
+    },
+    "extensions/history-2010-2024/data/raw/figaro/2026-07-20/de2014_sales.json": {
+      "bytes": 3025010,
+      "sha256": "53274c14d8ee274a4e6cfaaf8bd82f1a07a20b144b4f4212992a907cfd529e51"
+    },
+    "extensions/history-2010-2024/data/raw/figaro/2026-07-20/de2014_uses.json": {
+      "bytes": 3002262,
+      "sha256": "172b17b36436efd18473dd94c0231045753e6fd0535f777b7accaf48376c4c0c"
+    },
+    "extensions/history-2010-2024/data/raw/figaro/2026-07-20/de2015_sales.json": {
+      "bytes": 3044487,
+      "sha256": "51e2c2f5435d519b12621a9ddd21f94c13f66751b3c1a045dc0e984eb7ffcb07"
+    },
+    "extensions/history-2010-2024/data/raw/figaro/2026-07-20/de2015_uses.json": {
+      "bytes": 3018579,
+      "sha256": "2f296a66a4fb24936f41c80b820509c2dcce27529f4a90d9debda6f004c05e61"
+    },
+    "extensions/history-2010-2024/data/raw/figaro/2026-07-20/de2016_sales.json": {
+      "bytes": 3041656,
+      "sha256": "bce6add49edd4186ce96c210928c370fe37f8aa45247259aa8ddacbee66b94e9"
+    },
+    "extensions/history-2010-2024/data/raw/figaro/2026-07-20/de2016_uses.json": {
+      "bytes": 3020882,
+      "sha256": "7af02adac99ab8ada9404d834ac161d9df66faccb70583fcb684ea3fcc45dd49"
+    },
+    "extensions/history-2010-2024/data/raw/figaro/2026-07-20/de2017_sales.json": {
+      "bytes": 3042884,
+      "sha256": "764589639f4491243eee7c3fb0918949c91385c7bcdafc10ed29a322f6713b49"
+    },
+    "extensions/history-2010-2024/data/raw/figaro/2026-07-20/de2017_uses.json": {
+      "bytes": 3016729,
+      "sha256": "61e153c65509ca8f066a3d90097085544f4bdb8d46023c92f3de1c7a43d5ea0a"
+    },
+    "extensions/history-2010-2024/data/raw/figaro/2026-07-20/de2018_sales.json": {
+      "bytes": 3047086,
+      "sha256": "e5b02378ee1bea411836bd21444448a925eca320d796543cc3b37a55647b0310"
+    },
+    "extensions/history-2010-2024/data/raw/figaro/2026-07-20/de2018_uses.json": {
+      "bytes": 3018414,
+      "sha256": "8e52e537e8bb909ab07544ced550f50c8b05d0fc15a6174a9b885fe6d83a5caf"
+    },
+    "extensions/history-2010-2024/data/raw/figaro/2026-07-20/de2019_sales.json": {
+      "bytes": 3050566,
+      "sha256": "e01520b0781ca29b9e2b1434144a6ffe194d841e08d6b3d8c5cff41ed41d36e2"
+    },
+    "extensions/history-2010-2024/data/raw/figaro/2026-07-20/de2019_uses.json": {
+      "bytes": 3024092,
+      "sha256": "c6f9862e6156a064754c43a169493358eb13f20734787210f34cecf37e6caf7c"
+    },
+    "extensions/history-2010-2024/data/raw/figaro/2026-07-20/de2020_sales.json": {
+      "bytes": 3046602,
+      "sha256": "46dc60d0559bf0312d80b897ec74f9797b96ea6c211066213179a03b4923abe4"
+    },
+    "extensions/history-2010-2024/data/raw/figaro/2026-07-20/de2020_uses.json": {
+      "bytes": 3022533,
+      "sha256": "8da36f9dc6f01d1324aa7312ab24313e85dba404e9598822ad639443f53e9bff"
+    },
+    "extensions/history-2010-2024/data/raw/figaro/2026-07-20/de2021_sales.json": {
+      "bytes": 3066867,
+      "sha256": "45fbf0ba8d5e4b41b2c74ab2004495881f092d69977a53096cadb8411e688b0f"
+    },
+    "extensions/history-2010-2024/data/raw/figaro/2026-07-20/de2021_uses.json": {
+      "bytes": 3030660,
+      "sha256": "90d08e38f49e281e9f272efe61c9678d309f6cfa26166f5e2d1322f8027c5d82"
+    },
+    "data/raw/figaro/2026-07-20/de2022_sales.json": {
+      "bytes": 3072482,
+      "sha256": "33be6a940d522cd92bc305e2bd8aeb42ae4d81696ac303f66edbf5c4f9df1227"
+    },
+    "data/raw/figaro/2026-07-20/de2022_uses.json": {
+      "bytes": 3028855,
+      "sha256": "7bb106403425180ec81b2e2ef2abf679dd311386ab8a03c7320f01c4072fbaf9"
+    },
+    "data/raw/figaro/2026-07-20/de2023_sales.json": {
+      "bytes": 3075033,
+      "sha256": "26dbb0bbf2bff818bb58069e354da39ae2a5810975fe5a3a32e6beb9c587cade"
+    },
+    "data/raw/figaro/2026-07-20/de2023_uses.json": {
+      "bytes": 3037322,
+      "sha256": "4acd3c75127da8665d7e01799f0d2f8ca3069e47c270c06447ead2ab0da3249f"
+    },
+    "extensions/history-2010-2024/data/raw/figaro/2026-07-20/de2024_sales.json": {
+      "bytes": 3076007,
+      "sha256": "e21836a479597edc3c20cdc68cad97064dc65ffd2002d845c33b8e778f33e42b"
+    },
+    "extensions/history-2010-2024/data/raw/figaro/2026-07-20/de2024_uses.json": {
+      "bytes": 3037971,
+      "sha256": "4b04a97c5f371c1272ca2c652430b5cc3d7f271bb41eccbce596c75f1995834a"
+    },
+    "data/manifest.json": {
+      "bytes": 14422,
+      "sha256": "17b342bacfe3f5968bac207e3e394fa68e81e4f3de5adcb2eb5dd00c7509b91c"
+    },
+    "data/metadata/figaro/classification.json": {
+      "bytes": 13797,
+      "sha256": "5493f8779f36cf19d35b4be331b33806f7b6bef19802b1d6679296dbf1178be9"
+    },
+    "data/metadata/figaro/figaro-metadata-2026-09-09.html": {
+      "bytes": 266229,
+      "sha256": "c6064ef7a15879d59a0662f6a019ff4c4c21a191af5a657e74f61fc5c40d251f"
+    },
+    "extensions/history-2010-2024/data/manifest.json": {
+      "bytes": 47363,
+      "sha256": "4377a0fe41cd5e0335e7227ba3c5f50c805aea33773d84ea3b788b998bc8aa61"
+    },
+    "outputs/data-pipeline/validation.json": {
+      "bytes": 8320,
+      "sha256": "a3d6f7a0f291ab8a5ea1fac3e1a9cdab7d728e5fb905675aabcae9288368f294"
+    }
+  },
+  "code_and_environment": {
+    "extensions/history-2010-2024/prepare_data.py": {
+      "bytes": 23551,
+      "sha256": "d49e5f723359bf43e41e17a9bcbc057a382ba760f8c40ca02b481a0651771b31"
+    },
+    "extensions/history-2010-2024/download_data.py": {
+      "bytes": 18182,
+      "sha256": "106622dc7936c287de38590c1075bb2779411cf13e2fa3859a19fc2454ae7e3a"
+    },
+    "code/figaro.py": {
+      "bytes": 13424,
+      "sha256": "0bf1fca8bbc5311e42bd90f1c026ac44dc07d6ed908fa71ca413b33ccc6f6a89"
+    },
+    ".python-version": {
+      "bytes": 7,
+      "sha256": "3ce16e94590543a327d3e5ae412e663206e0ed1b46628ed3dd5ad29caa1ff5ac"
+    },
+    "requirements.txt": {
+      "bytes": 396,
+      "sha256": "8ef1e195da44fdc1ec73f534e6554e21c86debb83acbc91e993c3f8ce69a5c25"
+    }
+  },
+  "baseline_comparisons": {
+    "outputs/data-pipeline/matrices_2022.npz": {
+      "bytes": 3683994,
+      "sha256": "032893fabfea681570b7dd793c46777a98249ccd3ec18c4f2b8cffed44de4313",
+      "arrays_compared": 25,
+      "exact_agreement": true
+    },
+    "outputs/data-pipeline/matrices_2023.npz": {
+      "bytes": 3683994,
+      "sha256": "22adc5d6976aac93bf8b4d0b278320ccde055078cb1f3802661580eab9e8cf50",
+      "arrays_compared": 25,
+      "exact_agreement": true
+    }
+  },
+  "runtime": {
+    "python": "3.13.7",
+    "numpy": "2.4.3",
+    "zlib": "1.3.1",
+    "randomness": "None"
+  },
+  "round_trip_checks": {
+    "archive_all_fields_exact": true,
+    "intermediate_panel_unique_rows": 61440,
+    "industry_accounts_unique_rows": 960,
+    "all_csv_values_exact": true
+  },
+  "years": {
+    "2010": {
+      "year": 2010,
+      "status": "passed",
+      "industries": 64,
+      "economies": 50,
+      "active_industries": 63,
+      "inactive_industries": [
+        "U"
+      ],
+      "unit": "MIO_EUR",
+      "valuation": "current basic prices",
+      "matrix_convention": "supplier rows, user columns",
+      "source_updated": "2026-07-18T23:00:00+0200",
+      "complete_intermediate_cells_per_slice": 204800,
+      "complete_final_use_cells_per_slice": 16000,
+      "dom_accounting_cells": 414,
+      "structural_absences_uses": 25116,
+      "structural_absences_sales": 20700,
+      "missing_required_observations": 0,
+      "negative_intermediate_observations": 0,
+      "domestic_overlap": "exact equality for intermediate and final uses",
+      "domestic_flow_identifier": {
+        "origin": "DE",
+        "destination": "DE"
+      },
+      "tax_and_accounting_rows": {
+        "B2A3G": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 1046069.618
+        },
+        "D1": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 1317117.119
+        },
+        "D21X31": {
+          "count": 64,
+          "negative_count": 1,
+          "minimum": -433.483,
+          "sum": 66975.35100000001
+        },
+        "D29X39": {
+          "count": 64,
+          "negative_count": 32,
+          "minimum": -9213.922,
+          "sum": -22001.761000000002
+        },
+        "OP_RES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        },
+        "OP_NRES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        }
+      },
+      "signed_final_uses_received": {
+        "count": 16000,
+        "negative_count": 352,
+        "minimum": -12941.926,
+        "sum": 2248487.469
+      },
+      "signed_final_sales": {
+        "count": 16000,
+        "negative_count": 480,
+        "minimum": -12941.926,
+        "sum": 2372046.148
+      },
+      "output_reconciliation": {
+        "absolute_tolerance_million_eur": 1e-07,
+        "max_absolute_gap_million_eur": 1.7462298274040222e-10,
+        "max_relative_gap_active": 6.054448174469162e-16,
+        "exceptions": []
+      },
+      "totals_million_eur": {
+        "domestic_intermediate": 1973467.0470000003,
+        "all_imported_intermediate": 493745.60799999995,
+        "china_intermediate": 16150.845000000001,
+        "rest_of_world_intermediate": 57560.314,
+        "gross_output": 4875372.982
+      },
+      "observation_status": {
+        "uses": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        },
+        "sales": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        }
+      },
+      "readiness": {
+        "external_delivery_max_gap_million_eur": 1.1641532182693481e-10,
+        "minimum_active_external_delivery_million_eur": 228.91300000000035,
+        "domestic_coefficient_spectral_radius": 0.5582042298984197,
+        "condition_number_2_estimate": 2.6263995958516544,
+        "note": "Ordinary floating-point readiness diagnostics, not error bounds or empirical results."
+      },
+      "support": {
+        "zero_domestic_intermediate_cells": 301,
+        "zero_imported_intermediate_cells": 190,
+        "zero_china_intermediate_cells": 1294,
+        "zero_import_using_industries": [
+          "T",
+          "U"
+        ]
+      },
+      "negative_final_values_by_category": {
+        "received": {
+          "P3_S13": 0,
+          "P3_S14": 0,
+          "P3_S15": 0,
+          "P5M": 352,
+          "P51G": 0
+        },
+        "sold": {
+          "P3_S13": 0,
+          "P3_S14": 0,
+          "P3_S15": 0,
+          "P5M": 480,
+          "P51G": 0
+        }
+      },
+      "negative_accounting_values_by_item": {
+        "B2A3G": 0,
+        "D1": 0,
+        "D21X31": 1,
+        "D29X39": 32,
+        "OP_RES": 0,
+        "OP_NRES": 1
+      },
+      "china_source_sut_status": "OECD_ICIO",
+      "source_dataset": "NAIO_10_FCP_II1"
+    },
+    "2011": {
+      "year": 2011,
+      "status": "passed",
+      "industries": 64,
+      "economies": 50,
+      "active_industries": 63,
+      "inactive_industries": [
+        "U"
+      ],
+      "unit": "MIO_EUR",
+      "valuation": "current basic prices",
+      "matrix_convention": "supplier rows, user columns",
+      "source_updated": "2026-07-18T23:00:00+0200",
+      "complete_intermediate_cells_per_slice": 204800,
+      "complete_final_use_cells_per_slice": 16000,
+      "dom_accounting_cells": 414,
+      "structural_absences_uses": 25116,
+      "structural_absences_sales": 20700,
+      "missing_required_observations": 0,
+      "negative_intermediate_observations": 0,
+      "domestic_overlap": "exact equality for intermediate and final uses",
+      "domestic_flow_identifier": {
+        "origin": "DE",
+        "destination": "DE"
+      },
+      "tax_and_accounting_rows": {
+        "B2A3G": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 1099212.632
+        },
+        "D1": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 1373476.54
+        },
+        "D21X31": {
+          "count": 64,
+          "negative_count": 1,
+          "minimum": -349.903,
+          "sum": 71298.543
+        },
+        "D29X39": {
+          "count": 64,
+          "negative_count": 25,
+          "minimum": -12148.883,
+          "sum": -21098.705
+        },
+        "OP_RES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        },
+        "OP_NRES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        }
+      },
+      "signed_final_uses_received": {
+        "count": 16000,
+        "negative_count": 374,
+        "minimum": -12578.167,
+        "sum": 2361582.893
+      },
+      "signed_final_sales": {
+        "count": 16000,
+        "negative_count": 450,
+        "minimum": -12578.167,
+        "sum": 2492286.858
+      },
+      "output_reconciliation": {
+        "absolute_tolerance_million_eur": 1e-07,
+        "max_absolute_gap_million_eur": 8.731149137020111e-11,
+        "max_relative_gap_active": 3.959817207429002e-16,
+        "exceptions": []
+      },
+      "totals_million_eur": {
+        "domestic_intermediate": 2136999.174,
+        "all_imported_intermediate": 559010.086,
+        "china_intermediate": 18141.838,
+        "rest_of_world_intermediate": 65557.795,
+        "gross_output": 5218898.27
+      },
+      "observation_status": {
+        "uses": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        },
+        "sales": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        }
+      },
+      "readiness": {
+        "external_delivery_max_gap_million_eur": 8.731149137020111e-11,
+        "minimum_active_external_delivery_million_eur": 167.71900000000005,
+        "domestic_coefficient_spectral_radius": 0.5648376791412433,
+        "condition_number_2_estimate": 2.6617090606632114,
+        "note": "Ordinary floating-point readiness diagnostics, not error bounds or empirical results."
+      },
+      "support": {
+        "zero_domestic_intermediate_cells": 300,
+        "zero_imported_intermediate_cells": 191,
+        "zero_china_intermediate_cells": 1280,
+        "zero_import_using_industries": [
+          "T",
+          "U"
+        ]
+      },
+      "negative_final_values_by_category": {
+        "received": {
+          "P3_S13": 0,
+          "P3_S14": 0,
+          "P3_S15": 0,
+          "P5M": 374,
+          "P51G": 0
+        },
+        "sold": {
+          "P3_S13": 0,
+          "P3_S14": 0,
+          "P3_S15": 0,
+          "P5M": 450,
+          "P51G": 0
+        }
+      },
+      "negative_accounting_values_by_item": {
+        "B2A3G": 0,
+        "D1": 0,
+        "D21X31": 1,
+        "D29X39": 25,
+        "OP_RES": 0,
+        "OP_NRES": 1
+      },
+      "china_source_sut_status": "OECD_ICIO",
+      "source_dataset": "NAIO_10_FCP_II1"
+    },
+    "2012": {
+      "year": 2012,
+      "status": "passed",
+      "industries": 64,
+      "economies": 50,
+      "active_industries": 63,
+      "inactive_industries": [
+        "U"
+      ],
+      "unit": "MIO_EUR",
+      "valuation": "current basic prices",
+      "matrix_convention": "supplier rows, user columns",
+      "source_updated": "2026-07-18T23:00:00+0200",
+      "complete_intermediate_cells_per_slice": 204800,
+      "complete_final_use_cells_per_slice": 16000,
+      "dom_accounting_cells": 414,
+      "structural_absences_uses": 25116,
+      "structural_absences_sales": 20700,
+      "missing_required_observations": 0,
+      "negative_intermediate_observations": 0,
+      "domestic_overlap": "exact equality for intermediate and final uses",
+      "domestic_flow_identifier": {
+        "origin": "DE",
+        "destination": "DE"
+      },
+      "tax_and_accounting_rows": {
+        "B2A3G": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 1091100.0420000001
+        },
+        "D1": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 1428822.3020000001
+        },
+        "D21X31": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 70845.68
+        },
+        "D29X39": {
+          "count": 64,
+          "negative_count": 22,
+          "minimum": -16319.883,
+          "sum": -20798.763999999996
+        },
+        "OP_RES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        },
+        "OP_NRES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        }
+      },
+      "signed_final_uses_received": {
+        "count": 16000,
+        "negative_count": 1084,
+        "minimum": -16315.46,
+        "sum": 2370510.5319999997
+      },
+      "signed_final_sales": {
+        "count": 16000,
+        "negative_count": 541,
+        "minimum": -16315.46,
+        "sum": 2530190.897
+      },
+      "output_reconciliation": {
+        "absolute_tolerance_million_eur": 1e-07,
+        "max_absolute_gap_million_eur": 5.820766091346741e-11,
+        "max_relative_gap_active": 4.406244780647249e-16,
+        "exceptions": []
+      },
+      "totals_million_eur": {
+        "domestic_intermediate": 2121399.18,
+        "all_imported_intermediate": 568147.401,
+        "china_intermediate": 17651.318,
+        "rest_of_world_intermediate": 67662.92799999999,
+        "gross_output": 5259515.841
+      },
+      "observation_status": {
+        "uses": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        },
+        "sales": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        }
+      },
+      "readiness": {
+        "external_delivery_max_gap_million_eur": 6.184563972055912e-11,
+        "minimum_active_external_delivery_million_eur": 203.728,
+        "domestic_coefficient_spectral_radius": 0.5447916765778417,
+        "condition_number_2_estimate": 2.538934527410936,
+        "note": "Ordinary floating-point readiness diagnostics, not error bounds or empirical results."
+      },
+      "support": {
+        "zero_domestic_intermediate_cells": 258,
+        "zero_imported_intermediate_cells": 241,
+        "zero_china_intermediate_cells": 1615,
+        "zero_import_using_industries": [
+          "T",
+          "U"
+        ]
+      },
+      "negative_final_values_by_category": {
+        "received": {
+          "P3_S13": 0,
+          "P3_S14": 0,
+          "P3_S15": 0,
+          "P5M": 1084,
+          "P51G": 0
+        },
+        "sold": {
+          "P3_S13": 0,
+          "P3_S14": 0,
+          "P3_S15": 0,
+          "P5M": 541,
+          "P51G": 0
+        }
+      },
+      "negative_accounting_values_by_item": {
+        "B2A3G": 0,
+        "D1": 0,
+        "D21X31": 0,
+        "D29X39": 22,
+        "OP_RES": 0,
+        "OP_NRES": 1
+      },
+      "china_source_sut_status": "OECD_ICIO",
+      "source_dataset": "NAIO_10_FCP_II1"
+    },
+    "2013": {
+      "year": 2013,
+      "status": "passed",
+      "industries": 64,
+      "economies": 50,
+      "active_industries": 63,
+      "inactive_industries": [
+        "U"
+      ],
+      "unit": "MIO_EUR",
+      "valuation": "current basic prices",
+      "matrix_convention": "supplier rows, user columns",
+      "source_updated": "2026-07-18T23:00:00+0200",
+      "complete_intermediate_cells_per_slice": 204800,
+      "complete_final_use_cells_per_slice": 16000,
+      "dom_accounting_cells": 414,
+      "structural_absences_uses": 25116,
+      "structural_absences_sales": 20700,
+      "missing_required_observations": 0,
+      "negative_intermediate_observations": 0,
+      "domestic_overlap": "exact equality for intermediate and final uses",
+      "domestic_flow_identifier": {
+        "origin": "DE",
+        "destination": "DE"
+      },
+      "tax_and_accounting_rows": {
+        "B2A3G": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 1107822.557
+        },
+        "D1": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 1471455.7699999998
+        },
+        "D21X31": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 73340.567
+        },
+        "D29X39": {
+          "count": 64,
+          "negative_count": 21,
+          "minimum": -18804.873,
+          "sum": -23319.754
+        },
+        "OP_RES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        },
+        "OP_NRES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        }
+      },
+      "signed_final_uses_received": {
+        "count": 16000,
+        "negative_count": 629,
+        "minimum": -19271.94,
+        "sum": 2432473.563
+      },
+      "signed_final_sales": {
+        "count": 16000,
+        "negative_count": 523,
+        "minimum": -19271.94,
+        "sum": 2570985.409
+      },
+      "output_reconciliation": {
+        "absolute_tolerance_million_eur": 1e-07,
+        "max_absolute_gap_million_eur": 8.731149137020111e-11,
+        "max_relative_gap_active": 5.392801956557468e-16,
+        "exceptions": []
+      },
+      "totals_million_eur": {
+        "domestic_intermediate": 2124582.497,
+        "all_imported_intermediate": 553306.3200000001,
+        "china_intermediate": 16348.207,
+        "rest_of_world_intermediate": 67600.55500000001,
+        "gross_output": 5307187.957
+      },
+      "observation_status": {
+        "uses": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        },
+        "sales": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        }
+      },
+      "readiness": {
+        "external_delivery_max_gap_million_eur": 8.731149137020111e-11,
+        "minimum_active_external_delivery_million_eur": 210.7750000000001,
+        "domestic_coefficient_spectral_radius": 0.5628528792474571,
+        "condition_number_2_estimate": 2.590462865238659,
+        "note": "Ordinary floating-point readiness diagnostics, not error bounds or empirical results."
+      },
+      "support": {
+        "zero_domestic_intermediate_cells": 302,
+        "zero_imported_intermediate_cells": 245,
+        "zero_china_intermediate_cells": 1612,
+        "zero_import_using_industries": [
+          "T",
+          "U"
+        ]
+      },
+      "negative_final_values_by_category": {
+        "received": {
+          "P3_S13": 0,
+          "P3_S14": 0,
+          "P3_S15": 0,
+          "P5M": 629,
+          "P51G": 0
+        },
+        "sold": {
+          "P3_S13": 0,
+          "P3_S14": 0,
+          "P3_S15": 0,
+          "P5M": 523,
+          "P51G": 0
+        }
+      },
+      "negative_accounting_values_by_item": {
+        "B2A3G": 0,
+        "D1": 0,
+        "D21X31": 0,
+        "D29X39": 21,
+        "OP_RES": 0,
+        "OP_NRES": 1
+      },
+      "china_source_sut_status": "OECD_ICIO",
+      "source_dataset": "NAIO_10_FCP_II1"
+    },
+    "2014": {
+      "year": 2014,
+      "status": "passed",
+      "industries": 64,
+      "economies": 50,
+      "active_industries": 63,
+      "inactive_industries": [
+        "U"
+      ],
+      "unit": "MIO_EUR",
+      "valuation": "current basic prices",
+      "matrix_convention": "supplier rows, user columns",
+      "source_updated": "2026-07-18T23:00:00+0200",
+      "complete_intermediate_cells_per_slice": 204800,
+      "complete_final_use_cells_per_slice": 16000,
+      "dom_accounting_cells": 414,
+      "structural_absences_uses": 25116,
+      "structural_absences_sales": 20700,
+      "missing_required_observations": 0,
+      "negative_intermediate_observations": 0,
+      "domestic_overlap": "exact equality for intermediate and final uses",
+      "domestic_flow_identifier": {
+        "origin": "DE",
+        "destination": "DE"
+      },
+      "tax_and_accounting_rows": {
+        "B2A3G": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 1156060.85
+        },
+        "D1": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 1531883.7580000001
+        },
+        "D21X31": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 77517.54
+        },
+        "D29X39": {
+          "count": 64,
+          "negative_count": 21,
+          "minimum": -21807.859,
+          "sum": -25831.746
+        },
+        "OP_RES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        },
+        "OP_NRES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        }
+      },
+      "signed_final_uses_received": {
+        "count": 16000,
+        "negative_count": 312,
+        "minimum": -16988.505,
+        "sum": 2514966.478
+      },
+      "signed_final_sales": {
+        "count": 16000,
+        "negative_count": 471,
+        "minimum": -16988.505,
+        "sum": 2652684.103
+      },
+      "output_reconciliation": {
+        "absolute_tolerance_million_eur": 1e-07,
+        "max_absolute_gap_million_eur": 5.820766091346741e-11,
+        "max_relative_gap_active": 6.254452988817863e-16,
+        "exceptions": []
+      },
+      "totals_million_eur": {
+        "domestic_intermediate": 2195985.4529999997,
+        "all_imported_intermediate": 548569.067,
+        "china_intermediate": 17923.34,
+        "rest_of_world_intermediate": 63511.661,
+        "gross_output": 5484184.922
+      },
+      "observation_status": {
+        "uses": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        },
+        "sales": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        }
+      },
+      "readiness": {
+        "external_delivery_max_gap_million_eur": 1.1641532182693481e-10,
+        "minimum_active_external_delivery_million_eur": 203.12300000000005,
+        "domestic_coefficient_spectral_radius": 0.5599645597042917,
+        "condition_number_2_estimate": 2.5532505089063697,
+        "note": "Ordinary floating-point readiness diagnostics, not error bounds or empirical results."
+      },
+      "support": {
+        "zero_domestic_intermediate_cells": 302,
+        "zero_imported_intermediate_cells": 246,
+        "zero_china_intermediate_cells": 1584,
+        "zero_import_using_industries": [
+          "T",
+          "U"
+        ]
+      },
+      "negative_final_values_by_category": {
+        "received": {
+          "P3_S13": 0,
+          "P3_S14": 0,
+          "P3_S15": 0,
+          "P5M": 312,
+          "P51G": 0
+        },
+        "sold": {
+          "P3_S13": 0,
+          "P3_S14": 0,
+          "P3_S15": 0,
+          "P5M": 471,
+          "P51G": 0
+        }
+      },
+      "negative_accounting_values_by_item": {
+        "B2A3G": 0,
+        "D1": 0,
+        "D21X31": 0,
+        "D29X39": 21,
+        "OP_RES": 0,
+        "OP_NRES": 1
+      },
+      "china_source_sut_status": "OECD_ICIO",
+      "source_dataset": "NAIO_10_FCP_II2"
+    },
+    "2015": {
+      "year": 2015,
+      "status": "passed",
+      "industries": 64,
+      "economies": 50,
+      "active_industries": 63,
+      "inactive_industries": [
+        "U"
+      ],
+      "unit": "MIO_EUR",
+      "valuation": "current basic prices",
+      "matrix_convention": "supplier rows, user columns",
+      "source_updated": "2026-07-18T23:00:00+0200",
+      "complete_intermediate_cells_per_slice": 204800,
+      "complete_final_use_cells_per_slice": 16000,
+      "dom_accounting_cells": 414,
+      "structural_absences_uses": 25116,
+      "structural_absences_sales": 20700,
+      "missing_required_observations": 0,
+      "negative_intermediate_observations": 0,
+      "domestic_overlap": "exact equality for intermediate and final uses",
+      "domestic_flow_identifier": {
+        "origin": "DE",
+        "destination": "DE"
+      },
+      "tax_and_accounting_rows": {
+        "B2A3G": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 1184291.1320000002
+        },
+        "D1": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 1594015.301
+        },
+        "D21X31": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 78046.98700000001
+        },
+        "D29X39": {
+          "count": 64,
+          "negative_count": 23,
+          "minimum": -23407.832,
+          "sum": -24969.646999999997
+        },
+        "OP_RES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        },
+        "OP_NRES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        }
+      },
+      "signed_final_uses_received": {
+        "count": 16000,
+        "negative_count": 825,
+        "minimum": -26376.408,
+        "sum": 2573181.133
+      },
+      "signed_final_sales": {
+        "count": 16000,
+        "negative_count": 445,
+        "minimum": -26376.408,
+        "sum": 2721002.237
+      },
+      "output_reconciliation": {
+        "absolute_tolerance_million_eur": 1e-07,
+        "max_absolute_gap_million_eur": 1.1641532182693481e-10,
+        "max_relative_gap_active": 4.901092873410709e-16,
+        "exceptions": []
+      },
+      "totals_million_eur": {
+        "domestic_intermediate": 2239915.35,
+        "all_imported_intermediate": 546522.772,
+        "china_intermediate": 21780.39,
+        "rest_of_world_intermediate": 63595.933999999994,
+        "gross_output": 5617821.895
+      },
+      "observation_status": {
+        "uses": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        },
+        "sales": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        }
+      },
+      "readiness": {
+        "external_delivery_max_gap_million_eur": 1.1641532182693481e-10,
+        "minimum_active_external_delivery_million_eur": 276.51099999999985,
+        "domestic_coefficient_spectral_radius": 0.4174069064507289,
+        "condition_number_2_estimate": 2.159168037326907,
+        "note": "Ordinary floating-point readiness diagnostics, not error bounds or empirical results."
+      },
+      "support": {
+        "zero_domestic_intermediate_cells": 304,
+        "zero_imported_intermediate_cells": 191,
+        "zero_china_intermediate_cells": 1460,
+        "zero_import_using_industries": [
+          "T",
+          "U"
+        ]
+      },
+      "negative_final_values_by_category": {
+        "received": {
+          "P3_S13": 0,
+          "P3_S14": 0,
+          "P3_S15": 0,
+          "P5M": 825,
+          "P51G": 0
+        },
+        "sold": {
+          "P3_S13": 0,
+          "P3_S14": 0,
+          "P3_S15": 0,
+          "P5M": 445,
+          "P51G": 0
+        }
+      },
+      "negative_accounting_values_by_item": {
+        "B2A3G": 0,
+        "D1": 0,
+        "D21X31": 0,
+        "D29X39": 23,
+        "OP_RES": 0,
+        "OP_NRES": 1
+      },
+      "china_source_sut_status": "OECD_ICIO",
+      "source_dataset": "NAIO_10_FCP_II2"
+    },
+    "2016": {
+      "year": 2016,
+      "status": "passed",
+      "industries": 64,
+      "economies": 50,
+      "active_industries": 63,
+      "inactive_industries": [
+        "U"
+      ],
+      "unit": "MIO_EUR",
+      "valuation": "current basic prices",
+      "matrix_convention": "supplier rows, user columns",
+      "source_updated": "2026-07-18T23:00:00+0200",
+      "complete_intermediate_cells_per_slice": 204800,
+      "complete_final_use_cells_per_slice": 16000,
+      "dom_accounting_cells": 414,
+      "structural_absences_uses": 25116,
+      "structural_absences_sales": 20700,
+      "missing_required_observations": 0,
+      "negative_intermediate_observations": 0,
+      "domestic_overlap": "exact equality for intermediate and final uses",
+      "domestic_flow_identifier": {
+        "origin": "DE",
+        "destination": "DE"
+      },
+      "tax_and_accounting_rows": {
+        "B2A3G": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 1220761.622
+        },
+        "D1": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 1657404.725
+        },
+        "D21X31": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 79877.159
+        },
+        "D29X39": {
+          "count": 64,
+          "negative_count": 25,
+          "minimum": -24340.962,
+          "sum": -26014.939
+        },
+        "OP_RES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        },
+        "OP_NRES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        }
+      },
+      "signed_final_uses_received": {
+        "count": 16000,
+        "negative_count": 1194,
+        "minimum": -25695.965,
+        "sum": 2669129.19
+      },
+      "signed_final_sales": {
+        "count": 16000,
+        "negative_count": 473,
+        "minimum": -25695.965,
+        "sum": 2817031.103
+      },
+      "output_reconciliation": {
+        "absolute_tolerance_million_eur": 1e-07,
+        "max_absolute_gap_million_eur": 1.1641532182693481e-10,
+        "max_relative_gap_active": 3.806117173267471e-16,
+        "exceptions": []
+      },
+      "totals_million_eur": {
+        "domestic_intermediate": 2290687.917,
+        "all_imported_intermediate": 542773.701,
+        "china_intermediate": 19273.630999999998,
+        "rest_of_world_intermediate": 68622.145,
+        "gross_output": 5765490.1850000005
+      },
+      "observation_status": {
+        "uses": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        },
+        "sales": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        }
+      },
+      "readiness": {
+        "external_delivery_max_gap_million_eur": 8.731149137020111e-11,
+        "minimum_active_external_delivery_million_eur": 224.514,
+        "domestic_coefficient_spectral_radius": 0.41980015271267274,
+        "condition_number_2_estimate": 2.152946505284757,
+        "note": "Ordinary floating-point readiness diagnostics, not error bounds or empirical results."
+      },
+      "support": {
+        "zero_domestic_intermediate_cells": 302,
+        "zero_imported_intermediate_cells": 191,
+        "zero_china_intermediate_cells": 1461,
+        "zero_import_using_industries": [
+          "T",
+          "U"
+        ]
+      },
+      "negative_final_values_by_category": {
+        "received": {
+          "P3_S13": 0,
+          "P3_S14": 0,
+          "P3_S15": 0,
+          "P5M": 1194,
+          "P51G": 0
+        },
+        "sold": {
+          "P3_S13": 0,
+          "P3_S14": 0,
+          "P3_S15": 0,
+          "P5M": 473,
+          "P51G": 0
+        }
+      },
+      "negative_accounting_values_by_item": {
+        "B2A3G": 0,
+        "D1": 0,
+        "D21X31": 0,
+        "D29X39": 25,
+        "OP_RES": 0,
+        "OP_NRES": 1
+      },
+      "china_source_sut_status": "OECD_ICIO",
+      "source_dataset": "NAIO_10_FCP_II2"
+    },
+    "2017": {
+      "year": 2017,
+      "status": "passed",
+      "industries": 64,
+      "economies": 50,
+      "active_industries": 63,
+      "inactive_industries": [
+        "U"
+      ],
+      "unit": "MIO_EUR",
+      "valuation": "current basic prices",
+      "matrix_convention": "supplier rows, user columns",
+      "source_updated": "2026-07-18T23:00:00+0200",
+      "complete_intermediate_cells_per_slice": 204800,
+      "complete_final_use_cells_per_slice": 16000,
+      "dom_accounting_cells": 414,
+      "structural_absences_uses": 25116,
+      "structural_absences_sales": 20700,
+      "missing_required_observations": 0,
+      "negative_intermediate_observations": 0,
+      "domestic_overlap": "exact equality for intermediate and final uses",
+      "domestic_flow_identifier": {
+        "origin": "DE",
+        "destination": "DE"
+      },
+      "tax_and_accounting_rows": {
+        "B2A3G": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 1271447.0929999999
+        },
+        "D1": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 1732387.976
+        },
+        "D21X31": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 85049.805
+        },
+        "D29X39": {
+          "count": 64,
+          "negative_count": 24,
+          "minimum": -26077.982,
+          "sum": -26514.975999999995
+        },
+        "OP_RES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        },
+        "OP_NRES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        }
+      },
+      "signed_final_uses_received": {
+        "count": 16000,
+        "negative_count": 505,
+        "minimum": -23489.409,
+        "sum": 2797076.821
+      },
+      "signed_final_sales": {
+        "count": 16000,
+        "negative_count": 364,
+        "minimum": -23489.409,
+        "sum": 2942502.2759999996
+      },
+      "output_reconciliation": {
+        "absolute_tolerance_million_eur": 1e-07,
+        "max_absolute_gap_million_eur": 1.1641532182693481e-10,
+        "max_relative_gap_active": 5.73162804131336e-16,
+        "exceptions": []
+      },
+      "totals_million_eur": {
+        "domestic_intermediate": 2412915.834,
+        "all_imported_intermediate": 580982.2749999999,
+        "china_intermediate": 21272.845999999998,
+        "rest_of_world_intermediate": 67219.761,
+        "gross_output": 6056268.007
+      },
+      "observation_status": {
+        "uses": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        },
+        "sales": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        }
+      },
+      "readiness": {
+        "external_delivery_max_gap_million_eur": 8.731149137020111e-11,
+        "minimum_active_external_delivery_million_eur": 243.97500000000002,
+        "domestic_coefficient_spectral_radius": 0.4170001786680628,
+        "condition_number_2_estimate": 2.1590485384502713,
+        "note": "Ordinary floating-point readiness diagnostics, not error bounds or empirical results."
+      },
+      "support": {
+        "zero_domestic_intermediate_cells": 307,
+        "zero_imported_intermediate_cells": 238,
+        "zero_china_intermediate_cells": 1544,
+        "zero_import_using_industries": [
+          "T",
+          "U"
+        ]
+      },
+      "negative_final_values_by_category": {
+        "received": {
+          "P3_S13": 0,
+          "P3_S14": 0,
+          "P3_S15": 0,
+          "P5M": 505,
+          "P51G": 0
+        },
+        "sold": {
+          "P3_S13": 0,
+          "P3_S14": 0,
+          "P3_S15": 0,
+          "P5M": 364,
+          "P51G": 0
+        }
+      },
+      "negative_accounting_values_by_item": {
+        "B2A3G": 0,
+        "D1": 0,
+        "D21X31": 0,
+        "D29X39": 24,
+        "OP_RES": 0,
+        "OP_NRES": 1
+      },
+      "china_source_sut_status": "OECD_ICIO",
+      "source_dataset": "NAIO_10_FCP_II2"
+    },
+    "2018": {
+      "year": 2018,
+      "status": "passed",
+      "industries": 64,
+      "economies": 50,
+      "active_industries": 63,
+      "inactive_industries": [
+        "U"
+      ],
+      "unit": "MIO_EUR",
+      "valuation": "current basic prices",
+      "matrix_convention": "supplier rows, user columns",
+      "source_updated": "2026-07-18T23:00:00+0200",
+      "complete_intermediate_cells_per_slice": 204800,
+      "complete_final_use_cells_per_slice": 16000,
+      "dom_accounting_cells": 414,
+      "structural_absences_uses": 25116,
+      "structural_absences_sales": 20700,
+      "missing_required_observations": 0,
+      "negative_intermediate_observations": 0,
+      "domestic_overlap": "exact equality for intermediate and final uses",
+      "domestic_flow_identifier": {
+        "origin": "DE",
+        "destination": "DE"
+      },
+      "tax_and_accounting_rows": {
+        "B2A3G": {
+          "count": 64,
+          "negative_count": 1,
+          "minimum": -462.996,
+          "sum": 1278686.809
+        },
+        "D1": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 1816125.076
+        },
+        "D21X31": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 86353.416
+        },
+        "D29X39": {
+          "count": 64,
+          "negative_count": 25,
+          "minimum": -25818.491,
+          "sum": -25452.14
+        },
+        "OP_RES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        },
+        "OP_NRES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        }
+      },
+      "signed_final_uses_received": {
+        "count": 16000,
+        "negative_count": 537,
+        "minimum": -33769.607,
+        "sum": 2918787.221
+      },
+      "signed_final_sales": {
+        "count": 16000,
+        "negative_count": 372,
+        "minimum": -33769.607,
+        "sum": 3055492.859
+      },
+      "output_reconciliation": {
+        "absolute_tolerance_million_eur": 1e-07,
+        "max_absolute_gap_million_eur": 1.1641532182693481e-10,
+        "max_relative_gap_active": 4.462684912808934e-16,
+        "exceptions": []
+      },
+      "totals_million_eur": {
+        "domestic_intermediate": 2532669.058,
+        "all_imported_intermediate": 629340.727,
+        "china_intermediate": 23649.543999999998,
+        "rest_of_world_intermediate": 69715.714,
+        "gross_output": 6317722.9459999995
+      },
+      "observation_status": {
+        "uses": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        },
+        "sales": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        }
+      },
+      "readiness": {
+        "external_delivery_max_gap_million_eur": 8.731149137020111e-11,
+        "minimum_active_external_delivery_million_eur": 335.9340000000001,
+        "domestic_coefficient_spectral_radius": 0.4201702581123963,
+        "condition_number_2_estimate": 2.1816015443984056,
+        "note": "Ordinary floating-point readiness diagnostics, not error bounds or empirical results."
+      },
+      "support": {
+        "zero_domestic_intermediate_cells": 306,
+        "zero_imported_intermediate_cells": 231,
+        "zero_china_intermediate_cells": 1584,
+        "zero_import_using_industries": [
+          "T",
+          "U"
+        ]
+      },
+      "negative_final_values_by_category": {
+        "received": {
+          "P3_S13": 0,
+          "P3_S14": 0,
+          "P3_S15": 0,
+          "P5M": 537,
+          "P51G": 0
+        },
+        "sold": {
+          "P3_S13": 0,
+          "P3_S14": 0,
+          "P3_S15": 0,
+          "P5M": 372,
+          "P51G": 0
+        }
+      },
+      "negative_accounting_values_by_item": {
+        "B2A3G": 1,
+        "D1": 0,
+        "D21X31": 0,
+        "D29X39": 25,
+        "OP_RES": 0,
+        "OP_NRES": 1
+      },
+      "china_source_sut_status": "OECD_ICIO",
+      "source_dataset": "NAIO_10_FCP_II3"
+    },
+    "2019": {
+      "year": 2019,
+      "status": "passed",
+      "industries": 64,
+      "economies": 50,
+      "active_industries": 63,
+      "inactive_industries": [
+        "U"
+      ],
+      "unit": "MIO_EUR",
+      "valuation": "current basic prices",
+      "matrix_convention": "supplier rows, user columns",
+      "source_updated": "2026-07-18T23:00:00+0200",
+      "complete_intermediate_cells_per_slice": 204800,
+      "complete_final_use_cells_per_slice": 16000,
+      "dom_accounting_cells": 414,
+      "structural_absences_uses": 25116,
+      "structural_absences_sales": 20700,
+      "missing_required_observations": 0,
+      "negative_intermediate_observations": 0,
+      "domestic_overlap": "exact equality for intermediate and final uses",
+      "domestic_flow_identifier": {
+        "origin": "DE",
+        "destination": "DE"
+      },
+      "tax_and_accounting_rows": {
+        "B2A3G": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 1290878.3250000002
+        },
+        "D1": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 1899063.398
+        },
+        "D21X31": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 87029.247
+        },
+        "D29X39": {
+          "count": 64,
+          "negative_count": 25,
+          "minimum": -29380.988,
+          "sum": -28267.981000000003
+        },
+        "OP_RES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        },
+        "OP_NRES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        }
+      },
+      "signed_final_uses_received": {
+        "count": 16000,
+        "negative_count": 638,
+        "minimum": -35408.51,
+        "sum": 3014971.337
+      },
+      "signed_final_sales": {
+        "count": 16000,
+        "negative_count": 479,
+        "minimum": -35408.51,
+        "sum": 3147629.21
+      },
+      "output_reconciliation": {
+        "absolute_tolerance_million_eur": 1e-07,
+        "max_absolute_gap_million_eur": 1.1641532182693481e-10,
+        "max_relative_gap_active": 6.294088785216859e-16,
+        "exceptions": []
+      },
+      "totals_million_eur": {
+        "domestic_intermediate": 2605526.7580000004,
+        "all_imported_intermediate": 637700.1769999999,
+        "china_intermediate": 26092.584999999995,
+        "rest_of_world_intermediate": 68519.456,
+        "gross_output": 6491929.924
+      },
+      "observation_status": {
+        "uses": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        },
+        "sales": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        }
+      },
+      "readiness": {
+        "external_delivery_max_gap_million_eur": 1.1641532182693481e-10,
+        "minimum_active_external_delivery_million_eur": 214.2879999999932,
+        "domestic_coefficient_spectral_radius": 0.42236829876576576,
+        "condition_number_2_estimate": 2.2226631683392237,
+        "note": "Ordinary floating-point readiness diagnostics, not error bounds or empirical results."
+      },
+      "support": {
+        "zero_domestic_intermediate_cells": 304,
+        "zero_imported_intermediate_cells": 233,
+        "zero_china_intermediate_cells": 1564,
+        "zero_import_using_industries": [
+          "T",
+          "U"
+        ]
+      },
+      "negative_final_values_by_category": {
+        "received": {
+          "P3_S13": 0,
+          "P3_S14": 0,
+          "P3_S15": 0,
+          "P5M": 638,
+          "P51G": 0
+        },
+        "sold": {
+          "P3_S13": 0,
+          "P3_S14": 0,
+          "P3_S15": 0,
+          "P5M": 479,
+          "P51G": 0
+        }
+      },
+      "negative_accounting_values_by_item": {
+        "B2A3G": 0,
+        "D1": 0,
+        "D21X31": 0,
+        "D29X39": 25,
+        "OP_RES": 0,
+        "OP_NRES": 1
+      },
+      "china_source_sut_status": "OECD_ICIO",
+      "source_dataset": "NAIO_10_FCP_II3"
+    },
+    "2020": {
+      "year": 2020,
+      "status": "passed",
+      "industries": 64,
+      "economies": 50,
+      "active_industries": 63,
+      "inactive_industries": [
+        "U"
+      ],
+      "unit": "MIO_EUR",
+      "valuation": "current basic prices",
+      "matrix_convention": "supplier rows, user columns",
+      "source_updated": "2026-07-18T23:00:00+0200",
+      "complete_intermediate_cells_per_slice": 204800,
+      "complete_final_use_cells_per_slice": 16000,
+      "dom_accounting_cells": 414,
+      "structural_absences_uses": 25116,
+      "structural_absences_sales": 20700,
+      "missing_required_observations": 0,
+      "negative_intermediate_observations": 0,
+      "domestic_overlap": "exact equality for intermediate and final uses",
+      "domestic_flow_identifier": {
+        "origin": "DE",
+        "destination": "DE"
+      },
+      "tax_and_accounting_rows": {
+        "B2A3G": {
+          "count": 64,
+          "negative_count": 2,
+          "minimum": -3053.997,
+          "sum": 1277168.8369999998
+        },
+        "D1": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 1894056.863
+        },
+        "D21X31": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 84517.275
+        },
+        "D29X39": {
+          "count": 64,
+          "negative_count": 51,
+          "minimum": -33027.98,
+          "sum": -71126.944
+        },
+        "OP_RES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        },
+        "OP_NRES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        }
+      },
+      "signed_final_uses_received": {
+        "count": 16000,
+        "negative_count": 676,
+        "minimum": -39506.189,
+        "sum": 2987489.6689999998
+      },
+      "signed_final_sales": {
+        "count": 16000,
+        "negative_count": 777,
+        "minimum": -39506.189,
+        "sum": 3074042.394
+      },
+      "output_reconciliation": {
+        "absolute_tolerance_million_eur": 1e-07,
+        "max_absolute_gap_million_eur": 5.820766091346741e-11,
+        "max_relative_gap_active": 5.803819634472435e-16,
+        "exceptions": []
+      },
+      "totals_million_eur": {
+        "domestic_intermediate": 2587169.69,
+        "all_imported_intermediate": 558044.44,
+        "china_intermediate": 24506.009000000002,
+        "rest_of_world_intermediate": 55066.07,
+        "gross_output": 6329830.161
+      },
+      "observation_status": {
+        "uses": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        },
+        "sales": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        }
+      },
+      "readiness": {
+        "external_delivery_max_gap_million_eur": 5.820766091346741e-11,
+        "minimum_active_external_delivery_million_eur": 229.66200000000003,
+        "domestic_coefficient_spectral_radius": 0.42929031671290563,
+        "condition_number_2_estimate": 2.2755172987108954,
+        "note": "Ordinary floating-point readiness diagnostics, not error bounds or empirical results."
+      },
+      "support": {
+        "zero_domestic_intermediate_cells": 301,
+        "zero_imported_intermediate_cells": 190,
+        "zero_china_intermediate_cells": 1464,
+        "zero_import_using_industries": [
+          "T",
+          "U"
+        ]
+      },
+      "negative_final_values_by_category": {
+        "received": {
+          "P3_S13": 0,
+          "P3_S14": 0,
+          "P3_S15": 0,
+          "P5M": 676,
+          "P51G": 0
+        },
+        "sold": {
+          "P3_S13": 0,
+          "P3_S14": 0,
+          "P3_S15": 0,
+          "P5M": 777,
+          "P51G": 0
+        }
+      },
+      "negative_accounting_values_by_item": {
+        "B2A3G": 2,
+        "D1": 0,
+        "D21X31": 0,
+        "D29X39": 51,
+        "OP_RES": 0,
+        "OP_NRES": 1
+      },
+      "china_source_sut_status": "EE",
+      "source_dataset": "NAIO_10_FCP_II3"
+    },
+    "2021": {
+      "year": 2021,
+      "status": "passed",
+      "industries": 64,
+      "economies": 50,
+      "active_industries": 63,
+      "inactive_industries": [
+        "U"
+      ],
+      "unit": "MIO_EUR",
+      "valuation": "current basic prices",
+      "matrix_convention": "supplier rows, user columns",
+      "source_updated": "2026-07-18T23:00:00+0200",
+      "complete_intermediate_cells_per_slice": 204800,
+      "complete_final_use_cells_per_slice": 16000,
+      "dom_accounting_cells": 414,
+      "structural_absences_uses": 25116,
+      "structural_absences_sales": 20700,
+      "missing_required_observations": 0,
+      "negative_intermediate_observations": 0,
+      "domestic_overlap": "exact equality for intermediate and final uses",
+      "domestic_flow_identifier": {
+        "origin": "DE",
+        "destination": "DE"
+      },
+      "tax_and_accounting_rows": {
+        "B2A3G": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 1413351.909
+        },
+        "D1": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 1962673.84
+        },
+        "D21X31": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 98462.16699999999
+        },
+        "D29X39": {
+          "count": 64,
+          "negative_count": 54,
+          "minimum": -19612.988,
+          "sum": -81938.938
+        },
+        "OP_RES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        },
+        "OP_NRES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        }
+      },
+      "signed_final_uses_received": {
+        "count": 16000,
+        "negative_count": 690,
+        "minimum": -33950.587,
+        "sum": 3184049.318
+      },
+      "signed_final_sales": {
+        "count": 16000,
+        "negative_count": 364,
+        "minimum": -33950.587,
+        "sum": 3270704.383
+      },
+      "output_reconciliation": {
+        "absolute_tolerance_million_eur": 1e-07,
+        "max_absolute_gap_million_eur": 1.1641532182693481e-10,
+        "max_relative_gap_active": 4.781992848975324e-16,
+        "exceptions": []
+      },
+      "totals_million_eur": {
+        "domestic_intermediate": 2789052.862,
+        "all_imported_intermediate": 674607.4650000001,
+        "china_intermediate": 32072.655,
+        "rest_of_world_intermediate": 67972.847,
+        "gross_output": 6856209.305
+      },
+      "observation_status": {
+        "uses": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        },
+        "sales": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        }
+      },
+      "readiness": {
+        "external_delivery_max_gap_million_eur": 1.1641532182693481e-10,
+        "minimum_active_external_delivery_million_eur": 229.38600000000008,
+        "domestic_coefficient_spectral_radius": 0.431855341612565,
+        "condition_number_2_estimate": 2.241657659398669,
+        "note": "Ordinary floating-point readiness diagnostics, not error bounds or empirical results."
+      },
+      "support": {
+        "zero_domestic_intermediate_cells": 257,
+        "zero_imported_intermediate_cells": 190,
+        "zero_china_intermediate_cells": 1400,
+        "zero_import_using_industries": [
+          "T",
+          "U"
+        ]
+      },
+      "negative_final_values_by_category": {
+        "received": {
+          "P3_S13": 0,
+          "P3_S14": 0,
+          "P3_S15": 0,
+          "P5M": 690,
+          "P51G": 0
+        },
+        "sold": {
+          "P3_S13": 0,
+          "P3_S14": 0,
+          "P3_S15": 0,
+          "P5M": 364,
+          "P51G": 0
+        }
+      },
+      "negative_accounting_values_by_item": {
+        "B2A3G": 0,
+        "D1": 0,
+        "D21X31": 0,
+        "D29X39": 54,
+        "OP_RES": 0,
+        "OP_NRES": 1
+      },
+      "china_source_sut_status": "EE",
+      "source_dataset": "NAIO_10_FCP_II3"
+    },
+    "2022": {
+      "year": 2022,
+      "status": "passed",
+      "industries": 64,
+      "economies": 50,
+      "active_industries": 63,
+      "inactive_industries": [
+        "U"
+      ],
+      "unit": "MIO_EUR",
+      "valuation": "current basic prices",
+      "matrix_convention": "supplier rows, user columns",
+      "source_updated": "2026-07-20T11:00:00+0200",
+      "complete_intermediate_cells_per_slice": 204800,
+      "complete_final_use_cells_per_slice": 16000,
+      "dom_accounting_cells": 414,
+      "structural_absences_uses": 25116,
+      "structural_absences_sales": 20700,
+      "missing_required_observations": 0,
+      "negative_intermediate_observations": 0,
+      "domestic_overlap": "exact equality for intermediate and final uses",
+      "domestic_flow_identifier": {
+        "origin": "DE",
+        "destination": "DE"
+      },
+      "tax_and_accounting_rows": {
+        "B2A3G": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 1528811.087
+        },
+        "D1": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 2080969.4989999998
+        },
+        "D21X31": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 99623.901
+        },
+        "D29X39": {
+          "count": 64,
+          "negative_count": 47,
+          "minimum": -6692.995,
+          "sum": -17903.966
+        },
+        "OP_RES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        },
+        "OP_NRES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        }
+      },
+      "signed_final_uses_received": {
+        "count": 16000,
+        "negative_count": 691,
+        "minimum": -36529.276,
+        "sum": 3551219.1870000004
+      },
+      "signed_final_sales": {
+        "count": 16000,
+        "negative_count": 351,
+        "minimum": -36529.276,
+        "sum": 3630701.6089999997
+      },
+      "output_reconciliation": {
+        "absolute_tolerance_million_eur": 1e-07,
+        "max_absolute_gap_million_eur": 1.1641532182693481e-10,
+        "max_relative_gap_active": 4.816681048894962e-16,
+        "exceptions": []
+      },
+      "totals_million_eur": {
+        "domestic_intermediate": 3260890.8000000003,
+        "all_imported_intermediate": 865035.057,
+        "china_intermediate": 43025.153,
+        "rest_of_world_intermediate": 87391.852,
+        "gross_output": 7817426.3780000005
+      },
+      "observation_status": {
+        "uses": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        },
+        "sales": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        }
+      },
+      "readiness": {
+        "external_delivery_max_gap_million_eur": 1.1641532182693481e-10,
+        "minimum_active_external_delivery_million_eur": 266.7679999999998,
+        "domestic_coefficient_spectral_radius": 0.44305218447712036,
+        "condition_number_2_estimate": 2.242953349519704,
+        "note": "Ordinary floating-point readiness diagnostics, not error bounds or empirical results."
+      },
+      "support": {
+        "zero_domestic_intermediate_cells": 259,
+        "zero_imported_intermediate_cells": 249,
+        "zero_china_intermediate_cells": 1541,
+        "zero_import_using_industries": [
+          "T",
+          "U"
+        ]
+      },
+      "negative_final_values_by_category": {
+        "received": {
+          "P3_S13": 0,
+          "P3_S14": 0,
+          "P3_S15": 0,
+          "P5M": 691,
+          "P51G": 0
+        },
+        "sold": {
+          "P3_S13": 0,
+          "P3_S14": 0,
+          "P3_S15": 0,
+          "P5M": 351,
+          "P51G": 0
+        }
+      },
+      "negative_accounting_values_by_item": {
+        "B2A3G": 0,
+        "D1": 0,
+        "D21X31": 0,
+        "D29X39": 47,
+        "OP_RES": 0,
+        "OP_NRES": 1
+      },
+      "china_source_sut_status": "EE",
+      "source_dataset": "NAIO_10_FCP_II4"
+    },
+    "2023": {
+      "year": 2023,
+      "status": "passed",
+      "industries": 64,
+      "economies": 50,
+      "active_industries": 63,
+      "inactive_industries": [
+        "U"
+      ],
+      "unit": "MIO_EUR",
+      "valuation": "current basic prices",
+      "matrix_convention": "supplier rows, user columns",
+      "source_updated": "2026-07-20T11:00:00+0200",
+      "complete_intermediate_cells_per_slice": 204800,
+      "complete_final_use_cells_per_slice": 16000,
+      "dom_accounting_cells": 414,
+      "structural_absences_uses": 25116,
+      "structural_absences_sales": 20700,
+      "missing_required_observations": 0,
+      "negative_intermediate_observations": 0,
+      "domestic_overlap": "exact equality for intermediate and final uses",
+      "domestic_flow_identifier": {
+        "origin": "DE",
+        "destination": "DE"
+      },
+      "tax_and_accounting_rows": {
+        "B2A3G": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 1639232.892
+        },
+        "D1": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 2229906.719
+        },
+        "D21X31": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 87247.204
+        },
+        "D29X39": {
+          "count": 64,
+          "negative_count": 38,
+          "minimum": -15885.993,
+          "sum": -15200.976999999999
+        },
+        "OP_RES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        },
+        "OP_NRES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        }
+      },
+      "signed_final_uses_received": {
+        "count": 16000,
+        "negative_count": 706,
+        "minimum": -40721.043,
+        "sum": 3719728.284
+      },
+      "signed_final_sales": {
+        "count": 16000,
+        "negative_count": 527,
+        "minimum": -40721.043,
+        "sum": 3827349.67
+      },
+      "output_reconciliation": {
+        "absolute_tolerance_million_eur": 1e-07,
+        "max_absolute_gap_million_eur": 1.7462298274040222e-10,
+        "max_relative_gap_active": 7.400960578449501e-16,
+        "exceptions": []
+      },
+      "totals_million_eur": {
+        "domestic_intermediate": 3374127.5830000006,
+        "all_imported_intermediate": 812294.942,
+        "china_intermediate": 32044.45600000001,
+        "rest_of_world_intermediate": 92872.181,
+        "gross_output": 8127608.363
+      },
+      "observation_status": {
+        "uses": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        },
+        "sales": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        }
+      },
+      "readiness": {
+        "external_delivery_max_gap_million_eur": 1.1641532182693481e-10,
+        "minimum_active_external_delivery_million_eur": 219.144,
+        "domestic_coefficient_spectral_radius": 0.44214764281935204,
+        "condition_number_2_estimate": 2.256600445732143,
+        "note": "Ordinary floating-point readiness diagnostics, not error bounds or empirical results."
+      },
+      "support": {
+        "zero_domestic_intermediate_cells": 262,
+        "zero_imported_intermediate_cells": 190,
+        "zero_china_intermediate_cells": 1449,
+        "zero_import_using_industries": [
+          "T",
+          "U"
+        ]
+      },
+      "negative_final_values_by_category": {
+        "received": {
+          "P3_S13": 0,
+          "P3_S14": 0,
+          "P3_S15": 0,
+          "P5M": 706,
+          "P51G": 0
+        },
+        "sold": {
+          "P3_S13": 0,
+          "P3_S14": 0,
+          "P3_S15": 0,
+          "P5M": 527,
+          "P51G": 0
+        }
+      },
+      "negative_accounting_values_by_item": {
+        "B2A3G": 0,
+        "D1": 0,
+        "D21X31": 0,
+        "D29X39": 38,
+        "OP_RES": 0,
+        "OP_NRES": 1
+      },
+      "china_source_sut_status": "EE",
+      "source_dataset": "NAIO_10_FCP_II4"
+    },
+    "2024": {
+      "year": 2024,
+      "status": "passed",
+      "industries": 64,
+      "economies": 50,
+      "active_industries": 63,
+      "inactive_industries": [
+        "U"
+      ],
+      "unit": "MIO_EUR",
+      "valuation": "current basic prices",
+      "matrix_convention": "supplier rows, user columns",
+      "source_updated": "2026-07-20T11:00:00+0200",
+      "complete_intermediate_cells_per_slice": 204800,
+      "complete_final_use_cells_per_slice": 16000,
+      "dom_accounting_cells": 414,
+      "structural_absences_uses": 25116,
+      "structural_absences_sales": 20700,
+      "missing_required_observations": 0,
+      "negative_intermediate_observations": 0,
+      "domestic_overlap": "exact equality for intermediate and final uses",
+      "domestic_flow_identifier": {
+        "origin": "DE",
+        "destination": "DE"
+      },
+      "tax_and_accounting_rows": {
+        "B2A3G": {
+          "count": 64,
+          "negative_count": 1,
+          "minimum": -26.208,
+          "sum": 1586802.889
+        },
+        "D1": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 2351990.814
+        },
+        "D21X31": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 97164.278
+        },
+        "D29X39": {
+          "count": 64,
+          "negative_count": 37,
+          "minimum": -21972.985,
+          "sum": -17480.971
+        },
+        "OP_RES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        },
+        "OP_NRES": {
+          "count": 64,
+          "negative_count": 0,
+          "minimum": 0.0,
+          "sum": 0.0
+        }
+      },
+      "signed_final_uses_received": {
+        "count": 16000,
+        "negative_count": 681,
+        "minimum": -39570.892,
+        "sum": 3799763.383
+      },
+      "signed_final_sales": {
+        "count": 16000,
+        "negative_count": 547,
+        "minimum": -39570.892,
+        "sum": 3890992.6479999996
+      },
+      "output_reconciliation": {
+        "absolute_tolerance_million_eur": 1e-07,
+        "max_absolute_gap_million_eur": 5.820766091346741e-11,
+        "max_relative_gap_active": 4.616414270173028e-16,
+        "exceptions": []
+      },
+      "totals_million_eur": {
+        "domestic_intermediate": 3384756.704,
+        "all_imported_intermediate": 787443.624,
+        "china_intermediate": 31228.435999999998,
+        "rest_of_world_intermediate": 95228.189,
+        "gross_output": 8190677.338
+      },
+      "observation_status": {
+        "uses": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        },
+        "sales": {
+          "status_object_supplied": false,
+          "flagged_observations": 0
+        }
+      },
+      "readiness": {
+        "external_delivery_max_gap_million_eur": 1.1641532182693481e-10,
+        "minimum_active_external_delivery_million_eur": 224.01700000000017,
+        "domestic_coefficient_spectral_radius": 0.44407097034703946,
+        "condition_number_2_estimate": 2.279880565477068,
+        "note": "Ordinary floating-point readiness diagnostics, not error bounds or empirical results."
+      },
+      "support": {
+        "zero_domestic_intermediate_cells": 262,
+        "zero_imported_intermediate_cells": 190,
+        "zero_china_intermediate_cells": 1404,
+        "zero_import_using_industries": [
+          "T",
+          "U"
+        ]
+      },
+      "negative_final_values_by_category": {
+        "received": {
+          "P3_S13": 0,
+          "P3_S14": 0,
+          "P3_S15": 0,
+          "P5M": 681,
+          "P51G": 0
+        },
+        "sold": {
+          "P3_S13": 0,
+          "P3_S14": 0,
+          "P3_S15": 0,
+          "P5M": 547,
+          "P51G": 0
+        }
+      },
+      "negative_accounting_values_by_item": {
+        "B2A3G": 1,
+        "D1": 0,
+        "D21X31": 0,
+        "D29X39": 37,
+        "OP_RES": 0,
+        "OP_NRES": 1
+      },
+      "china_source_sut_status": "EE",
+      "source_dataset": "NAIO_10_FCP_II4"
+    }
+  },
+  "array_schema": {
+    "D": {
+      "shape": [
+        15,
+        64,
+        64
+      ],
+      "dtype": "float64",
+      "year_axis": 0
+    },
+    "M": {
+      "shape": [
+        15,
+        64,
+        64
+      ],
+      "dtype": "float64",
+      "year_axis": 0
+    },
+    "T0": {
+      "shape": [
+        15,
+        64,
+        64
+      ],
+      "dtype": "float64",
+      "year_axis": 0
+    },
+    "Z_by_origin": {
+      "shape": [
+        15,
+        64,
+        64,
+        50
+      ],
+      "dtype": "float64",
+      "year_axis": 0
+    },
+    "accounting_by_use": {
+      "shape": [
+        15,
+        6,
+        69
+      ],
+      "dtype": "float64",
+      "year_axis": 0
+    },
+    "accounting_codes": {
+      "shape": [
+        6
+      ],
+      "dtype": "<U7",
+      "year_axis": null
+    },
+    "active": {
+      "shape": [
+        15,
+        64
+      ],
+      "dtype": "bool",
+      "year_axis": 0
+    },
+    "china_row_totals": {
+      "shape": [
+        15,
+        64
+      ],
+      "dtype": "float64",
+      "year_axis": 0
+    },
+    "china_source_sut_status": {
+      "shape": [
+        15
+      ],
+      "dtype": "<U9",
+      "year_axis": 0
+    },
+    "economies": {
+      "shape": [
+        50
+      ],
+      "dtype": "<U8",
+      "year_axis": null
+    },
+    "external_deliveries": {
+      "shape": [
+        15,
+        64
+      ],
+      "dtype": "float64",
+      "year_axis": 0
+    },
+    "final_sales": {
+      "shape": [
+        15,
+        64
+      ],
+      "dtype": "float64",
+      "year_axis": 0
+    },
+    "final_use_codes": {
+      "shape": [
+        5
+      ],
+      "dtype": "<U6",
+      "year_axis": null
+    },
+    "final_uses_by_origin": {
+      "shape": [
+        15,
+        64,
+        5,
+        50
+      ],
+      "dtype": "float64",
+      "year_axis": 0
+    },
+    "industries": {
+      "shape": [
+        64
+      ],
+      "dtype": "<U6",
+      "year_axis": null
+    },
+    "industry_labels": {
+      "shape": [
+        64
+      ],
+      "dtype": "<U136",
+      "year_axis": null
+    },
+    "intermediate_inputs": {
+      "shape": [
+        15,
+        64
+      ],
+      "dtype": "float64",
+      "year_axis": 0
+    },
+    "intermediate_sales": {
+      "shape": [
+        15,
+        64
+      ],
+      "dtype": "float64",
+      "year_axis": 0
+    },
+    "sales_final_by_destination": {
+      "shape": [
+        15,
+        64,
+        5,
+        50
+      ],
+      "dtype": "float64",
+      "year_axis": 0
+    },
+    "sales_intermediate_by_destination": {
+      "shape": [
+        15,
+        64,
+        64,
+        50
+      ],
+      "dtype": "float64",
+      "year_axis": 0
+    },
+    "source_dataset": {
+      "shape": [
+        15
+      ],
+      "dtype": "<U15",
+      "year_axis": 0
+    },
+    "source_updated": {
+      "shape": [
+        15
+      ],
+      "dtype": "<U24",
+      "year_axis": 0
+    },
+    "unit": {
+      "shape": [],
+      "dtype": "<U7",
+      "year_axis": null
+    },
+    "use_codes": {
+      "shape": [
+        69
+      ],
+      "dtype": "<U6",
+      "year_axis": null
+    },
+    "x": {
+      "shape": [
+        15,
+        64
+      ],
+      "dtype": "float64",
+      "year_axis": 0
+    },
+    "x_gap": {
+      "shape": [
+        15,
+        64
+      ],
+      "dtype": "float64",
+      "year_axis": 0
+    },
+    "x_sales": {
+      "shape": [
+        15,
+        64
+      ],
+      "dtype": "float64",
+      "year_axis": 0
+    },
+    "years": {
+      "shape": [
+        15
+      ],
+      "dtype": "int64",
+      "year_axis": 0
+    }
+  },
+  "artifacts": {
+    "history_2010_2024.npz": {
+      "bytes": 13618765,
+      "sha256": "af2497643d17fa5a08c335f4499e61e55b547bdd2029cd577e3806c815687f80"
+    },
+    "intermediate_panel.csv": {
+      "bytes": 3513332,
+      "sha256": "fa10062abc5ac19741e9226311243a696e115c83f96020d8df7183c27c61b436"
+    },
+    "industry_accounts.csv": {
+      "bytes": 179653,
+      "sha256": "67464b1d1fc65889e3f15259289918e8a0d0cf354a6048262c9a91c921f77b9d"
+    }
+  }
+}

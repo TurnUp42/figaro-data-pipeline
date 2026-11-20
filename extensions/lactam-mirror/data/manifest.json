@@ -1,0 +1,1807 @@
+{
+  "purpose": "Memo 9: UN Comtrade mirror data for the three flagged products and their chapters",
+  "started_at_utc": "2026-10-27T17:11:10.779838+00:00",
+  "files": [
+    {
+      "key": "comtrade/china_to_germany/2019/293379",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2019&cmdCode=293379&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2019_293379.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:11:16.256815+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:11:16 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 963,
+      "sha256": "314ce40fda6d69c28fa626194dc7693a1215f4fc70452cf9452c9678327bc877",
+      "gzip_bytes": 439,
+      "gzip_sha256": "1c1e192bf98f993d77a8f9ef0dab1f96f4859085c44e52e83deb8cd1e46a348d",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2019,
+        "cmdCode": "293379",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2019/382200",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2019&cmdCode=382200&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2019_382200.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:11:25.678949+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:11:25 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 963,
+      "sha256": "8f470356f5ca4d9d6a3bbbcf39814449c03d92fdf96e982782d2e9ab7fd04605",
+      "gzip_bytes": 432,
+      "gzip_sha256": "f086e7021a54668eb01f1ea0f415372337bfd22ed8bc95335894e0ab19b44042",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2019,
+        "cmdCode": "382200",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2019/321590",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2019&cmdCode=321590&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2019_321590.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:11:35.872494+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:11:34 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 959,
+      "sha256": "452171d3dbcf48e0724e7ac44a3e70ed2bfd33801f9f332173159d9db94b3a0f",
+      "gzip_bytes": 433,
+      "gzip_sha256": "3a8a07769a85b8d5463c1ed0db4fa02044bebe34c9002dffce27f759f3ea1fca",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2019,
+        "cmdCode": "321590",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2019/29",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2019&cmdCode=29&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2019_29.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:11:44.910683+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:11:44 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 949,
+      "sha256": "48085ed3b4a509c9ae264a9fa7865f16ac5e2d3b6ce50a4cb1b224a03d27072b",
+      "gzip_bytes": 431,
+      "gzip_sha256": "bfed26f5fd7e9993a96391e17a0dd0bc10ba04f9e189da8d064e5a1d1e7df909",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2019,
+        "cmdCode": "29",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2019/38",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2019&cmdCode=38&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2019_38.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:11:50.735960+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:11:50 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 947,
+      "sha256": "9aec6e17ff1bad133b1e5b4ba47a6639363129133a1412fec4b3dbaaaad7a4bd",
+      "gzip_bytes": 424,
+      "gzip_sha256": "268b39b80cf21e9589a9e4dc9258d52256059727c00458c94a31fdbfda75b625",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2019,
+        "cmdCode": "38",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2019/32",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2019&cmdCode=32&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2019_32.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:11:57.376453+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:11:56 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 947,
+      "sha256": "3e02db36dd064af0126d26336bf31cbe21b5b0f37037caf35375e13d797bee9a",
+      "gzip_bytes": 425,
+      "gzip_sha256": "4536b4adf4779154c3fd3748796f8293980632fe523f582784a9842456d44290",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2019,
+        "cmdCode": "32",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2020/293379",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2020&cmdCode=293379&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2020_293379.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:12:03.043317+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:12:02 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 963,
+      "sha256": "ca861e1d2ddc126e8ef7c69ad5e1be7248803af48e09d05586e56bbebe057295",
+      "gzip_bytes": 433,
+      "gzip_sha256": "f1e227207aa25c5b44c26270eb423de2c8b52205a535dc9b472fdf05d0d39329",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2020,
+        "cmdCode": "293379",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2020/382200",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2020&cmdCode=382200&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2020_382200.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:12:08.471034+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:12:08 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 963,
+      "sha256": "953a007d3814f933d3963fe7baf3e568245d1a740a7e469fa28dcf2ec302f3f2",
+      "gzip_bytes": 436,
+      "gzip_sha256": "b20ea34d1c40a21525d0aae23e3fcbafa149f50fdb6adec0bb4bb8514475dc73",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2020,
+        "cmdCode": "382200",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2020/321590",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2020&cmdCode=321590&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2020_321590.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:12:13.947883+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:12:13 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 961,
+      "sha256": "84da89c319c4425ba0fa35b2086562f2f3e600d16c6933362de6fd46ffa3fe17",
+      "gzip_bytes": 436,
+      "gzip_sha256": "526dd6d9085c27b4d1c952085600784ed50359c632926d2552342142aee6301a",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2020,
+        "cmdCode": "321590",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2020/29",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2020&cmdCode=29&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2020_29.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:12:19.808683+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:12:19 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 949,
+      "sha256": "fd2b9463e338b1a0eb50d1f0aca83ab2a963d622cd3ee285c50ce833cd444886",
+      "gzip_bytes": 429,
+      "gzip_sha256": "f63ea50542798f7ee48ef417356621efeae1810e68411a537e709396bda286dc",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2020,
+        "cmdCode": "29",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2020/38",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2020&cmdCode=38&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2020_38.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:12:26.462569+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:12:25 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 947,
+      "sha256": "83e2bcc31f0d92f9e4a106196ba5adfb628462c743d94f54c1770e1d3a155bf6",
+      "gzip_bytes": 427,
+      "gzip_sha256": "91ffb78eca02cce52ba5d32b0f5ec95968ca691b9b04a86e7c92f41628e7fb30",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2020,
+        "cmdCode": "38",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2020/32",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2020&cmdCode=32&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2020_32.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:12:35.292874+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:12:34 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 947,
+      "sha256": "b3c9821d0e6a813894dc2a9198537b9cd7f06ddf568e7dc37aa580fbe78ecd3f",
+      "gzip_bytes": 427,
+      "gzip_sha256": "57ccf1b779c6b3371bf2092ddaaf2c66153139de3dd2e344e63e3cda4f6fa0fa",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2020,
+        "cmdCode": "32",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2021/293379",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2021&cmdCode=293379&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2021_293379.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:12:42.479949+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:12:42 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 964,
+      "sha256": "42759262872414d9ddc3f58cd853cf66985af2cb6c35396b3e7d1efb12eb2c12",
+      "gzip_bytes": 438,
+      "gzip_sha256": "74a59a62e924a15f13478864f955ab0bf95178aaba9d2e38003ac7c2b8344c94",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2021,
+        "cmdCode": "293379",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2021/382200",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2021&cmdCode=382200&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2021_382200.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:12:49.919044+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:12:48 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 969,
+      "sha256": "4ee898f5b1046ee6cfe000fe1fe2e7e7683198ad6fe5ba7d22689ee91f91cb5b",
+      "gzip_bytes": 439,
+      "gzip_sha256": "374599ed2a8c3f6fa856e44f6f62bf5c9996a6f91e092cfaa8eeb5f54e04b5a9",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2021,
+        "cmdCode": "382200",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2021/321590",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2021&cmdCode=321590&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2021_321590.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:12:55.502217+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:12:55 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 962,
+      "sha256": "28f6a7d2e569b8dcf1809a66af1342babce91a6a7bf56402f72045c9a72214b8",
+      "gzip_bytes": 437,
+      "gzip_sha256": "90d9c184a2f35dc14cebf1175b86ef292b22703a594ca6f68245886d6be8306a",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2021,
+        "cmdCode": "321590",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2021/29",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2021&cmdCode=29&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2021_29.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:13:02.505820+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:13:02 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 950,
+      "sha256": "537b5bbd03642bda85804742c2fef689345baf3569ca1ffc7baee4beb47925b4",
+      "gzip_bytes": 431,
+      "gzip_sha256": "96bcda714408b0ba51730f4d4ef9aff4f9ae175adf0198cd913bee7ec6dba27c",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2021,
+        "cmdCode": "29",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2021/38",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2021&cmdCode=38&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2021_38.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:13:08.205366+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:13:07 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 948,
+      "sha256": "863d324712b7bc40017ea77200d99181f0dc979433728a2e80ad7842dbb76912",
+      "gzip_bytes": 430,
+      "gzip_sha256": "f86eaf250fed1aa18e1c8637fdc8065b59bc1f69b385fdfa801f9de67e288b9d",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2021,
+        "cmdCode": "38",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2021/32",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2021&cmdCode=32&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2021_32.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:13:13.843486+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:13:13 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 948,
+      "sha256": "a06aa175161bc09bd611dab5bf35c09bf8a02b54f94d35b344c37782f1fadf53",
+      "gzip_bytes": 425,
+      "gzip_sha256": "f8a2aa5f959a147adfbaebe07a0e8501111fab67e6d04bba8bf3f53bebdc6e1e",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2021,
+        "cmdCode": "32",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2022/293379",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2022&cmdCode=293379&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2022_293379.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:13:19.319487+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:13:19 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 966,
+      "sha256": "eeabc4fad1bd9d56aea90cf1b0a3f5f807a7ef63aea57af55bb0685ce5ed141e",
+      "gzip_bytes": 440,
+      "gzip_sha256": "cbc15f59c07d3233d253a88d4704124f7d6f8dc1a2f52b1b82433f35c5427be0",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2022,
+        "cmdCode": "293379",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2022/382219",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2022&cmdCode=382219&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2022_382219.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:13:25.320084+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:13:24 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 974,
+      "sha256": "01cea689b5718aa9bf8d45930abd42e73b69df6a2a64cf9e2ce00c6ec626c5d9",
+      "gzip_bytes": 435,
+      "gzip_sha256": "65d4321de21cc9c4eba5428130060f95405155e9f28fb87b42d8a573ba661857",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2022,
+        "cmdCode": "382219",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2022/321590",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2022&cmdCode=321590&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2022_321590.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:13:31.066020+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:13:30 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 964,
+      "sha256": "b7f03731c3b673d2b79a76fc8a6ae9d8598474c0869708b48a7fe33c06aa7900",
+      "gzip_bytes": 441,
+      "gzip_sha256": "b4afa5475cd36b2dc98d1f272eb19049f03722b74e8837888ae00d78623deb6e",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2022,
+        "cmdCode": "321590",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2022/29",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2022&cmdCode=29&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2022_29.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:13:36.664669+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:13:36 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 950,
+      "sha256": "a5b7289b7cb9fb3727e5c97d2ababb189f212d892d02f0e57f6fa0d9bd859084",
+      "gzip_bytes": 427,
+      "gzip_sha256": "2cb2def76e7a3a57ff65efa51c6f2f1bf92a3f789ff41ffb60a9f25339b7a81e",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2022,
+        "cmdCode": "29",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2022/38",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2022&cmdCode=38&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2022_38.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:13:42.346491+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:13:41 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 950,
+      "sha256": "44a1bd8f3146b3cf9cd5580442849351129f291f2bd627fd030f972273e28bbc",
+      "gzip_bytes": 430,
+      "gzip_sha256": "1a5e080e0da588fc21784d2d603d528042cd1d82413026cc6cd9425de364a6c0",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2022,
+        "cmdCode": "38",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2022/32",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2022&cmdCode=32&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2022_32.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:13:50.436837+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:13:49 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 948,
+      "sha256": "106385a596eda5a57c4e541d5e67689653b804c323a314d8cca972fefedd027d",
+      "gzip_bytes": 429,
+      "gzip_sha256": "0c813227b9ebf43cb41e171c899c8334146492f3c1510a8955d860b5943f9efd",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2022,
+        "cmdCode": "32",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2023/293379",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2023&cmdCode=293379&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2023_293379.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:13:56.903658+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:13:56 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 964,
+      "sha256": "e0d4154f067dcc54a465496534bed96df3ec92b2a0b50527c4fa4d2415194393",
+      "gzip_bytes": 439,
+      "gzip_sha256": "c95fe26a35e7adbe4fde18ebfa46340b6bee25693e0659f386318a768049d7ce",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2023,
+        "cmdCode": "293379",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2023/382219",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2023&cmdCode=382219&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2023_382219.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:14:02.640873+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:14:02 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 967,
+      "sha256": "46d24ff6050b65974aa0526bfd08fdb009e0b121f5eb72461ad10e0ad2e53cde",
+      "gzip_bytes": 440,
+      "gzip_sha256": "b93c208697ebd6de7f62819a0136ca560219c816d0f9ed081162c3910e3cbe6a",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2023,
+        "cmdCode": "382219",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2023/321590",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2023&cmdCode=321590&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2023_321590.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:14:08.223298+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:14:07 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 962,
+      "sha256": "9d6f101eb713b588cb380efbf7b0bf645d451fff3a1a0e43ff8124fc07c6048a",
+      "gzip_bytes": 437,
+      "gzip_sha256": "4c3e315bdad07bd58a43aa6bee1d2fa69d2d42697faeea5846b3b757b1c8f3b1",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2023,
+        "cmdCode": "321590",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2023/29",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2023&cmdCode=29&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2023_29.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:14:13.718048+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:14:13 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 950,
+      "sha256": "9e162e835b36e82e9aef427424de1883d6699056a12d2611330b2252359ea67b",
+      "gzip_bytes": 425,
+      "gzip_sha256": "226c0dcc50485bf49836dc8b70b6e41852b2ec57fc06a7ce460666e0afa9a330",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2023,
+        "cmdCode": "29",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2023/38",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2023&cmdCode=38&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2023_38.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:14:19.006686+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:14:18 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 948,
+      "sha256": "4b95531a6344db0396e66624e9699706cd1994054c65effb4bbc8f0deeaa75dd",
+      "gzip_bytes": 424,
+      "gzip_sha256": "c2007772cdb7a91f94555ecb53b62bb05830303e2dad67a55ffd61e5293b4497",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2023,
+        "cmdCode": "38",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2023/32",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2023&cmdCode=32&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2023_32.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:14:24.262490+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:14:23 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 948,
+      "sha256": "3a88de93c9f78bd5738ed2eae789854fd61b5f803f85713e399f19b8cb8bd3a5",
+      "gzip_bytes": 422,
+      "gzip_sha256": "60cfd91d2d1bac2dc2b484f24da62c375462fbb06fc92ff4fc771406e0e7033c",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2023,
+        "cmdCode": "32",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2024/293379",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2024&cmdCode=293379&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2024_293379.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:14:31.430599+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:14:31 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 964,
+      "sha256": "103cb00fcfa82cef07a246801c529608bf1b0392418e089cc15d7aa0afb00d5d",
+      "gzip_bytes": 438,
+      "gzip_sha256": "8c96d6a3acee5cb586f7cf160fe9634a25e3db49e519d6136c464cbe447e721d",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2024,
+        "cmdCode": "293379",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2024/382219",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2024&cmdCode=382219&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2024_382219.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:14:37.207335+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:14:36 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 967,
+      "sha256": "b7b9838c2bfb2f786204216bd92f28cde1b74c8803f840a19c65ef5f66f3d32f",
+      "gzip_bytes": 439,
+      "gzip_sha256": "186028798b08367afa956f7bcd424a7246684d7e9de9c6f1462c0a5bb2548b3b",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2024,
+        "cmdCode": "382219",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2024/321590",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2024&cmdCode=321590&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2024_321590.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:14:42.457033+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:14:42 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 962,
+      "sha256": "4199fd1ba784ec3fc29040e54ae1865dc9a208bdad1b949a91bef87757e3de69",
+      "gzip_bytes": 438,
+      "gzip_sha256": "35ef019edd6d468a2d0876592819fab60404d86f0d272da9ddf40626a86dfc5f",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2024,
+        "cmdCode": "321590",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2024/29",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2024&cmdCode=29&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2024_29.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:14:48.277927+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:14:48 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 950,
+      "sha256": "2b25a854d3d04e739d91f91e002527eb5fe2e19472ef13d143e1f77137e681bc",
+      "gzip_bytes": 424,
+      "gzip_sha256": "6df4391ecfbb69a1bc0d1a758cb3ad997491d17971112b0766fcf9e0fde2d8f0",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2024,
+        "cmdCode": "29",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2024/38",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2024&cmdCode=38&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2024_38.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:14:53.793710+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:14:53 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 947,
+      "sha256": "a763b6c8c6e6a6b0f49c3cc7f19ac76a21fed84fbbc6449cdee812dde21fc944",
+      "gzip_bytes": 423,
+      "gzip_sha256": "320cc78a48b2422cdaf5d22f6c975949a235dd84326967e37123750bcfecf68d",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2024,
+        "cmdCode": "38",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_germany/2024/32",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=276&flowCode=X&period=2024&cmdCode=32&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_276_X_2024_32.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:15:00.692841+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:15:00 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 948,
+      "sha256": "7387ca9ac75cec5d34d97523f093889935aaf1283ca83b44839edd1802d376ae",
+      "gzip_bytes": 423,
+      "gzip_sha256": "152c594075952af74f406e410db5537645360224270b1e03c44d454c91d199c8",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 276,
+        "flowCode": "X",
+        "refYear": 2024,
+        "cmdCode": "32",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_world/2019/293379",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=0&flowCode=X&period=2019&cmdCode=293379&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_0_X_2019_293379.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:15:06.376509+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:15:06 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 970,
+      "sha256": "3a529c7d140b03a451e4520106b081b24cdb3e232969356a308b593c349303aa",
+      "gzip_bytes": 443,
+      "gzip_sha256": "6e81a8848f1344c4c31925c1499e7ab54ed66593b678074244e88367932b4a1c",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 0,
+        "flowCode": "X",
+        "refYear": 2019,
+        "cmdCode": "293379",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_world/2019/382200",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=0&flowCode=X&period=2019&cmdCode=382200&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_0_X_2019_382200.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:15:11.784416+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:15:11 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 969,
+      "sha256": "0b017c336f5d3eb8af23f0e4c0845a2851069d1e2b568442f002391e95ced48f",
+      "gzip_bytes": 442,
+      "gzip_sha256": "587b3dd720bbfea2e97e606fad3da29ae020289a7c18b3f05282b3a6c2c77fd7",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 0,
+        "flowCode": "X",
+        "refYear": 2019,
+        "cmdCode": "382200",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_world/2019/321590",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=0&flowCode=X&period=2019&cmdCode=321590&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_0_X_2019_321590.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:15:16.990110+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:15:16 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 971,
+      "sha256": "26892a4d21d554f08702b5b7d8586424e2fac57923a70dd04d0e762c61d3c564",
+      "gzip_bytes": 441,
+      "gzip_sha256": "953597d911673ca441c8b61c649e333b7ee4d8143faf26f130af092ca9d34fe3",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 0,
+        "flowCode": "X",
+        "refYear": 2019,
+        "cmdCode": "321590",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_world/2020/293379",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=0&flowCode=X&period=2020&cmdCode=293379&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_0_X_2020_293379.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:15:23.300079+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:15:22 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 971,
+      "sha256": "3d29c8f559dbbd99a41e7cdb9e4b6479d1f29021a20321a5a3bd4e8942f33180",
+      "gzip_bytes": 445,
+      "gzip_sha256": "f792c8518e2ea2465b42b20f0ca683c626af57ad701342bb2d117bf0fdf5a93b",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 0,
+        "flowCode": "X",
+        "refYear": 2020,
+        "cmdCode": "293379",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_world/2020/382200",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=0&flowCode=X&period=2020&cmdCode=382200&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_0_X_2020_382200.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:15:28.738686+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:15:27 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 973,
+      "sha256": "a07f38f941b377ff7aa4f7c8f3be279df1ce520af8f9bcd0f5430566299110c6",
+      "gzip_bytes": 444,
+      "gzip_sha256": "fa036686db02a2cb84eaf546c38238373dd0c2879bf2e5aedea5d43c6237f913",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 0,
+        "flowCode": "X",
+        "refYear": 2020,
+        "cmdCode": "382200",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_world/2020/321590",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=0&flowCode=X&period=2020&cmdCode=321590&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_0_X_2020_321590.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:15:34.279844+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:15:33 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 970,
+      "sha256": "7eeaedcb602feca6dd6f5228eb96fa420413883a44d9563984d49ff4896649b3",
+      "gzip_bytes": 445,
+      "gzip_sha256": "f753e698975df4924681fe9dae19f4cc160f1173eac07188c777d93ed9c5a18b",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 0,
+        "flowCode": "X",
+        "refYear": 2020,
+        "cmdCode": "321590",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_world/2021/293379",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=0&flowCode=X&period=2021&cmdCode=293379&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_0_X_2021_293379.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:15:39.731943+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:15:39 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 972,
+      "sha256": "64f713345b233815067daed5ae7d1a74bbb6d971655723e396a31b13143a2fd4",
+      "gzip_bytes": 444,
+      "gzip_sha256": "8aac8f836fb3c3e05f49c6e5cfde3240f4b24cef700b973edbbc34ea9655eb61",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 0,
+        "flowCode": "X",
+        "refYear": 2021,
+        "cmdCode": "293379",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_world/2021/382200",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=0&flowCode=X&period=2021&cmdCode=382200&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_0_X_2021_382200.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:15:45.165175+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:15:44 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 974,
+      "sha256": "b36ca3f9ece8ae5ab67e9f80276d8177d652f44329dc58e5e09d514d8bd2913f",
+      "gzip_bytes": 444,
+      "gzip_sha256": "ab5d565487866a964a4ffbf21f61504ecef4e7998a146018e95c4072f6a854d5",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 0,
+        "flowCode": "X",
+        "refYear": 2021,
+        "cmdCode": "382200",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_world/2021/321590",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=0&flowCode=X&period=2021&cmdCode=321590&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_0_X_2021_321590.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:15:55.668888+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:15:54 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 972,
+      "sha256": "4f5de74d19d32e6dcba8e6042884731f6dc911f9f1c5261dfb677fa00487a62b",
+      "gzip_bytes": 445,
+      "gzip_sha256": "4b058b991446afc59ac6d3f8e4aa02700972db9bba79ddfceb0d77caf4912e64",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 0,
+        "flowCode": "X",
+        "refYear": 2021,
+        "cmdCode": "321590",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_world/2022/293379",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=0&flowCode=X&period=2022&cmdCode=293379&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_0_X_2022_293379.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:16:03.673785+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:16:03 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 974,
+      "sha256": "9fd3f3121ad76d7dcf935c0ccb2c8af0427c4efb80c861971027742d02a76a2d",
+      "gzip_bytes": 445,
+      "gzip_sha256": "70f16da693faf2014a5151aa94957a3b1b16f13d58e833e985c74abb8e035ef3",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 0,
+        "flowCode": "X",
+        "refYear": 2022,
+        "cmdCode": "293379",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_world/2022/382219",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=0&flowCode=X&period=2022&cmdCode=382219&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_0_X_2022_382219.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:16:12.593879+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:16:11 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 979,
+      "sha256": "97646c6d0072527cdbeb681c677b7399e4ac9e3573148b601160f22d84ec756d",
+      "gzip_bytes": 447,
+      "gzip_sha256": "3e1a3e7d74c37d1e6f688ce496a796dc9c38a401fb6deb3159f27c6b581ca8a3",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 0,
+        "flowCode": "X",
+        "refYear": 2022,
+        "cmdCode": "382219",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_world/2022/321590",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=0&flowCode=X&period=2022&cmdCode=321590&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_0_X_2022_321590.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:16:19.088129+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:16:18 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 972,
+      "sha256": "84d8c77aba70b3214dd65dd462998f07282cbf736cd3c8e495ccb58267a8ea4a",
+      "gzip_bytes": 445,
+      "gzip_sha256": "334f6ef3a9541a756ec805682d8c12cb31b587004cd72ee057f0a21c7bfb6df3",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 0,
+        "flowCode": "X",
+        "refYear": 2022,
+        "cmdCode": "321590",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_world/2023/293379",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=0&flowCode=X&period=2023&cmdCode=293379&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_0_X_2023_293379.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:16:26.139168+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:16:25 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 972,
+      "sha256": "c36cb75307ed8bf18473af91edf4a1a826f4866e325426d8b760a5f2fd26c1c4",
+      "gzip_bytes": 444,
+      "gzip_sha256": "a41af2191b209af9907a2261748678c1817a1ae560be42de0385ce7b06d87257",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 0,
+        "flowCode": "X",
+        "refYear": 2023,
+        "cmdCode": "293379",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_world/2023/382219",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=0&flowCode=X&period=2023&cmdCode=382219&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_0_X_2023_382219.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:16:31.927937+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:16:31 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 974,
+      "sha256": "41ae8b9781e9ad37891fdd90b48467e3edf06ddebbd65179414b7eb61ab3170d",
+      "gzip_bytes": 443,
+      "gzip_sha256": "da93af99e1a73d35e8bb147449ff0def431e4ab5a4905cf8cd0179d35135c75b",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 0,
+        "flowCode": "X",
+        "refYear": 2023,
+        "cmdCode": "382219",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_world/2023/321590",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=0&flowCode=X&period=2023&cmdCode=321590&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_0_X_2023_321590.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:16:37.807515+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:16:37 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 972,
+      "sha256": "b9a2042b1ec20a43f90016b77ef7acc43b243b388193b4f04d29b0e71fa3753d",
+      "gzip_bytes": 445,
+      "gzip_sha256": "f8b4db627cad616ac2802fcbe976d7e9bcf037bf90b0660ef9c01ba21409b0e1",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 0,
+        "flowCode": "X",
+        "refYear": 2023,
+        "cmdCode": "321590",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_world/2024/293379",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=0&flowCode=X&period=2024&cmdCode=293379&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_0_X_2024_293379.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:16:43.037775+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:16:42 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 972,
+      "sha256": "e12381edfefc4ccd28fa062e9f98f55be5300e35cceed17a0a0bd8e5407f8e68",
+      "gzip_bytes": 444,
+      "gzip_sha256": "a1119f19e9b7bdfc0e284c8665583ded2f1e46937fba42d8d62b51808f2e63e2",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 0,
+        "flowCode": "X",
+        "refYear": 2024,
+        "cmdCode": "293379",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_world/2024/382219",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=0&flowCode=X&period=2024&cmdCode=382219&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_0_X_2024_382219.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:16:48.562182+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:16:47 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 974,
+      "sha256": "27694978dbab42ad565a43ad8f8d4124a910db64950d72463344ea0cafe8d9b8",
+      "gzip_bytes": 444,
+      "gzip_sha256": "f0c659fe23f590e2314ee6aa9887df17eb9563d333493909e52ec2e22d5d818a",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 0,
+        "flowCode": "X",
+        "refYear": 2024,
+        "cmdCode": "382219",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/china_to_world/2024/321590",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&partnerCode=0&flowCode=X&period=2024&cmdCode=321590&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_156_0_X_2024_321590.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:16:53.899844+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:16:52 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 972,
+      "sha256": "c199e523b34fff5d8b416980fff88c8aa4600835b401b6602bd9f12747e2028b",
+      "gzip_bytes": 446,
+      "gzip_sha256": "c258c37d9713ce33bd9a91d95b3e39280dbd57f1c0dce391001c1ff2d650e32b",
+      "expected": {
+        "reporterCode": 156,
+        "partnerCode": 0,
+        "flowCode": "X",
+        "refYear": 2024,
+        "cmdCode": "321590",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/germany_from_china/2019/293379",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=276&partnerCode=156&flowCode=M&period=2019&cmdCode=293379&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_276_156_M_2019_293379.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:17:00.262865+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:17:00 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 966,
+      "sha256": "309bcabbf8017fcd6fc4e60a664467589cb6744a10aeeaefd5d7892a368f8be6",
+      "gzip_bytes": 450,
+      "gzip_sha256": "7d29543c9c62ef7d5e2e7d1caf2a921378d1ca3b56dfdfb81cc41a0725b3fc7d",
+      "expected": {
+        "reporterCode": 276,
+        "partnerCode": 156,
+        "flowCode": "M",
+        "refYear": 2019,
+        "cmdCode": "293379",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/germany_from_china/2019/382200",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=276&partnerCode=156&flowCode=M&period=2019&cmdCode=382200&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_276_156_M_2019_382200.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:17:05.607612+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:17:04 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 966,
+      "sha256": "e306aff766e1791665b4ef69781ee9e43ad5ccfa89371bd2aaecc7217df97646",
+      "gzip_bytes": 448,
+      "gzip_sha256": "e763ad76811b5844fca62afcd7db3df1aefb0a8b6d8783ea4dff37f7ce102bc6",
+      "expected": {
+        "reporterCode": 276,
+        "partnerCode": 156,
+        "flowCode": "M",
+        "refYear": 2019,
+        "cmdCode": "382200",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/germany_from_china/2019/321590",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=276&partnerCode=156&flowCode=M&period=2019&cmdCode=321590&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_276_156_M_2019_321590.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:17:10.902146+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:17:10 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 970,
+      "sha256": "920aa004858e065c0335e47f29e5bb84d9881d30050e3137ae3fdb23e331f115",
+      "gzip_bytes": 449,
+      "gzip_sha256": "9abe1a00c7c839362bb384cca94899ea2304a0fadeb8afa5d39fb0d579aa5bf3",
+      "expected": {
+        "reporterCode": 276,
+        "partnerCode": 156,
+        "flowCode": "M",
+        "refYear": 2019,
+        "cmdCode": "321590",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/germany_from_china/2020/293379",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=276&partnerCode=156&flowCode=M&period=2020&cmdCode=293379&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_276_156_M_2020_293379.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:17:16.160138+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:17:15 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 965,
+      "sha256": "1dd0ea0dc007a4b8b659ab2d1647910c97dd4ebcd2ca422f6c0892119b9a12a8",
+      "gzip_bytes": 450,
+      "gzip_sha256": "ce1a77ef6feb2662fe940f1c52b9d0203b394c20ca9f32aa4e4296069b602f2c",
+      "expected": {
+        "reporterCode": 276,
+        "partnerCode": 156,
+        "flowCode": "M",
+        "refYear": 2020,
+        "cmdCode": "293379",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/germany_from_china/2020/382200",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=276&partnerCode=156&flowCode=M&period=2020&cmdCode=382200&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_276_156_M_2020_382200.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:17:21.557940+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:17:21 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 969,
+      "sha256": "df567327c8c7e091fe0c0522a642a88e8dbb96c4772ba4431aa39c7aba48ce2b",
+      "gzip_bytes": 449,
+      "gzip_sha256": "e88283b52d4fc3ad5f67865370ecb20d0429d71e67d5821420449f172a2ea8ca",
+      "expected": {
+        "reporterCode": 276,
+        "partnerCode": 156,
+        "flowCode": "M",
+        "refYear": 2020,
+        "cmdCode": "382200",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/germany_from_china/2020/321590",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=276&partnerCode=156&flowCode=M&period=2020&cmdCode=321590&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_276_156_M_2020_321590.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:17:26.954585+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:17:26 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 967,
+      "sha256": "9b57c40f32468734d9c70db132ec14e64a42f4f7a5d48f1d34cc600030faa666",
+      "gzip_bytes": 451,
+      "gzip_sha256": "7011e0c8a5d4ccb9412521bdcbb3f7b04d16821743b457ac0cc22e8bc9ee59b2",
+      "expected": {
+        "reporterCode": 276,
+        "partnerCode": 156,
+        "flowCode": "M",
+        "refYear": 2020,
+        "cmdCode": "321590",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/germany_from_china/2021/293379",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=276&partnerCode=156&flowCode=M&period=2021&cmdCode=293379&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_276_156_M_2021_293379.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:17:32.182792+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:17:31 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 965,
+      "sha256": "e249090fc66adc37ef40a117310798d8644e800929ab4f5a4bcd2719ac2a38a3",
+      "gzip_bytes": 451,
+      "gzip_sha256": "f607e7bb665facbbeb4df7af481e737ae4fab6ad81d8497b386724b3055991e0",
+      "expected": {
+        "reporterCode": 276,
+        "partnerCode": 156,
+        "flowCode": "M",
+        "refYear": 2021,
+        "cmdCode": "293379",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/germany_from_china/2021/382200",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=276&partnerCode=156&flowCode=M&period=2021&cmdCode=382200&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_276_156_M_2021_382200.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:17:37.490241+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:17:36 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 973,
+      "sha256": "504f0bc5a5080d7f0459b7482410b1a7a2162e8364fec01df680458d9b40bd5c",
+      "gzip_bytes": 451,
+      "gzip_sha256": "eebac4195bf794573650a93d3df8d8d9cff4485c93dc23caddfae22fd576c015",
+      "expected": {
+        "reporterCode": 276,
+        "partnerCode": 156,
+        "flowCode": "M",
+        "refYear": 2021,
+        "cmdCode": "382200",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/germany_from_china/2021/321590",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=276&partnerCode=156&flowCode=M&period=2021&cmdCode=321590&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_276_156_M_2021_321590.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:17:42.724034+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:17:41 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 969,
+      "sha256": "ead81479f02b1f4cb8103d93358263a3028763ec8f45bcb97f83fa111b18a369",
+      "gzip_bytes": 451,
+      "gzip_sha256": "5fdc92a58d7cdc604bcaac87f93170be1b50d61fd0350ba8d99d84aa59fa99df",
+      "expected": {
+        "reporterCode": 276,
+        "partnerCode": 156,
+        "flowCode": "M",
+        "refYear": 2021,
+        "cmdCode": "321590",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/germany_from_china/2022/293379",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=276&partnerCode=156&flowCode=M&period=2022&cmdCode=293379&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_276_156_M_2022_293379.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:17:48.358899+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:17:48 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 969,
+      "sha256": "e4abdb95fc1ca0645de16b1d106950a5f4e83b0a2501f3b5b58a941bb21143cb",
+      "gzip_bytes": 451,
+      "gzip_sha256": "7bfbe580ae66b5561d48ce9274e635837e5df89572f7808feac4693d9bae2988",
+      "expected": {
+        "reporterCode": 276,
+        "partnerCode": 156,
+        "flowCode": "M",
+        "refYear": 2022,
+        "cmdCode": "293379",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/germany_from_china/2022/382219",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=276&partnerCode=156&flowCode=M&period=2022&cmdCode=382219&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_276_156_M_2022_382219.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:17:54.471056+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:17:53 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 972,
+      "sha256": "9a9e4910c2b2b973da1ed555a24750eb65ff805b75041723a13c53f2ad014f73",
+      "gzip_bytes": 451,
+      "gzip_sha256": "fa7f68ea841afa624a0468c8c444bcf30eda127579badf515b6624c0c0be5427",
+      "expected": {
+        "reporterCode": 276,
+        "partnerCode": 156,
+        "flowCode": "M",
+        "refYear": 2022,
+        "cmdCode": "382219",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/germany_from_china/2022/321590",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=276&partnerCode=156&flowCode=M&period=2022&cmdCode=321590&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_276_156_M_2022_321590.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:18:00.416168+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:17:59 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 969,
+      "sha256": "b9549f1b7b4e9a2a35567b82f9f87de98b790a65a2f02d1b5a302ac97b27e36f",
+      "gzip_bytes": 450,
+      "gzip_sha256": "bd471b740240f4202948c54f3d954b8c5fc093d680e9e840f90ef31290f01038",
+      "expected": {
+        "reporterCode": 276,
+        "partnerCode": 156,
+        "flowCode": "M",
+        "refYear": 2022,
+        "cmdCode": "321590",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/germany_from_china/2023/293379",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=276&partnerCode=156&flowCode=M&period=2023&cmdCode=293379&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_276_156_M_2023_293379.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:18:06.572195+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:18:05 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 970,
+      "sha256": "5974ca9d9be981ed4e935a54ecf12ee40cd188639c0af85057e13fa0fade147b",
+      "gzip_bytes": 451,
+      "gzip_sha256": "f0bb805ad9bbf807e1138af247a86d8275ed93ab23abff150d4be57e810d8e50",
+      "expected": {
+        "reporterCode": 276,
+        "partnerCode": 156,
+        "flowCode": "M",
+        "refYear": 2023,
+        "cmdCode": "293379",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/germany_from_china/2023/382219",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=276&partnerCode=156&flowCode=M&period=2023&cmdCode=382219&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_276_156_M_2023_382219.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:18:12.125070+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:18:11 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 968,
+      "sha256": "31e613b36361b589c3fcb4fa28d504b6ccd864795575d2052f6b039b1cc9dc0d",
+      "gzip_bytes": 451,
+      "gzip_sha256": "748921d12992b19dfaba251ba115a2c409ca05c3287e321b1b4484c6a5f82107",
+      "expected": {
+        "reporterCode": 276,
+        "partnerCode": 156,
+        "flowCode": "M",
+        "refYear": 2023,
+        "cmdCode": "382219",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/germany_from_china/2023/321590",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=276&partnerCode=156&flowCode=M&period=2023&cmdCode=321590&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_276_156_M_2023_321590.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:18:24.005816+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:18:23 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 970,
+      "sha256": "e4c67295080a7e4e05a791f9e9aa4b7c7b9ac6e728b0099596005d44cd4720b9",
+      "gzip_bytes": 449,
+      "gzip_sha256": "62f2d0768a07e762f192614b0c195fad81bfcfc557a82a0cfd2b0f8434aebeb4",
+      "expected": {
+        "reporterCode": 276,
+        "partnerCode": 156,
+        "flowCode": "M",
+        "refYear": 2023,
+        "cmdCode": "321590",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/germany_from_china/2024/293379",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=276&partnerCode=156&flowCode=M&period=2024&cmdCode=293379&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_276_156_M_2024_293379.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:18:30.706856+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:18:30 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 968,
+      "sha256": "f27d2f6e798da5f5802568deef2cb8a6ce30d8f130a930a3ebe6d56b516ae1ad",
+      "gzip_bytes": 447,
+      "gzip_sha256": "be910d720b80d63ce708468a25094fce8e625f630e23208fcdeaa7d637c1629b",
+      "expected": {
+        "reporterCode": 276,
+        "partnerCode": 156,
+        "flowCode": "M",
+        "refYear": 2024,
+        "cmdCode": "293379",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/germany_from_china/2024/382219",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=276&partnerCode=156&flowCode=M&period=2024&cmdCode=382219&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_276_156_M_2024_382219.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:18:35.923663+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:18:35 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 969,
+      "sha256": "667cfb0c35f0b121575a28b47fc7dee5d2b47efc07ca903245f53f867e1382fa",
+      "gzip_bytes": 449,
+      "gzip_sha256": "960b5915aaf631e57643a0411842a296feb894a2cc50cdcfe0ce105d41462f7b",
+      "expected": {
+        "reporterCode": 276,
+        "partnerCode": 156,
+        "flowCode": "M",
+        "refYear": 2024,
+        "cmdCode": "382219",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    },
+    {
+      "key": "comtrade/germany_from_china/2024/321590",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=276&partnerCode=156&flowCode=M&period=2024&cmdCode=321590&partner2Code=0&motCode=0&customsCode=C00",
+      "path": "extensions/lactam-mirror/data/raw/comtrade_276_156_M_2024_321590.json.gz",
+      "retrieved_at_utc": "2026-10-27T17:18:41.350126+00:00",
+      "http_headers": {
+        "Date": "Tue, 27 Oct 2026 17:18:40 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 970,
+      "sha256": "8b70a4b718e8f729fc43e302072e627ee3acb580faf6f77d32b2541b0c7eddd8",
+      "gzip_bytes": 449,
+      "gzip_sha256": "c422f201175d0883a6799e23e6c3c3e4128ee4e1ba5ee0ecd3e84e50c4f9ca11",
+      "expected": {
+        "reporterCode": 276,
+        "partnerCode": 156,
+        "flowCode": "M",
+        "refYear": 2024,
+        "cmdCode": "321590",
+        "partner2Code": 0,
+        "motCode": 0,
+        "customsCode": "C00"
+      },
+      "records": 1
+    }
+  ],
+  "completed_at_utc": "2026-10-27T17:18:41.350809+00:00"
+}

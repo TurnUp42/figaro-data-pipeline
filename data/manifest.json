@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "dataset": "NAIO_10_FCP_II4",
+  "edition": "2026",
+  "edition_basis": "Official Eurostat FIGARO metadata section 17.2 explicitly identifies the 2026 FIGARO edition; section 14.1 describes the data release in 2026 as covering 2010-2024. Preserved evidence: evidence/china-input-rankings/figaro-metadata-2026-09-09.html.",
+  "source_updated": "2026-07-20T11:00:00+0200",
+  "release_date": "2026-07-20",
+  "release_date_basis": "Source dissemination/update date of the approved extract, not a separately verified announcement date. All four JSON snapshots have updated=2026-07-20T11:00:00+0200 and matching DISSEMINATION_TIMESTAMP_DATA, DISSEMINATION_TIMESTAMP_GLOBAL and UPDATE_DATA annotations. Official metadata sections 2.1-2.3 give 20 July 2026 as the last certification, posting and update date. The dataset DOI issue date (2025-07-16) identifies dataset creation, not this data vintage.",
+  "preserved_on": "2026-09-09",
+  "inputs": [
+    {
+      "year": 2022,
+      "role": "uses",
+      "path": "data/raw/figaro/2026-07-20/de2022_uses.json",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/naio_10_fcp_ii4?lang=en&time=2022&c_dest=DE",
+      "sha256": "7bb106403425180ec81b2e2ef2abf679dd311386ab8a03c7320f01c4072fbaf9",
+      "bytes": 3028855,
+      "retrieved_on": "2026-09-08",
+      "retrieval_date_basis": "evidence/china-input-rankings/data-recheck.md, checked 8 September 2026, documents a fresh public API retrieval byte-identical to the existing pilot snapshot. This is a verified retrieval date for these exact bytes; the initial pilot retrieval date was not separately logged.",
+      "original_retrieved_on": null,
+      "preserved_on": "2026-09-09",
+      "preservation_source": "evidence/china-input-rankings/trade-network-figaro-de2022.json",
+      "preservation_method": "Exact binary copy of approved existing file; original left unchanged.",
+      "integrity_verified_on": "2026-09-09",
+      "source_updated": "2026-07-20T11:00:00+0200",
+      "release_date": "2026-07-20"
+    },
+    {
+      "year": 2022,
+      "role": "sales",
+      "path": "data/raw/figaro/2026-07-20/de2022_sales.json",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/naio_10_fcp_ii4?lang=en&time=2022&c_orig=DE",
+      "sha256": "33be6a940d522cd92bc305e2bd8aeb42ae4d81696ac303f66edbf5c4f9df1227",
+      "bytes": 3072482,
+      "retrieved_on": "2026-09-08",
+      "retrieval_date_basis": "evidence/china-input-rankings/data-recheck.md, checked 8 September 2026, documents a fresh public API retrieval byte-identical to the existing pilot snapshot. This is a verified retrieval date for these exact bytes; the initial pilot retrieval date was not separately logged.",
+      "original_retrieved_on": null,
+      "preserved_on": "2026-09-09",
+      "preservation_source": "evidence/china-input-rankings/trade-network-figaro-de-sales2022.json",
+      "preservation_method": "Exact binary copy of approved existing file; original left unchanged.",
+      "integrity_verified_on": "2026-09-09",
+      "source_updated": "2026-07-20T11:00:00+0200",
+      "release_date": "2026-07-20"
+    },
+    {
+      "year": 2023,
+      "role": "uses",
+      "path": "data/raw/figaro/2026-07-20/de2023_uses.json",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/naio_10_fcp_ii4?lang=en&time=2023&c_dest=DE",
+      "sha256": "4acd3c75127da8665d7e01799f0d2f8ca3069e47c270c06447ead2ab0da3249f",
+      "bytes": 3037322,
+      "retrieved_on": "2026-09-08",
+      "retrieval_date_basis": "evidence/china-input-rankings/comparison-year-availability.json records checked_on=2026-09-08, the request URL, byte count, SHA-256 and temporary download location. The preserved copy was read from that recorded location; no new retrieval was required.",
+      "original_retrieved_on": "2026-09-08",
+      "preserved_on": "2026-09-09",
+      "preservation_source": "C:\\Users\\baple\\AppData\\Local\\Temp\\figaro-comparison-jllk0isw\\de2023_dest.json",
+      "preservation_method": "Exact binary copy of approved existing file; original left unchanged.",
+      "integrity_verified_on": "2026-09-09",
+      "source_updated": "2026-07-20T11:00:00+0200",
+      "release_date": "2026-07-20"
+    },
+    {
+      "year": 2023,
+      "role": "sales",
+      "path": "data/raw/figaro/2026-07-20/de2023_sales.json",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/naio_10_fcp_ii4?lang=en&time=2023&c_orig=DE",
+      "sha256": "26dbb0bbf2bff818bb58069e354da39ae2a5810975fe5a3a32e6beb9c587cade",
+      "bytes": 3075033,
+      "retrieved_on": "2026-09-08",
+      "retrieval_date_basis": "evidence/china-input-rankings/comparison-year-availability.json records checked_on=2026-09-08, the request URL, byte count, SHA-256 and temporary download location. The preserved copy was read from that recorded location; no new retrieval was required.",
+      "original_retrieved_on": "2026-09-08",
+      "preserved_on": "2026-09-09",
+      "preservation_source": "C:\\Users\\baple\\AppData\\Local\\Temp\\figaro-comparison-jllk0isw\\de2023_orig.json",
+      "preservation_method": "Exact binary copy of approved existing file; original left unchanged.",
+      "integrity_verified_on": "2026-09-09",
+      "source_updated": "2026-07-20T11:00:00+0200",
+      "release_date": "2026-07-20"
+    }
+  ],
+  "metadata": [
+    {
+      "path": "data/metadata/figaro/figaro-metadata-2026-09-09.html",
+      "url": "https://ec.europa.eu/eurostat/cache/metadata/en/naio_10_fcp_esms.htm",
+      "sha256": "c6064ef7a15879d59a0662f6a019ff4c4c21a191af5a657e74f61fc5c40d251f",
+      "bytes": 266229,
+      "retrieved_on": "2026-09-09",
+      "retrieval_date_precision": "day",
+      "retrieval_method": "Reused existing local source snapshot; no new download in this pipeline setup.",
+      "retrieval_date_note": "The preserved filename and accounting reading note identify retrieval/access on 2026-09-09; no new web retrieval occurred in this setup.",
+      "local_verified_on": "2026-09-09",
+      "source_updated": "2026-07-20",
+      "title": "EU inter-country supply, use and input-output tables (FIGARO) - current prices (naio_10_fcp)",
+      "original_path": "evidence/china-input-rankings/figaro-metadata-2026-09-09.html",
+      "preservation_method": "Byte-identical copy of the existing official HTML snapshot.",
+      "retrieved_on_evidence": [
+        "evidence/china-input-rankings/reading-notes/figaro-accounting.md: source snapshot and accessed 9 September statement",
+        "thesis/references.bib: Eurostat2026 urldate"
+      ],
+      "source_publication_date": null,
+      "source_date_precision": "day",
+      "source_date_evidence": "Preserved HTML sections 2.1, 2.2 and 2.3 each state 20 July 2026 (certified, posted and updated).",
+      "source_posted": "2026-07-20",
+      "source_certified": "2026-07-20",
+      "locators_used": [
+        "2.1-2.3",
+        "3.1-3.4",
+        "4",
+        "7.2",
+        "11.1",
+        "13.1",
+        "17.2",
+        "18.1",
+        "18.3 Table 1 and note",
+        "18.5-18.6"
+      ]
+    },
+    {
+      "path": "evidence/china-input-rankings/Pdfs/eurostat-2019-figaro-handbook.pdf",
+      "url": "https://ec.europa.eu/eurostat/documents/3888793/10109187/KS-TC-19-002-EN-N.pdf/8d9af6c5-efbf-9da5-e2cc-e4a74d616c08",
+      "sha256": "f2045939c5b418143df6cda59c1955a70602388f3add8babb820476866979dc9",
+      "bytes": 7395871,
+      "retrieved_on": "2026-09-09",
+      "retrieval_date_precision": "day",
+      "retrieval_method": "Reused existing local source snapshot; no new download in this pipeline setup.",
+      "retrieval_date_note": "Existing bibliography records access on 2026-09-09; the first-download timestamp is not available.",
+      "local_verified_on": "2026-09-09",
+      "source_updated": null,
+      "title": "EU inter-country supply, use and input-output tables: Full international and global accounts for research in input-output analysis (FIGARO)",
+      "editors": [
+        "Isabelle Remond-Tiedrez",
+        "Jose M. Rueda-Cantuche"
+      ],
+      "doi": "10.2785/008780",
+      "source_publication_date": "2019",
+      "source_date_precision": "year",
+      "manuscript_completed": "2019-03",
+      "source_date_evidence": "PDF pp.1,3: 2019 edition; PDF p.4 colophon: publication 2019, manuscript completed March 2019.",
+      "retrieved_on_evidence": [
+        "thesis/references.bib: RemondTiedrezRuedaCantuche2019 urldate",
+        "evidence/china-input-rankings/reading-notes/figaro-accounting.md: reading completed 2026-09-09"
+      ],
+      "pdf_pages": 232,
+      "locators_used": [
+        "10.1-10.2, printed pp.126-127 (PDF pp.128-129)",
+        "11.3.2-11.3.3, printed pp.134-136 (PDF pp.136-138)",
+        "12, printed p.142 (PDF p.144)"
+      ],
+      "methodological_scope": "Historical FIGARO project; not a complete specification of the 2026 compilation algorithm."
+    },
+    {
+      "path": "evidence/china-input-rankings/Pdfs/eurostat-2021-figaro-methodology.pdf",
+      "url": "https://ec.europa.eu/eurostat/documents/51957/12767369/Figaro-methodology.pdf/487255c9-903a-0cb7-f5e2-73f37e35f196?t=1620750704022",
+      "sha256": "d93bfb2810bf3961a091602f9462907b72f3d21eac341cc14c3e4f45f179be86",
+      "bytes": 768917,
+      "retrieved_on": "2026-09-09",
+      "retrieval_date_precision": "day",
+      "retrieval_method": "Reused existing local source snapshot; no new download in this pipeline setup.",
+      "retrieval_date_note": "Existing bibliography records access on 2026-09-09; the first-download timestamp is not available.",
+      "local_verified_on": "2026-09-09",
+      "source_updated": null,
+      "title": "FIGARO methodology",
+      "author": "Eurostat",
+      "source_publication_date": "2021-05",
+      "source_date_precision": "month",
+      "source_date_evidence": "PDF p.1: Luxembourg, May 2021. Embedded PDF creation/modification dates are not treated as the release date.",
+      "retrieved_on_evidence": [
+        "thesis/references.bib: Eurostat2021 urldate",
+        "evidence/china-input-rankings/reading-notes/figaro-accounting.md: reading completed 2026-09-09"
+      ],
+      "pdf_pages": 8,
+      "locators_used": [
+        "pp.2-4",
+        "p.4 footnote 1",
+        "p.7"
+      ],
+      "methodological_scope": "May 2021 update; p.4 footnote 1 states national industry-by-industry IOTs were not integrated in that release, and p.7 says the described import-rescaling step had not been implemented."
+    },
+    {
+      "path": "evidence/china-input-rankings/Pdfs/eurostat-2013-esa2010.pdf",
+      "url": "https://ec.europa.eu/eurostat/documents/3859598/5925693/KS-02-13-269-EN.PDF/44cd9d01-bc64-40e5-bd40-d17df0c69334",
+      "sha256": "9569393aefd24d7fed20e55f30e68850148004e45c70dd5af4eda73214349858",
+      "bytes": 6714448,
+      "retrieved_on": "2026-09-09",
+      "retrieval_date_precision": "day",
+      "retrieval_method": "Reused existing local source snapshot; no new download in this pipeline setup.",
+      "retrieval_date_note": "Existing bibliography records access on 2026-09-09; the first-download timestamp is not available.",
+      "local_verified_on": "2026-09-09",
+      "source_updated": null,
+      "title": "European system of accounts: ESA 2010",
+      "author": "Eurostat",
+      "doi": "10.2785/16644",
+      "source_publication_date": "2013",
+      "source_date_precision": "year",
+      "source_date_evidence": "PDF p.4 colophon: Luxembourg, Publications Office of the European Union, 2013.",
+      "retrieved_on_evidence": [
+        "thesis/references.bib: Eurostat2013 urldate",
+        "evidence/china-input-rankings/reading-notes/figaro-accounting.md: reading completed 2026-09-09"
+      ],
+      "pdf_pages": 688,
+      "locators_used": [
+        "3.44, printed p.60 (PDF p.92)",
+        "3.56-3.58, printed p.62 (PDF p.94)"
+      ]
+    },
+    {
+      "path": "evidence/china-input-rankings/Pdfs/eurostat-2018-figaro-qdr.pdf",
+      "url": "https://ec.europa.eu/eurostat/documents/3217494/9487591/KS-GP-18-002-EN-N.pdf/8ce5d276-506a-466b-b2a5-a1bbbb11e8c8",
+      "sha256": "fbf140ae018919f3d226af078e3c8cbf2f28511189638d915d6134d7e4dbc980",
+      "bytes": 1029177,
+      "retrieved_on": "2026-09-09",
+      "retrieval_date_precision": "day",
+      "retrieval_method": "Reused existing local source snapshot; no new download in this pipeline setup.",
+      "retrieval_date_note": "Existing bibliography records access on 2026-09-09; the first-download timestamp is not available.",
+      "local_verified_on": "2026-09-09",
+      "source_updated": null,
+      "title": "QDR methodology: understanding trade flows in the EU",
+      "author": "Pedro Martins Ferreira",
+      "container_title": "EURONA - Eurostat Review on National Accounts and Macroeconomic Indicators",
+      "issue": "2/2018",
+      "source_publication_date": "2019",
+      "source_date_precision": "year",
+      "manuscript_completed": "2018-12",
+      "source_date_evidence": "PDF p.4 volume colophon: publication/copyright 2019, manuscript completed December 2018; cover and title state issue 2/2018. The filename and conventional article year refer to the issue.",
+      "retrieved_on_evidence": [
+        "thesis/references.bib: Ferreira2018 urldate",
+        "evidence/china-input-rankings/reading-notes/figaro-accounting.md: reading completed 2026-09-09"
+      ],
+      "pdf_pages": 84,
+      "article_printed_pages": "55-70",
+      "article_pdf_pages": "57-72",
+      "locators_used": [
+        "Article opening, printed p.55 (PDF p.57)",
+        "Triangular trade and re-export margins, printed pp.66-68 (PDF pp.68-70)"
+      ],
+      "preservation_note": "Existing PDF is the complete journal volume, not a standalone article; no duplicate made."
+    }
+  ],
+  "classification": {
+    "path": "data/metadata/figaro/classification.json",
+    "sha256": "5493f8779f36cf19d35b4be331b33806f7b6bef19802b1d6679296dbf1178be9",
+    "bytes": 13797,
+    "derived_on": "2026-09-09",
+    "basis": "Ordered codes and exact labels from the locked 2022 JSON-stat dimensions, verified against all four approved extracts. See classification_sources within this file."
+  }
+}

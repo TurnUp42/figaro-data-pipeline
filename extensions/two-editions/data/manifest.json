@@ -1,0 +1,309 @@
+{
+  "purpose": "Memo 20: earlier FIGARO editions, from the Wayback Machine's copies of Eurostat's files",
+  "files": [
+    {
+      "key": "e24/2022",
+      "original_url": "https://ec.europa.eu/eurostat/documents/51957/19580762/matrix_eu-ic-io_ind-by-ind_24ed_2022.csv",
+      "wayback_url": "https://web.archive.org/web/20250520125459id_/https://ec.europa.eu/eurostat/documents/51957/19580762/matrix_eu-ic-io_ind-by-ind_24ed_2022.csv",
+      "capture": "20250520125459",
+      "path": "extensions/two-editions/data/raw/e24-2022/matrix_eu-ic-io_ind-by-ind_24ed_2022.csv.gz",
+      "retrieved_at_utc": "2026-11-05T16:46:33.792763+00:00",
+      "http_headers": {
+        "Date": "Thu, 05 Nov 2026 16:45:23 GMT",
+        "Content-Type": "text/csv",
+        "Content-Length": "42520150",
+        "X-Archive-Src": "archiveteam_urls_20250520125646_a1cb9297/urls_20250520125646_a1cb9297.1743749985.megawarc.warc.zst"
+      },
+      "storage": "gzip (level 9, mtime 0) of the exact response",
+      "bytes": 42520150,
+      "sha256": "5ba953addef27e695dcd818f33d8ffa5777253c52508fd46a13fd8ba0e446fdf",
+      "stored_bytes": 10434093,
+      "stored_sha256": "a8666e2adee89de8ea5eb2590f5079a47cee79cc8bc8a34896e01e4919826274"
+    },
+    {
+      "key": "e24/2010",
+      "original_url": "https://ec.europa.eu/eurostat/documents/51957/19580762/matrix_eu-ic-io_ind-by-ind_24ed_2010.csv",
+      "wayback_url": "https://web.archive.org/web/20250520120934id_/https://ec.europa.eu/eurostat/documents/51957/19580762/matrix_eu-ic-io_ind-by-ind_24ed_2010.csv",
+      "capture": "20250520120934",
+      "path": "extensions/two-editions/data/raw/e24-2010/matrix_eu-ic-io_ind-by-ind_24ed_2010.csv.gz",
+      "retrieved_at_utc": "2026-11-05T16:48:05.167088+00:00",
+      "http_headers": {
+        "Date": "Thu, 05 Nov 2026 16:47:34 GMT",
+        "Content-Type": "text/csv",
+        "Content-Length": "40090498",
+        "X-Archive-Src": "archiveteam_urls_20250520121357_0fdb3ba6/urls_20250520121357_0fdb3ba6.1743749985.megawarc.warc.zst"
+      },
+      "storage": "gzip (level 9, mtime 0) of the exact response",
+      "bytes": 40090498,
+      "sha256": "dd35ac2b1d1eeee78e367a0e14bd3d1219d7f85efa5cc306f5320c1e68bd3af0",
+      "stored_bytes": 8994863,
+      "stored_sha256": "478f3fb312f11f7eea3628206b1d7f35982a54cb2d22f79188888626fd8b0856"
+    },
+    {
+      "key": "e24/2011",
+      "original_url": "https://ec.europa.eu/eurostat/documents/51957/19580762/matrix_eu-ic-io_ind-by-ind_24ed_2011.csv",
+      "wayback_url": "https://web.archive.org/web/20250521001821id_/https://ec.europa.eu/eurostat/documents/51957/19580762/matrix_eu-ic-io_ind-by-ind_24ed_2011.csv",
+      "capture": "20250521001821",
+      "path": "extensions/two-editions/data/raw/e24-2011/matrix_eu-ic-io_ind-by-ind_24ed_2011.csv.gz",
+      "retrieved_at_utc": "2026-11-05T16:49:10.793991+00:00",
+      "http_headers": {
+        "Date": "Thu, 05 Nov 2026 16:48:34 GMT",
+        "Content-Type": "text/csv",
+        "Content-Length": "40260892",
+        "X-Archive-Src": "archiveteam_urls_20250521002311_22403bf8/urls_20250521002311_22403bf8.1743749985.megawarc.warc.zst"
+      },
+      "storage": "gzip (level 9, mtime 0) of the exact response",
+      "bytes": 40260892,
+      "sha256": "54782315ce4ec1c7c1b4f0a125661131007112cee0d0331f82a258687a89cf1a",
+      "stored_bytes": 9124751,
+      "stored_sha256": "cb4e1f11694379447e4ae7171f5ef0808954ff414c50f262c90cc7d2c5ab88a8"
+    },
+    {
+      "key": "e24/2012",
+      "original_url": "https://ec.europa.eu/eurostat/documents/51957/19580762/matrix_eu-ic-io_ind-by-ind_24ed_2012.csv",
+      "wayback_url": "https://web.archive.org/web/20250520154152id_/https://ec.europa.eu/eurostat/documents/51957/19580762/matrix_eu-ic-io_ind-by-ind_24ed_2012.csv",
+      "capture": "20250520154152",
+      "path": "extensions/two-editions/data/raw/e24-2012/matrix_eu-ic-io_ind-by-ind_24ed_2012.csv.gz",
+      "retrieved_at_utc": "2026-11-05T16:50:02.467642+00:00",
+      "http_headers": {
+        "Date": "Thu, 05 Nov 2026 16:49:40 GMT",
+        "Content-Type": "text/csv",
+        "Content-Length": "40414323",
+        "X-Archive-Src": "archiveteam_urls_20250520154259_780ffc0f/urls_20250520154259_780ffc0f.1743749985.megawarc.warc.zst"
+      },
+      "storage": "gzip (level 9, mtime 0) of the exact response",
+      "bytes": 40414323,
+      "sha256": "9793bc8b6a4ca4c936c432bf059e4a382fd9030a8cecaa4f55aa8c8486ffd837",
+      "stored_bytes": 9197646,
+      "stored_sha256": "4759d8e267d9f34a119f52aed8488d878c496e01eb5566bca0aa0e3d7fe98b5c"
+    },
+    {
+      "key": "e24/2013",
+      "original_url": "https://ec.europa.eu/eurostat/documents/51957/19580762/matrix_eu-ic-io_ind-by-ind_24ed_2013.csv",
+      "wayback_url": "https://web.archive.org/web/20250521054129id_/https://ec.europa.eu/eurostat/documents/51957/19580762/matrix_eu-ic-io_ind-by-ind_24ed_2013.csv",
+      "capture": "20250521054129",
+      "path": "extensions/two-editions/data/raw/e24-2013/matrix_eu-ic-io_ind-by-ind_24ed_2013.csv.gz",
+      "retrieved_at_utc": "2026-11-05T16:51:34.536083+00:00",
+      "http_headers": {
+        "Date": "Thu, 05 Nov 2026 16:50:32 GMT",
+        "Content-Type": "text/csv",
+        "Content-Length": "40597905",
+        "X-Archive-Src": "archiveteam_urls_20250521054513_ecfef47d/urls_20250521054513_ecfef47d.1743749985.megawarc.warc.zst"
+      },
+      "storage": "gzip (level 9, mtime 0) of the exact response",
+      "bytes": 40597905,
+      "sha256": "0d69a3fcc1b9ed11a52239b65cc4002520447070b42f193ad71dfacabf0c51fb",
+      "stored_bytes": 9241288,
+      "stored_sha256": "30e94837419b32ed5af4ef5941a232515ea5df55e2d5117844ed8a105dd5f4f8"
+    },
+    {
+      "key": "e24/2014",
+      "original_url": "https://ec.europa.eu/eurostat/documents/51957/19580762/matrix_eu-ic-io_ind-by-ind_24ed_2014.csv",
+      "wayback_url": "https://web.archive.org/web/20250520235629id_/https://ec.europa.eu/eurostat/documents/51957/19580762/matrix_eu-ic-io_ind-by-ind_24ed_2014.csv",
+      "capture": "20250520235629",
+      "path": "extensions/two-editions/data/raw/e24-2014/matrix_eu-ic-io_ind-by-ind_24ed_2014.csv.gz",
+      "retrieved_at_utc": "2026-11-05T16:53:10.818980+00:00",
+      "http_headers": {
+        "Date": "Thu, 05 Nov 2026 16:52:30 GMT",
+        "Content-Type": "text/csv",
+        "Content-Length": "40582650",
+        "X-Archive-Src": "archiveteam_urls_20250520235731_454f60a5/urls_20250520235731_454f60a5.1743749985.megawarc.warc.zst"
+      },
+      "storage": "gzip (level 9, mtime 0) of the exact response",
+      "bytes": 40582650,
+      "sha256": "17f78e8a3003ae55d6f67dc9fe531b63e25b2d29e779cf3aa76d0afd1a46846e",
+      "stored_bytes": 9306362,
+      "stored_sha256": "1cc90c0a6ac5bcbdeb54f20ef7237680d6d3df5e3c51902006ba9f3b74feb17f"
+    },
+    {
+      "key": "e24/2015",
+      "original_url": "https://ec.europa.eu/eurostat/documents/51957/19580762/matrix_eu-ic-io_ind-by-ind_24ed_2015.csv",
+      "wayback_url": "https://web.archive.org/web/20250520125853id_/https://ec.europa.eu/eurostat/documents/51957/19580762/matrix_eu-ic-io_ind-by-ind_24ed_2015.csv",
+      "capture": "20250520125853",
+      "path": "extensions/two-editions/data/raw/e24-2015/matrix_eu-ic-io_ind-by-ind_24ed_2015.csv.gz",
+      "retrieved_at_utc": "2026-11-05T16:54:45.531324+00:00",
+      "http_headers": {
+        "Date": "Thu, 05 Nov 2026 16:53:40 GMT",
+        "Content-Type": "text/csv",
+        "Content-Length": "41052665",
+        "X-Archive-Src": "archiveteam_urls_20250520130121_0a2ebe10/urls_20250520130121_0a2ebe10.1743749985.megawarc.warc.zst"
+      },
+      "storage": "gzip (level 9, mtime 0) of the exact response",
+      "bytes": 41052665,
+      "sha256": "a0ad9198c819b198eb289e80b9bf4dcff8e91b8cdc7906084cf2548d5066b761",
+      "stored_bytes": 9479042,
+      "stored_sha256": "dd76d7e143c410725e67a317435e2e16de3ada56009e490b256e61f926d87688"
+    },
+    {
+      "key": "e24/2016",
+      "original_url": "https://ec.europa.eu/eurostat/documents/51957/19580762/matrix_eu-ic-io_ind-by-ind_24ed_2016.csv",
+      "wayback_url": "https://web.archive.org/web/20250520153017id_/https://ec.europa.eu/eurostat/documents/51957/19580762/matrix_eu-ic-io_ind-by-ind_24ed_2016.csv",
+      "capture": "20250520153017",
+      "path": "extensions/two-editions/data/raw/e24-2016/matrix_eu-ic-io_ind-by-ind_24ed_2016.csv.gz",
+      "retrieved_at_utc": "2026-11-05T16:56:23.275362+00:00",
+      "http_headers": {
+        "Date": "Thu, 05 Nov 2026 16:55:15 GMT",
+        "Content-Type": "text/csv",
+        "Content-Length": "41121340",
+        "X-Archive-Src": "archiveteam_urls_20250520153157_69c3233d/urls_20250520153157_69c3233d.1743749985.megawarc.warc.zst"
+      },
+      "storage": "gzip (level 9, mtime 0) of the exact response",
+      "bytes": 41121340,
+      "sha256": "830d9a8d363714e38004887a8ec7f83ac788cdc6dc2ab4aa8447fcd848057bc5",
+      "stored_bytes": 9523925,
+      "stored_sha256": "802400084dafdc7075ac4583d5fb12027a26e7b1990f293ccd693e1366c0f4ea"
+    },
+    {
+      "key": "e24/2017",
+      "original_url": "https://ec.europa.eu/eurostat/documents/51957/19580762/matrix_eu-ic-io_ind-by-ind_24ed_2017.csv",
+      "wayback_url": "https://web.archive.org/web/20250520215044id_/https://ec.europa.eu/eurostat/documents/51957/19580762/matrix_eu-ic-io_ind-by-ind_24ed_2017.csv",
+      "capture": "20250520215044",
+      "path": "extensions/two-editions/data/raw/e24-2017/matrix_eu-ic-io_ind-by-ind_24ed_2017.csv.gz",
+      "retrieved_at_utc": "2026-11-05T16:58:16.099263+00:00",
+      "http_headers": {
+        "Date": "Thu, 05 Nov 2026 16:56:53 GMT",
+        "Content-Type": "text/csv",
+        "Content-Length": "41330870",
+        "X-Archive-Src": "archiveteam_urls_20250520220140_daca0a56/urls_20250520220140_daca0a56.1743749985.megawarc.warc.zst"
+      },
+      "storage": "gzip (level 9, mtime 0) of the exact response",
+      "bytes": 41330870,
+      "sha256": "b9bc280aa9196d7a1f56e64456fab17993adfaae13564246fc72436d2ed17cad",
+      "stored_bytes": 9666907,
+      "stored_sha256": "815d9b83f813ab689a44518c7fd8ad535586a540ad35ac76c33801294ac549a1"
+    },
+    {
+      "key": "e24/2018",
+      "original_url": "https://ec.europa.eu/eurostat/documents/51957/19580762/matrix_eu-ic-io_ind-by-ind_24ed_2018.csv",
+      "wayback_url": "https://web.archive.org/web/20250520174445id_/https://ec.europa.eu/eurostat/documents/51957/19580762/matrix_eu-ic-io_ind-by-ind_24ed_2018.csv",
+      "capture": "20250520174445",
+      "path": "extensions/two-editions/data/raw/e24-2018/matrix_eu-ic-io_ind-by-ind_24ed_2018.csv.gz",
+      "retrieved_at_utc": "2026-11-05T16:58:49.162989+00:00",
+      "http_headers": {
+        "Date": "Thu, 05 Nov 2026 16:58:45 GMT",
+        "Content-Type": "text/csv",
+        "Content-Length": "41465405",
+        "X-Archive-Src": "archiveteam_urls_20250520175012_c8a38398/urls_20250520175012_c8a38398.1743749985.megawarc.warc.zst"
+      },
+      "storage": "gzip (level 9, mtime 0) of the exact response",
+      "bytes": 41465405,
+      "sha256": "45f09f03b324aa3f6b8de987139408bf49408f7cb8cb4fe5bae3a60af1f89ef4",
+      "stored_bytes": 9761914,
+      "stored_sha256": "2453de67dc5a67b4771fcc5e8c7687421b21087d19208d86563f5ffe4464b403"
+    },
+    {
+      "key": "e24/2019",
+      "original_url": "https://ec.europa.eu/eurostat/documents/51957/19580762/matrix_eu-ic-io_ind-by-ind_24ed_2019.csv",
+      "wayback_url": "https://web.archive.org/web/20250520120446id_/https://ec.europa.eu/eurostat/documents/51957/19580762/matrix_eu-ic-io_ind-by-ind_24ed_2019.csv",
+      "capture": "20250520120446",
+      "path": "extensions/two-editions/data/raw/e24-2019/matrix_eu-ic-io_ind-by-ind_24ed_2019.csv.gz",
+      "retrieved_at_utc": "2026-11-05T17:00:48.230915+00:00",
+      "http_headers": {
+        "Date": "Thu, 05 Nov 2026 16:59:42 GMT",
+        "Content-Type": "text/csv",
+        "Content-Length": "41554304",
+        "X-Archive-Src": "archiveteam_urls_20250520121255_2d8c8633/urls_20250520121255_2d8c8633.1743749985.megawarc.warc.zst"
+      },
+      "storage": "gzip (level 9, mtime 0) of the exact response",
+      "bytes": 41554304,
+      "sha256": "2c0bd299f54dc46dbf4627b4ae463f19fe797a66a30d4e74794a3994c736bc37",
+      "stored_bytes": 9832966,
+      "stored_sha256": "56125c0932e6f6f1fae8f393e603ada8548fb6aff5aef4ad505567f55ce72981"
+    },
+    {
+      "key": "e24/2020",
+      "original_url": "https://ec.europa.eu/eurostat/documents/51957/19580762/matrix_eu-ic-io_ind-by-ind_24ed_2020.csv",
+      "wayback_url": "https://web.archive.org/web/20250520123302id_/https://ec.europa.eu/eurostat/documents/51957/19580762/matrix_eu-ic-io_ind-by-ind_24ed_2020.csv",
+      "capture": "20250520123302",
+      "path": "extensions/two-editions/data/raw/e24-2020/matrix_eu-ic-io_ind-by-ind_24ed_2020.csv.gz",
+      "retrieved_at_utc": "2026-11-05T17:02:06.679360+00:00",
+      "http_headers": {
+        "Date": "Thu, 05 Nov 2026 17:01:13 GMT",
+        "Content-Type": "text/csv",
+        "Content-Length": "41481108",
+        "X-Archive-Src": "archiveteam_urls_20250520123549_6740788d/urls_20250520123549_6740788d.1743749985.megawarc.warc.zst"
+      },
+      "storage": "gzip (level 9, mtime 0) of the exact response",
+      "bytes": 41481108,
+      "sha256": "db5613708d255435f312a51ccec0f497f0377f0ec346ee16c4e95a371fa8222d",
+      "stored_bytes": 9731679,
+      "stored_sha256": "24327fa934f3a73bfa4f16e4e4a175a97366ce680b18fc13fb0f5532e01717d4"
+    },
+    {
+      "key": "e24/2021",
+      "original_url": "https://ec.europa.eu/eurostat/documents/51957/19580762/matrix_eu-ic-io_ind-by-ind_24ed_2021.csv",
+      "wayback_url": "https://web.archive.org/web/20250520142049id_/https://ec.europa.eu/eurostat/documents/51957/19580762/matrix_eu-ic-io_ind-by-ind_24ed_2021.csv",
+      "capture": "20250520142049",
+      "path": "extensions/two-editions/data/raw/e24-2021/matrix_eu-ic-io_ind-by-ind_24ed_2021.csv.gz",
+      "retrieved_at_utc": "2026-11-05T17:03:59.069228+00:00",
+      "http_headers": {
+        "Date": "Thu, 05 Nov 2026 17:02:33 GMT",
+        "Content-Type": "text/csv",
+        "Content-Length": "42041867",
+        "X-Archive-Src": "archiveteam_urls_20250520142750_bdcb7d6f/urls_20250520142750_bdcb7d6f.1743749985.megawarc.warc.zst"
+      },
+      "storage": "gzip (level 9, mtime 0) of the exact response",
+      "bytes": 42041867,
+      "sha256": "84b220852aa406ecaedd95ee9e8b11c4a7b394865e65c03af2392d0533f1c1ab",
+      "stored_bytes": 10083523,
+      "stored_sha256": "173c2cefe0486f0c73bbfa82ca406ab71b7de90431974134f27c6f86e3172415"
+    },
+    {
+      "key": "e22/2018",
+      "original_url": "https://ec.europa.eu/eurostat/documents/51957/12789258/flatfile_eu-ic-io_ind-by-ind_2018.csv.zip/55d85273-1767-89b4-ca8b-f37e0fed75b5?t=1655221287851",
+      "wayback_url": "https://web.archive.org/web/20220707102409id_/https://ec.europa.eu/eurostat/documents/51957/12789258/flatfile_eu-ic-io_ind-by-ind_2018.csv.zip/55d85273-1767-89b4-ca8b-f37e0fed75b5?t=1655221287851",
+      "capture": "20220707102409",
+      "path": "extensions/two-editions/data/raw/e22-2018/flatfile_eu-ic-io_ind-by-ind_2018.csv.zip",
+      "retrieved_at_utc": "2026-11-05T17:06:13.692677+00:00",
+      "http_headers": {
+        "Date": "Thu, 05 Nov 2026 17:04:26 GMT",
+        "Content-Type": "application/zip",
+        "Content-Length": "55126111",
+        "X-Archive-Src": "archiveteam_urls_20220707102708_7a32c650/urls_20220707102708_7a32c650.1650286618.megawarc.warc.zst"
+      },
+      "storage": "the exact response",
+      "bytes": 55126111,
+      "sha256": "068a128d732675f4c4efe6a0b5dd29f08decf3954d5f33fb8fd77b0e921bf327",
+      "stored_bytes": 55126111,
+      "stored_sha256": "068a128d732675f4c4efe6a0b5dd29f08decf3954d5f33fb8fd77b0e921bf327"
+    },
+    {
+      "key": "e22/2019",
+      "original_url": "https://ec.europa.eu/eurostat/documents/51957/12789258/flatfile_eu-ic-io_ind-by-ind_2019.csv.zip/6140e6b3-0b11-4455-f8b8-fb4ad92907ae",
+      "wayback_url": "https://web.archive.org/web/20220705151311id_/https://ec.europa.eu/eurostat/documents/51957/12789258/flatfile_eu-ic-io_ind-by-ind_2019.csv.zip/6140e6b3-0b11-4455-f8b8-fb4ad92907ae",
+      "capture": "20220705151311",
+      "path": "extensions/two-editions/data/raw/e22-2019/flatfile_eu-ic-io_ind-by-ind_2019.csv.zip",
+      "retrieved_at_utc": "2026-11-05T17:09:12.864694+00:00",
+      "http_headers": {
+        "Date": "Thu, 05 Nov 2026 17:06:17 GMT",
+        "Content-Type": "application/zip",
+        "Content-Length": "55258572",
+        "X-Archive-Src": "archiveteam_urls_20220705152155_35ff150e/urls_20220705152155_35ff150e.1650286618.megawarc.warc.zst"
+      },
+      "storage": "the exact response",
+      "bytes": 55258572,
+      "sha256": "07b9776dfcfbff45b79d61928a57a4c2e50e51efd983d92f64cf36e9955e5946",
+      "stored_bytes": 55258572,
+      "stored_sha256": "07b9776dfcfbff45b79d61928a57a4c2e50e51efd983d92f64cf36e9955e5946"
+    },
+    {
+      "key": "e22/2020",
+      "original_url": "https://ec.europa.eu/eurostat/documents/51957/12789258/flatfile_eu-ic-io_ind-by-ind_2020.csv.zip/390da49c-d769-afa3-92a1-d9af9b64d2c4",
+      "wayback_url": "https://web.archive.org/web/20220705030148id_/https://ec.europa.eu/eurostat/documents/51957/12789258/flatfile_eu-ic-io_ind-by-ind_2020.csv.zip/390da49c-d769-afa3-92a1-d9af9b64d2c4",
+      "capture": "20220705030148",
+      "path": "extensions/two-editions/data/raw/e22-2020/flatfile_eu-ic-io_ind-by-ind_2020.csv.zip",
+      "retrieved_at_utc": "2026-11-05T17:11:07.022335+00:00",
+      "http_headers": {
+        "Date": "Thu, 05 Nov 2026 17:09:15 GMT",
+        "Content-Type": "application/zip",
+        "Content-Length": "54866905",
+        "X-Archive-Src": "archiveteam_urls_20220705030823_4720de9f/urls_20220705030823_4720de9f.1650286618.megawarc.warc.zst"
+      },
+      "storage": "the exact response",
+      "bytes": 54866905,
+      "sha256": "9592d67e63751542b33709e24fb099ddea076ebb0a350f23cca3679f0c94369b",
+      "stored_bytes": 54866905,
+      "stored_sha256": "9592d67e63751542b33709e24fb099ddea076ebb0a350f23cca3679f0c94369b"
+    }
+  ]
+}

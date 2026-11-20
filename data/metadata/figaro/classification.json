@@ -1,0 +1,593 @@
+{
+  "schema_version": 1,
+  "dataset": "NAIO_10_FCP_II4",
+  "dataset_label": "EU inter-country input-output table at basic prices, industry by industry (2022 and onwards)",
+  "source_updated": "2026-07-20T11:00:00+0200",
+  "reference_years": [
+    2022,
+    2023
+  ],
+  "expected_dimension_ids": [
+    "freq",
+    "ind_use",
+    "ind_ava",
+    "c_dest",
+    "unit",
+    "c_orig",
+    "time"
+  ],
+  "expected_sizes": {
+    "uses": [
+      1,
+      69,
+      70,
+      1,
+      1,
+      51,
+      1
+    ],
+    "sales": [
+      1,
+      69,
+      70,
+      50,
+      1,
+      1,
+      1
+    ]
+  },
+  "unit": "MIO_EUR",
+  "frequency": "A",
+  "domestic_country": "DE",
+  "china_country": "CN",
+  "domestic_accounting_code": "DOM",
+  "domestic_accounting_label": "Domestic country",
+  "valuation": "Current basic prices",
+  "industries": [
+    {
+      "code": "A01",
+      "label": "Crop and animal production, hunting and related service activities"
+    },
+    {
+      "code": "A02",
+      "label": "Forestry and logging"
+    },
+    {
+      "code": "A03",
+      "label": "Fishing and aquaculture"
+    },
+    {
+      "code": "B",
+      "label": "Mining and quarrying"
+    },
+    {
+      "code": "C10-12",
+      "label": "Manufacture of food products; beverages and tobacco products"
+    },
+    {
+      "code": "C13-15",
+      "label": "Manufacture of textiles, wearing apparel, leather and related products"
+    },
+    {
+      "code": "C16",
+      "label": "Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials"
+    },
+    {
+      "code": "C17",
+      "label": "Manufacture of paper and paper products"
+    },
+    {
+      "code": "C18",
+      "label": "Printing and reproduction of recorded media"
+    },
+    {
+      "code": "C19",
+      "label": "Manufacture of coke and refined petroleum products"
+    },
+    {
+      "code": "C20",
+      "label": "Manufacture of chemicals and chemical products"
+    },
+    {
+      "code": "C21",
+      "label": "Manufacture of basic pharmaceutical products and pharmaceutical preparations"
+    },
+    {
+      "code": "C22",
+      "label": "Manufacture of rubber and plastic products"
+    },
+    {
+      "code": "C23",
+      "label": "Manufacture of other non-metallic mineral products"
+    },
+    {
+      "code": "C24",
+      "label": "Manufacture of basic metals"
+    },
+    {
+      "code": "C25",
+      "label": "Manufacture of fabricated metal products, except machinery and equipment"
+    },
+    {
+      "code": "C26",
+      "label": "Manufacture of computer, electronic and optical products"
+    },
+    {
+      "code": "C27",
+      "label": "Manufacture of electrical equipment"
+    },
+    {
+      "code": "C28",
+      "label": "Manufacture of machinery and equipment n.e.c."
+    },
+    {
+      "code": "C29",
+      "label": "Manufacture of motor vehicles, trailers and semi-trailers"
+    },
+    {
+      "code": "C30",
+      "label": "Manufacture of other transport equipment"
+    },
+    {
+      "code": "C31_32",
+      "label": "Manufacture of furniture; other manufacturing"
+    },
+    {
+      "code": "C33",
+      "label": "Repair and installation of machinery and equipment"
+    },
+    {
+      "code": "D35",
+      "label": "Electricity, gas, steam and air conditioning supply"
+    },
+    {
+      "code": "E36",
+      "label": "Water collection, treatment and supply"
+    },
+    {
+      "code": "E37-39",
+      "label": "Sewerage, waste management, remediation activities"
+    },
+    {
+      "code": "F",
+      "label": "Construction"
+    },
+    {
+      "code": "G45",
+      "label": "Wholesale and retail trade and repair of motor vehicles and motorcycles"
+    },
+    {
+      "code": "G46",
+      "label": "Wholesale trade, except of motor vehicles and motorcycles"
+    },
+    {
+      "code": "G47",
+      "label": "Retail trade, except of motor vehicles and motorcycles"
+    },
+    {
+      "code": "H49",
+      "label": "Land transport and transport via pipelines"
+    },
+    {
+      "code": "H50",
+      "label": "Water transport"
+    },
+    {
+      "code": "H51",
+      "label": "Air transport"
+    },
+    {
+      "code": "H52",
+      "label": "Warehousing and support activities for transportation"
+    },
+    {
+      "code": "H53",
+      "label": "Postal and courier activities"
+    },
+    {
+      "code": "I",
+      "label": "Accommodation and food service activities"
+    },
+    {
+      "code": "J58",
+      "label": "Publishing activities"
+    },
+    {
+      "code": "J59_60",
+      "label": "Motion picture, video, television programme production; programming and broadcasting activities"
+    },
+    {
+      "code": "J61",
+      "label": "Telecommunications"
+    },
+    {
+      "code": "J62_63",
+      "label": "Computer programming, consultancy, and information service activities"
+    },
+    {
+      "code": "K64",
+      "label": "Financial service activities, except insurance and pension funding"
+    },
+    {
+      "code": "K65",
+      "label": "Insurance, reinsurance and pension funding, except compulsory social security"
+    },
+    {
+      "code": "K66",
+      "label": "Activities auxiliary to financial services and insurance activities"
+    },
+    {
+      "code": "L",
+      "label": "Real estate activities"
+    },
+    {
+      "code": "M69_70",
+      "label": "Legal and accounting activities; activities of head offices; management consultancy activities"
+    },
+    {
+      "code": "M71",
+      "label": "Architectural and engineering activities; technical testing and analysis"
+    },
+    {
+      "code": "M72",
+      "label": "Scientific research and development"
+    },
+    {
+      "code": "M73",
+      "label": "Advertising and market research"
+    },
+    {
+      "code": "M74_75",
+      "label": "Other professional, scientific and technical activities; veterinary activities"
+    },
+    {
+      "code": "N77",
+      "label": "Rental and leasing activities"
+    },
+    {
+      "code": "N78",
+      "label": "Employment activities"
+    },
+    {
+      "code": "N79",
+      "label": "Travel agency, tour operator reservation service and related activities"
+    },
+    {
+      "code": "N80-82",
+      "label": "Security and investigation, service and landscape, office administrative and support activities"
+    },
+    {
+      "code": "O84",
+      "label": "Public administration and defence; compulsory social security"
+    },
+    {
+      "code": "P85",
+      "label": "Education"
+    },
+    {
+      "code": "Q86",
+      "label": "Human health activities"
+    },
+    {
+      "code": "Q87_88",
+      "label": "Residential care activities and social work activities without accommodation"
+    },
+    {
+      "code": "R90-92",
+      "label": "Creative, arts and entertainment activities; libraries, archives, museums and other cultural activities; gambling and betting activities"
+    },
+    {
+      "code": "R93",
+      "label": "Sports activities and amusement and recreation activities"
+    },
+    {
+      "code": "S94",
+      "label": "Activities of membership organisations"
+    },
+    {
+      "code": "S95",
+      "label": "Repair of computers and personal and household goods"
+    },
+    {
+      "code": "S96",
+      "label": "Other personal service activities"
+    },
+    {
+      "code": "T",
+      "label": "Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use"
+    },
+    {
+      "code": "U",
+      "label": "Activities of extraterritorial organisations and bodies"
+    }
+  ],
+  "economies": [
+    {
+      "code": "BE",
+      "label": "Belgium"
+    },
+    {
+      "code": "BG",
+      "label": "Bulgaria"
+    },
+    {
+      "code": "CZ",
+      "label": "Czechia"
+    },
+    {
+      "code": "DK",
+      "label": "Denmark"
+    },
+    {
+      "code": "DE",
+      "label": "Germany"
+    },
+    {
+      "code": "EE",
+      "label": "Estonia"
+    },
+    {
+      "code": "IE",
+      "label": "Ireland"
+    },
+    {
+      "code": "EL",
+      "label": "Greece"
+    },
+    {
+      "code": "ES",
+      "label": "Spain"
+    },
+    {
+      "code": "FR",
+      "label": "France"
+    },
+    {
+      "code": "HR",
+      "label": "Croatia"
+    },
+    {
+      "code": "IT",
+      "label": "Italy"
+    },
+    {
+      "code": "CY",
+      "label": "Cyprus"
+    },
+    {
+      "code": "LV",
+      "label": "Latvia"
+    },
+    {
+      "code": "LT",
+      "label": "Lithuania"
+    },
+    {
+      "code": "LU",
+      "label": "Luxembourg"
+    },
+    {
+      "code": "HU",
+      "label": "Hungary"
+    },
+    {
+      "code": "MT",
+      "label": "Malta"
+    },
+    {
+      "code": "NL",
+      "label": "Netherlands"
+    },
+    {
+      "code": "AT",
+      "label": "Austria"
+    },
+    {
+      "code": "PL",
+      "label": "Poland"
+    },
+    {
+      "code": "PT",
+      "label": "Portugal"
+    },
+    {
+      "code": "RO",
+      "label": "Romania"
+    },
+    {
+      "code": "SI",
+      "label": "Slovenia"
+    },
+    {
+      "code": "SK",
+      "label": "Slovakia"
+    },
+    {
+      "code": "FI",
+      "label": "Finland"
+    },
+    {
+      "code": "SE",
+      "label": "Sweden"
+    },
+    {
+      "code": "NO",
+      "label": "Norway"
+    },
+    {
+      "code": "CH",
+      "label": "Switzerland"
+    },
+    {
+      "code": "UK",
+      "label": "United Kingdom"
+    },
+    {
+      "code": "ME",
+      "label": "Montenegro"
+    },
+    {
+      "code": "MK",
+      "label": "North Macedonia"
+    },
+    {
+      "code": "AL",
+      "label": "Albania"
+    },
+    {
+      "code": "RS",
+      "label": "Serbia"
+    },
+    {
+      "code": "TR",
+      "label": "Türkiye"
+    },
+    {
+      "code": "RU",
+      "label": "Russia"
+    },
+    {
+      "code": "ZA",
+      "label": "South Africa"
+    },
+    {
+      "code": "CA",
+      "label": "Canada"
+    },
+    {
+      "code": "US",
+      "label": "United States"
+    },
+    {
+      "code": "MX",
+      "label": "Mexico"
+    },
+    {
+      "code": "AR",
+      "label": "Argentina"
+    },
+    {
+      "code": "BR",
+      "label": "Brazil"
+    },
+    {
+      "code": "CN",
+      "label": "China"
+    },
+    {
+      "code": "JP",
+      "label": "Japan"
+    },
+    {
+      "code": "KR",
+      "label": "South Korea"
+    },
+    {
+      "code": "IN",
+      "label": "India"
+    },
+    {
+      "code": "ID",
+      "label": "Indonesia"
+    },
+    {
+      "code": "SA",
+      "label": "Saudi Arabia"
+    },
+    {
+      "code": "AU",
+      "label": "Australia"
+    },
+    {
+      "code": "WRL_REST",
+      "label": "Rest of the world"
+    }
+  ],
+  "final_uses": [
+    {
+      "code": "P3_S13",
+      "label": "Final consumption expenditure by government"
+    },
+    {
+      "code": "P3_S14",
+      "label": "Final consumption expenditure by households"
+    },
+    {
+      "code": "P3_S15",
+      "label": "Final consumption expenditure by non-profit organisations serving households (NPISH)"
+    },
+    {
+      "code": "P5M",
+      "label": "Changes in inventories and acquisition less disposals of valuables"
+    },
+    {
+      "code": "P51G",
+      "label": "Gross fixed capital formation"
+    }
+  ],
+  "accounting_items": [
+    {
+      "code": "B2A3G",
+      "label": "Operating surplus and mixed income, gross"
+    },
+    {
+      "code": "D1",
+      "label": "Compensation of employees"
+    },
+    {
+      "code": "D21X31",
+      "label": "Taxes less subsidies on products"
+    },
+    {
+      "code": "D29X39",
+      "label": "Other taxes less other subsidies on production"
+    },
+    {
+      "code": "OP_RES",
+      "label": "Direct purchases abroad by residents"
+    },
+    {
+      "code": "OP_NRES",
+      "label": "Purchases on the domestic territory by non-residents"
+    }
+  ],
+  "cost_factor_codes": [
+    "B2A3G",
+    "D1",
+    "D21X31",
+    "D29X39"
+  ],
+  "residence_adjustment_codes": [
+    "OP_RES",
+    "OP_NRES"
+  ],
+  "ordering_rule": "Sort each JSON-stat category.index by its numeric value. Exclude the explicit final-use codes from ind_use and the explicit accounting-item codes from ind_ava; require the resulting ordered code-label industry lists to agree. Economies are ordered c_orig categories excluding DOM and must equal ordered sales c_dest categories. Never use incidental object order or a first-64 slice.",
+  "classification_sources": [
+    {
+      "path": "evidence/china-input-rankings/trade-network-figaro-de2022.json",
+      "sha256": "7bb106403425180ec81b2e2ef2abf679dd311386ab8a03c7320f01c4072fbaf9",
+      "dimension_paths": [
+        "dimension.ind_use.category",
+        "dimension.ind_ava.category",
+        "dimension.c_orig.category"
+      ]
+    },
+    {
+      "path": "evidence/china-input-rankings/trade-network-figaro-de-sales2022.json",
+      "sha256": "33be6a940d522cd92bc305e2bd8aeb42ae4d81696ac303f66edbf5c4f9df1227",
+      "dimension_paths": [
+        "dimension.ind_use.category",
+        "dimension.ind_ava.category",
+        "dimension.c_dest.category"
+      ]
+    }
+  ],
+  "verified_against_raw_paths": [
+    "data/raw/figaro/2026-07-20/de2022_uses.json",
+    "data/raw/figaro/2026-07-20/de2022_sales.json",
+    "data/raw/figaro/2026-07-20/de2023_uses.json",
+    "data/raw/figaro/2026-07-20/de2023_sales.json"
+  ],
+  "metadata_source": "data/metadata/figaro/figaro-metadata-2026-09-09.html",
+  "derived_on": "2026-09-09"
+}

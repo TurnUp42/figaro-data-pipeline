@@ -1,0 +1,998 @@
+{
+  "purpose": "Step 5 (memo 5): Comext unit values, the manufacturing output deflator, the euro-renminbi rate",
+  "started_at_utc": "2026-10-06T13:25:02.256334+00:00",
+  "files": [
+    {
+      "key": "comext/CN/2010/VALUE_IN_EUROS",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=CN&flow=1&time=2010&indicators=VALUE_IN_EUROS",
+      "path": "extensions/prices/data/raw/comext_CN_2010_VALUE_IN_EUROS.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:25:07.254842+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:25:02 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6129062,
+      "sha256": "bc3ad3bfb20f0ddff8576560a53a779e3a8588034ed7f93a4b0de14ce98694d3",
+      "gzip_bytes": 780267,
+      "gzip_sha256": "25d8c71a5c479017148ea81e5c1515fc9dfd566086b89d16a70cc3d320cb160e",
+      "products": 37069,
+      "observations": 11490
+    },
+    {
+      "key": "comext/CN/2010/QUANTITY_IN_100KG",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=CN&flow=1&time=2010&indicators=QUANTITY_IN_100KG",
+      "path": "extensions/prices/data/raw/comext_CN_2010_QUANTITY_IN_100KG.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:25:12.126421+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:25:07 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6131964,
+      "sha256": "771ebd39444433e2957721d39d1987729d85cbd843b50f6757420c3f391ed67d",
+      "gzip_bytes": 780072,
+      "gzip_sha256": "dce53a0139491a81d0280a482a5bde7e1743f818b848f54ee7def76a680ffda9",
+      "products": 37069,
+      "observations": 11490
+    },
+    {
+      "key": "comext/CN/2011/VALUE_IN_EUROS",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=CN&flow=1&time=2011&indicators=VALUE_IN_EUROS",
+      "path": "extensions/prices/data/raw/comext_CN_2011_VALUE_IN_EUROS.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:25:17.116068+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:25:12 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6129130,
+      "sha256": "ce62993f767e426832906b429615e28b45dd13172a097b54d4b5ed5d14d348cc",
+      "gzip_bytes": 780256,
+      "gzip_sha256": "695139b6c3bc5835eede5cf6ebe44be83fe1ee15c3a25c04a4c4f871810eec7b",
+      "products": 37069,
+      "observations": 11392
+    },
+    {
+      "key": "comext/CN/2011/QUANTITY_IN_100KG",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=CN&flow=1&time=2011&indicators=QUANTITY_IN_100KG",
+      "path": "extensions/prices/data/raw/comext_CN_2011_QUANTITY_IN_100KG.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:25:21.619777+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:25:17 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6131647,
+      "sha256": "f530ff93be079497d3a6589940f381761e5a2efbf38f4a4db755237fc96c9efa",
+      "gzip_bytes": 779897,
+      "gzip_sha256": "f4394687d3d64a69c986644ab7b084eb3a9f34ac0ca745ad9ef4c37d3945bc75",
+      "products": 37069,
+      "observations": 11392
+    },
+    {
+      "key": "comext/CN/2012/VALUE_IN_EUROS",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=CN&flow=1&time=2012&indicators=VALUE_IN_EUROS",
+      "path": "extensions/prices/data/raw/comext_CN_2012_VALUE_IN_EUROS.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:25:26.704333+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:25:22 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6130656,
+      "sha256": "4b4c460aa19f20bcbae2a9745f6454abb760ae6a12d4121e34947c2a2d59d4fe",
+      "gzip_bytes": 779894,
+      "gzip_sha256": "d1a575d9b105e41f41d11a0aa3b08774e6570a86e82c766e4a016c9f19592883",
+      "products": 37069,
+      "observations": 11716
+    },
+    {
+      "key": "comext/CN/2012/QUANTITY_IN_100KG",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=CN&flow=1&time=2012&indicators=QUANTITY_IN_100KG",
+      "path": "extensions/prices/data/raw/comext_CN_2012_QUANTITY_IN_100KG.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:25:32.043241+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:25:27 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6133359,
+      "sha256": "1ec0293a7fe55fae55e86f956f13814fa19cbae8bc4c34d0d00c8fad57d966d3",
+      "gzip_bytes": 779512,
+      "gzip_sha256": "3ae5567be3eb93eed03c3c193092187d2385433ed2ad1471f66552317f3e2ced",
+      "products": 37069,
+      "observations": 11716
+    },
+    {
+      "key": "comext/CN/2013/VALUE_IN_EUROS",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=CN&flow=1&time=2013&indicators=VALUE_IN_EUROS",
+      "path": "extensions/prices/data/raw/comext_CN_2013_VALUE_IN_EUROS.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:25:37.245006+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:25:32 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6130367,
+      "sha256": "c7ab5a56f2fbc1ebceb851bcef0c181bfc798190797cebe47c83d234e8418e6d",
+      "gzip_bytes": 779918,
+      "gzip_sha256": "575dd9fa057a23fb64f2d7c59dd57808e424ab8b74b5925b12d6d45d55db8734",
+      "products": 37069,
+      "observations": 11698
+    },
+    {
+      "key": "comext/CN/2013/QUANTITY_IN_100KG",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=CN&flow=1&time=2013&indicators=QUANTITY_IN_100KG",
+      "path": "extensions/prices/data/raw/comext_CN_2013_QUANTITY_IN_100KG.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:25:42.136176+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:25:37 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6132984,
+      "sha256": "be201bfdb5ac1f236fd5dcda5030828461b172961fcfc3af02763eb1272710cf",
+      "gzip_bytes": 779864,
+      "gzip_sha256": "9d26691a9aa9647a11b3f23d6b24af54a241b65ed5d48d3e3b64aac5ea0eaf7d",
+      "products": 37069,
+      "observations": 11698
+    },
+    {
+      "key": "comext/CN/2014/VALUE_IN_EUROS",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=CN&flow=1&time=2014&indicators=VALUE_IN_EUROS",
+      "path": "extensions/prices/data/raw/comext_CN_2014_VALUE_IN_EUROS.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:25:47.578935+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:25:42 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6130486,
+      "sha256": "234fceabaaffa2000bce5084b1de686518a45ba84d543c8c1d73f66f217563d6",
+      "gzip_bytes": 780216,
+      "gzip_sha256": "b871755a2755336eb348fc623d011c71da536a0f698eb4be4db4a5008a15ed3f",
+      "products": 37069,
+      "observations": 11655
+    },
+    {
+      "key": "comext/CN/2014/QUANTITY_IN_100KG",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=CN&flow=1&time=2014&indicators=QUANTITY_IN_100KG",
+      "path": "extensions/prices/data/raw/comext_CN_2014_QUANTITY_IN_100KG.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:25:52.102059+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:25:48 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6133006,
+      "sha256": "af3c664d5ee303236fc2fed07ae0d43daa5c835486fb79223ccb1304d7c7d6e7",
+      "gzip_bytes": 779837,
+      "gzip_sha256": "d514bab7dffb10c0225108ab0329644fc913914e3c1878804c69578f552de9de",
+      "products": 37069,
+      "observations": 11655
+    },
+    {
+      "key": "comext/CN/2015/VALUE_IN_EUROS",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=CN&flow=1&time=2015&indicators=VALUE_IN_EUROS",
+      "path": "extensions/prices/data/raw/comext_CN_2015_VALUE_IN_EUROS.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:25:57.017141+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:25:52 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6130405,
+      "sha256": "25c47a3b99394f810ddddf4a51e8e5ba28b36267b8629f2c2a8781a12815363b",
+      "gzip_bytes": 780112,
+      "gzip_sha256": "943e3b94f405f22ec1f57676e8c7eb0a96d191f40ea64d8a5114628cd948414e",
+      "products": 37069,
+      "observations": 11550
+    },
+    {
+      "key": "comext/CN/2015/QUANTITY_IN_100KG",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=CN&flow=1&time=2015&indicators=QUANTITY_IN_100KG",
+      "path": "extensions/prices/data/raw/comext_CN_2015_QUANTITY_IN_100KG.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:25:58.841700+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:25:57 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6131954,
+      "sha256": "07adbc317603770c7542e1f57d12d03fa8d25c1ae42a8673df9af399e4ab17bb",
+      "gzip_bytes": 779481,
+      "gzip_sha256": "b9bd12d21617182742efd11e8987503d50b8c58985f1661dcbc19ca019da4851",
+      "products": 37069,
+      "observations": 11550
+    },
+    {
+      "key": "comext/CN/2016/VALUE_IN_EUROS",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=CN&flow=1&time=2016&indicators=VALUE_IN_EUROS",
+      "path": "extensions/prices/data/raw/comext_CN_2016_VALUE_IN_EUROS.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:26:04.245032+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:25:59 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6129807,
+      "sha256": "a434352cc3ff82fdad59b99ce3433d62c9393ccb0a4e82b00b0fd61edc546eff",
+      "gzip_bytes": 780282,
+      "gzip_sha256": "35f4912e083d19e02ea60c108f4fa96f35297842b6667136425595f026fa3b86",
+      "products": 37069,
+      "observations": 11459
+    },
+    {
+      "key": "comext/CN/2016/QUANTITY_IN_100KG",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=CN&flow=1&time=2016&indicators=QUANTITY_IN_100KG",
+      "path": "extensions/prices/data/raw/comext_CN_2016_QUANTITY_IN_100KG.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:26:09.192911+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:26:04 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6131357,
+      "sha256": "2ded0e65a2453168f8fa0d04f8b36a7b444b425c283c0784931432b64a40eb42",
+      "gzip_bytes": 779402,
+      "gzip_sha256": "b41749e2e76bc8a5ffa784323236d7d7d259900afcb9c0e712811e6505001d9a",
+      "products": 37069,
+      "observations": 11459
+    },
+    {
+      "key": "comext/CN/2017/VALUE_IN_EUROS",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=CN&flow=1&time=2017&indicators=VALUE_IN_EUROS",
+      "path": "extensions/prices/data/raw/comext_CN_2017_VALUE_IN_EUROS.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:26:14.346184+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:26:09 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6131147,
+      "sha256": "ed1bd20da6772c788c166b5970790f245fce70e3c30c625e90bef5e7e4b79d5f",
+      "gzip_bytes": 780264,
+      "gzip_sha256": "77cfb587356acf79e3e27f2a968df833571dd3aa9de13f897ffc34d4e58cf618",
+      "products": 37069,
+      "observations": 11625
+    },
+    {
+      "key": "comext/CN/2017/QUANTITY_IN_100KG",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=CN&flow=1&time=2017&indicators=QUANTITY_IN_100KG",
+      "path": "extensions/prices/data/raw/comext_CN_2017_QUANTITY_IN_100KG.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:26:18.731588+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:26:14 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6132735,
+      "sha256": "dbf54645b27ace31c2e872c6cdda45b4b2c06e0a8af7abc5e14e6d1bc7d1227f",
+      "gzip_bytes": 779693,
+      "gzip_sha256": "91c672048dc6791e74a60bc0afe235b3c0eb2d47de8586e0f3637b65af772262",
+      "products": 37069,
+      "observations": 11625
+    },
+    {
+      "key": "comext/CN/2018/VALUE_IN_EUROS",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=CN&flow=1&time=2018&indicators=VALUE_IN_EUROS",
+      "path": "extensions/prices/data/raw/comext_CN_2018_VALUE_IN_EUROS.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:26:23.517057+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:26:19 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6131667,
+      "sha256": "c498ac559d1c1de320bd2f9f3c8accd33eb54ebba7213a4745f8ee722a288093",
+      "gzip_bytes": 780536,
+      "gzip_sha256": "746e1af94a2cae26c140392977bc5a537306962560c4cab3b20c754aa3b719bd",
+      "products": 37069,
+      "observations": 11656
+    },
+    {
+      "key": "comext/CN/2018/QUANTITY_IN_100KG",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=CN&flow=1&time=2018&indicators=QUANTITY_IN_100KG",
+      "path": "extensions/prices/data/raw/comext_CN_2018_QUANTITY_IN_100KG.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:26:27.788293+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:26:24 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6133171,
+      "sha256": "44dce1a1bb8bc1183b8aac4c2a0e5be2e610525869330d4f01324796a7a7fc69",
+      "gzip_bytes": 779781,
+      "gzip_sha256": "a0336edefb9609f37f14dd9479545aab112bf5a72a22b4052dd5fcece737023c",
+      "products": 37069,
+      "observations": 11656
+    },
+    {
+      "key": "comext/CN/2019/VALUE_IN_EUROS",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=CN&flow=1&time=2019&indicators=VALUE_IN_EUROS",
+      "path": "extensions/prices/data/raw/comext_CN_2019_VALUE_IN_EUROS.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:26:32.308443+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:26:28 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6132132,
+      "sha256": "3386b56b0102e3df14e50926688a048d17813bf21c7038217f62069e2df2d8ae",
+      "gzip_bytes": 780391,
+      "gzip_sha256": "8b42cced6473ff9eb6fe7a0b059108856350f8020cac89422a4ec9249fe73abd",
+      "products": 37069,
+      "observations": 11684
+    },
+    {
+      "key": "comext/CN/2019/QUANTITY_IN_100KG",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=CN&flow=1&time=2019&indicators=QUANTITY_IN_100KG",
+      "path": "extensions/prices/data/raw/comext_CN_2019_QUANTITY_IN_100KG.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:26:36.513335+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:26:32 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6133544,
+      "sha256": "b329fa6c7d698267211433c6aff38ee2422b02a497db4bddf105686e5e718ad6",
+      "gzip_bytes": 779867,
+      "gzip_sha256": "f1fe623d1295479c015253aa1f19cb47cfdf61b2f59065880498ef04d73d85a1",
+      "products": 37069,
+      "observations": 11684
+    },
+    {
+      "key": "comext/CN/2020/VALUE_IN_EUROS",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=CN&flow=1&time=2020&indicators=VALUE_IN_EUROS",
+      "path": "extensions/prices/data/raw/comext_CN_2020_VALUE_IN_EUROS.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:26:41.258418+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:26:37 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6130634,
+      "sha256": "b0083da52881f4c05fd32d3d0937a5b2a837340708c87b2a210d33e45746f99d",
+      "gzip_bytes": 780292,
+      "gzip_sha256": "c8533399fa7765c6aeb1938a25325f384c8d7686bc46c29a9956277fcb6208bc",
+      "products": 37069,
+      "observations": 11526
+    },
+    {
+      "key": "comext/CN/2020/QUANTITY_IN_100KG",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=CN&flow=1&time=2020&indicators=QUANTITY_IN_100KG",
+      "path": "extensions/prices/data/raw/comext_CN_2020_QUANTITY_IN_100KG.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:26:45.515613+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:26:41 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6132086,
+      "sha256": "fc9d0c481af9b71aadcbf112bc7ae0a41f88a5a86d33e3cbe1df985cc222bd7b",
+      "gzip_bytes": 779411,
+      "gzip_sha256": "42400788759eba42285e73150e982f722ab8c73c325faf8946cacb8b558eb01e",
+      "products": 37069,
+      "observations": 11526
+    },
+    {
+      "key": "comext/CN/2021/VALUE_IN_EUROS",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=CN&flow=1&time=2021&indicators=VALUE_IN_EUROS",
+      "path": "extensions/prices/data/raw/comext_CN_2021_VALUE_IN_EUROS.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:26:50.954897+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:26:46 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6132881,
+      "sha256": "b19955f73ed692c4e6ffc310f6a9301a3c008de0f13462f7008d2ac98c4c0b6d",
+      "gzip_bytes": 780887,
+      "gzip_sha256": "456caa81c5b0b9915f0829a972da9012047ab27cb85368cbe4edd1ffee048ddd",
+      "products": 37069,
+      "observations": 11623
+    },
+    {
+      "key": "comext/CN/2021/QUANTITY_IN_100KG",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=CN&flow=1&time=2021&indicators=QUANTITY_IN_100KG",
+      "path": "extensions/prices/data/raw/comext_CN_2021_QUANTITY_IN_100KG.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:26:55.969846+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:26:51 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6133565,
+      "sha256": "78b3886b5eec03fabad3797f82ae3a1e77ce9abf92c549d0519a140beb876192",
+      "gzip_bytes": 779975,
+      "gzip_sha256": "5781435485d0caa54dc3e61a2f82df23e0234350961c81b95793dcd8aff2a91a",
+      "products": 37069,
+      "observations": 11623
+    },
+    {
+      "key": "comext/CN/2022/VALUE_IN_EUROS",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=CN&flow=1&time=2022&indicators=VALUE_IN_EUROS",
+      "path": "extensions/prices/data/raw/comext_CN_2022_VALUE_IN_EUROS.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:26:57.746790+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:26:56 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6140054,
+      "sha256": "af666badd78c405d29fc6828494d4d75aab1bd34fd2094ef44ab0866998fd2e4",
+      "gzip_bytes": 782221,
+      "gzip_sha256": "b7937d2e22393aef770c3b352876e449cb56909b08987a20d26e8aa2a3fa8a59",
+      "products": 37069,
+      "observations": 12402
+    },
+    {
+      "key": "comext/CN/2022/QUANTITY_IN_100KG",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=CN&flow=1&time=2022&indicators=QUANTITY_IN_100KG",
+      "path": "extensions/prices/data/raw/comext_CN_2022_QUANTITY_IN_100KG.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:27:02.860245+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:26:58 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6140286,
+      "sha256": "9464d8a3f0009e714bdd003776f2b651d39b822960a233dcbfb0997e4485cccd",
+      "gzip_bytes": 780424,
+      "gzip_sha256": "c7019fdbb238fd7d2e8c18fe2010a85c767f0d7874c445c3046e16581bbbcfd0",
+      "products": 37069,
+      "observations": 12402
+    },
+    {
+      "key": "comext/CN/2023/VALUE_IN_EUROS",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=CN&flow=1&time=2023&indicators=VALUE_IN_EUROS",
+      "path": "extensions/prices/data/raw/comext_CN_2023_VALUE_IN_EUROS.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:27:04.670148+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:27:03 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6138394,
+      "sha256": "0e16804b47cea1ba6829c3115d6b164da6945cd49cef6f1eeb450a8d184d0d31",
+      "gzip_bytes": 781731,
+      "gzip_sha256": "34ef44a0ba73d2d029b8e9600e614d8517fbd4e544a9fb496372fbdae4a5178a",
+      "products": 37069,
+      "observations": 12283
+    },
+    {
+      "key": "comext/CN/2023/QUANTITY_IN_100KG",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=CN&flow=1&time=2023&indicators=QUANTITY_IN_100KG",
+      "path": "extensions/prices/data/raw/comext_CN_2023_QUANTITY_IN_100KG.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:27:09.292396+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:27:05 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6138819,
+      "sha256": "7a1e36fe4946f329afee128265bea2725de6615c651fa03bc711878fe2dfdfdd",
+      "gzip_bytes": 780164,
+      "gzip_sha256": "30aede67ee93e383f6232de3fc0848b406af70161e6d1d1f495343eb1e50dd21",
+      "products": 37069,
+      "observations": 12283
+    },
+    {
+      "key": "comext/CN/2024/VALUE_IN_EUROS",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=CN&flow=1&time=2024&indicators=VALUE_IN_EUROS",
+      "path": "extensions/prices/data/raw/comext_CN_2024_VALUE_IN_EUROS.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:27:11.141179+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:27:09 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6139761,
+      "sha256": "cd24ef316765a2215e7ec557f350cd2eaa2da422065368ac359106ffd0db6bc0",
+      "gzip_bytes": 782024,
+      "gzip_sha256": "9bc71f54754c5731f9d4ec364ab65c4d763da25400262bd4f3ed8a01e056dfa6",
+      "products": 37069,
+      "observations": 12507
+    },
+    {
+      "key": "comext/CN/2024/QUANTITY_IN_100KG",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=CN&flow=1&time=2024&indicators=QUANTITY_IN_100KG",
+      "path": "extensions/prices/data/raw/comext_CN_2024_QUANTITY_IN_100KG.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:27:12.978840+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:27:11 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6140632,
+      "sha256": "180dca8b8975f9b8794016231b893ae9f30f75390542950ff632fb1bfa2d366b",
+      "gzip_bytes": 780607,
+      "gzip_sha256": "9fe18efd9181091f29a1243d1c6a3b827319931c2f350eed567b2630de98ca4d",
+      "products": 37069,
+      "observations": 12507
+    },
+    {
+      "key": "comext/EXT_EU27_2020/2010/VALUE_IN_EUROS",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=EXT_EU27_2020&flow=1&time=2010&indicators=VALUE_IN_EUROS",
+      "path": "extensions/prices/data/raw/comext_EXT_EU27_2020_2010_VALUE_IN_EUROS.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:27:18.129467+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:27:13 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6173657,
+      "sha256": "6fcd2eb98426d0ab6f26d510b219d509a9860ea47ca8d72d231967bde5c02b75",
+      "gzip_bytes": 797725,
+      "gzip_sha256": "5641ba8ab87d1b4efc3b093c45a0da44b308bfa0c386cf5b3dd18ac877ef8f55",
+      "products": 37069,
+      "observations": 14971
+    },
+    {
+      "key": "comext/EXT_EU27_2020/2010/QUANTITY_IN_100KG",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=EXT_EU27_2020&flow=1&time=2010&indicators=QUANTITY_IN_100KG",
+      "path": "extensions/prices/data/raw/comext_EXT_EU27_2020_2010_QUANTITY_IN_100KG.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:27:22.825915+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:27:18 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6176621,
+      "sha256": "e6da7b080c49d7ce48219d64c6400a856ff4c0e945421c71c8caf99e23cf4860",
+      "gzip_bytes": 797728,
+      "gzip_sha256": "3d181a70ba8e046dbe00420dd98b0e0513b727265ade5adddafb641cd9dd3a07",
+      "products": 37069,
+      "observations": 14971
+    },
+    {
+      "key": "comext/EXT_EU27_2020/2011/VALUE_IN_EUROS",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=EXT_EU27_2020&flow=1&time=2011&indicators=VALUE_IN_EUROS",
+      "path": "extensions/prices/data/raw/comext_EXT_EU27_2020_2011_VALUE_IN_EUROS.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:27:27.869631+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:27:23 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6173318,
+      "sha256": "73b0fd262b171bd7287458b62ac6292b716baf50cf48f4fca1c2f03a156bbace",
+      "gzip_bytes": 797774,
+      "gzip_sha256": "0d1448967a5cb1b910a7bbc5168a07b5156eda987292f93e50f02c1a22cee670",
+      "products": 37069,
+      "observations": 14870
+    },
+    {
+      "key": "comext/EXT_EU27_2020/2011/QUANTITY_IN_100KG",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=EXT_EU27_2020&flow=1&time=2011&indicators=QUANTITY_IN_100KG",
+      "path": "extensions/prices/data/raw/comext_EXT_EU27_2020_2011_QUANTITY_IN_100KG.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:27:32.743936+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:27:28 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6176001,
+      "sha256": "aed9996094ae1c035829e9ac9950384c791d1b410d13c9c869f04751ed6d3ef2",
+      "gzip_bytes": 797258,
+      "gzip_sha256": "f2df43824d44877591553c910b1148f596d5bf72e13504ec159b4747e5af4002",
+      "products": 37069,
+      "observations": 14870
+    },
+    {
+      "key": "comext/EXT_EU27_2020/2012/VALUE_IN_EUROS",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=EXT_EU27_2020&flow=1&time=2012&indicators=VALUE_IN_EUROS",
+      "path": "extensions/prices/data/raw/comext_EXT_EU27_2020_2012_VALUE_IN_EUROS.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:27:37.872909+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:27:33 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6174917,
+      "sha256": "7acc3744ab615fc7443d4b36304d2a219ab1adc6faefb2e692f175bdb5052d9a",
+      "gzip_bytes": 797793,
+      "gzip_sha256": "90ff9d20b9e4fea1d85c6869e39e27109609a92fbfd50b7ca4560d152e7602d7",
+      "products": 37069,
+      "observations": 15078
+    },
+    {
+      "key": "comext/EXT_EU27_2020/2012/QUANTITY_IN_100KG",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=EXT_EU27_2020&flow=1&time=2012&indicators=QUANTITY_IN_100KG",
+      "path": "extensions/prices/data/raw/comext_EXT_EU27_2020_2012_QUANTITY_IN_100KG.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:27:42.510045+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:27:38 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6177354,
+      "sha256": "45ab84773ea9edb6e6afe570e50e3c1f3651543d61ea66d803e47639165058a9",
+      "gzip_bytes": 797099,
+      "gzip_sha256": "0d64108048b4e9adfd8ba5f57f1ed0343bc4113f9fedcddfc186b96646b2049e",
+      "products": 37069,
+      "observations": 15078
+    },
+    {
+      "key": "comext/EXT_EU27_2020/2013/VALUE_IN_EUROS",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=EXT_EU27_2020&flow=1&time=2013&indicators=VALUE_IN_EUROS",
+      "path": "extensions/prices/data/raw/comext_EXT_EU27_2020_2013_VALUE_IN_EUROS.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:27:47.494233+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:27:43 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6174392,
+      "sha256": "0f82a811b01d31babd0f70b3e05adb5e9c5a9995d3237848714bc488f723387a",
+      "gzip_bytes": 797538,
+      "gzip_sha256": "123c1149b3ed553e4e9f1de9c7b9aebd4795c683a17e599ff1c365ac53602a2e",
+      "products": 37069,
+      "observations": 15062
+    },
+    {
+      "key": "comext/EXT_EU27_2020/2013/QUANTITY_IN_100KG",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=EXT_EU27_2020&flow=1&time=2013&indicators=QUANTITY_IN_100KG",
+      "path": "extensions/prices/data/raw/comext_EXT_EU27_2020_2013_QUANTITY_IN_100KG.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:27:51.982120+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:27:48 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6176924,
+      "sha256": "ed22cae53d0da666babf974fda40e0ef9c0bb8686745c2dff5fd9b235645688f",
+      "gzip_bytes": 797007,
+      "gzip_sha256": "e13416d50498afcde9f925657a42590fc8f9ca3b51eecfe80d7059717d2ec2b1",
+      "products": 37069,
+      "observations": 15062
+    },
+    {
+      "key": "comext/EXT_EU27_2020/2014/VALUE_IN_EUROS",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=EXT_EU27_2020&flow=1&time=2014&indicators=VALUE_IN_EUROS",
+      "path": "extensions/prices/data/raw/comext_EXT_EU27_2020_2014_VALUE_IN_EUROS.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:27:56.841041+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:27:52 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6174260,
+      "sha256": "8beb28de980a5b1a2cde5609446dd2542c20d34c715ae69887990b145fa11dae",
+      "gzip_bytes": 797495,
+      "gzip_sha256": "a319a0802715c62c51b1e367c2e7c091eb5d754ed7a3fe2b08f416b05549bedd",
+      "products": 37069,
+      "observations": 15039
+    },
+    {
+      "key": "comext/EXT_EU27_2020/2014/QUANTITY_IN_100KG",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=EXT_EU27_2020&flow=1&time=2014&indicators=QUANTITY_IN_100KG",
+      "path": "extensions/prices/data/raw/comext_EXT_EU27_2020_2014_QUANTITY_IN_100KG.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:28:01.275337+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:27:57 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6176888,
+      "sha256": "54175ea06446ab555cf1b4cef9a961e1b56e43eade5b99ba1ab5d373db7e1536",
+      "gzip_bytes": 797107,
+      "gzip_sha256": "026aef9c44df02c0f52bb9164a9eaf82f4e9bc2ac049a0e5d0cc24b7e96b6923",
+      "products": 37069,
+      "observations": 15039
+    },
+    {
+      "key": "comext/EXT_EU27_2020/2015/VALUE_IN_EUROS",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=EXT_EU27_2020&flow=1&time=2015&indicators=VALUE_IN_EUROS",
+      "path": "extensions/prices/data/raw/comext_EXT_EU27_2020_2015_VALUE_IN_EUROS.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:28:03.114045+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:28:01 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6174205,
+      "sha256": "4d831e1f9ee655f3ada99e0b4c39edda8cc8dec79ce63cc8bb86d3a0c85457fd",
+      "gzip_bytes": 797603,
+      "gzip_sha256": "fadc1e6250c6bfea8bf4870d12f09e32960ac20b3d3461622f7b3635f190d8a0",
+      "products": 37069,
+      "observations": 14967
+    },
+    {
+      "key": "comext/EXT_EU27_2020/2015/QUANTITY_IN_100KG",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=EXT_EU27_2020&flow=1&time=2015&indicators=QUANTITY_IN_100KG",
+      "path": "extensions/prices/data/raw/comext_EXT_EU27_2020_2015_QUANTITY_IN_100KG.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:28:07.892176+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:28:03 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6176231,
+      "sha256": "64420b7140e05ccc3eebe67def0b7929dafb2e0a7b0a634d1e1ec16f6e205d5f",
+      "gzip_bytes": 796756,
+      "gzip_sha256": "b66235928985c8514173f472130ac747f3316c5c04d8a9e15219bb1b2181fd24",
+      "products": 37069,
+      "observations": 14967
+    },
+    {
+      "key": "comext/EXT_EU27_2020/2016/VALUE_IN_EUROS",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=EXT_EU27_2020&flow=1&time=2016&indicators=VALUE_IN_EUROS",
+      "path": "extensions/prices/data/raw/comext_EXT_EU27_2020_2016_VALUE_IN_EUROS.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:28:13.564911+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:28:08 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6174419,
+      "sha256": "4055ec3736f0d7af58369bf525ad70aa401619233b0dcaab25d8df9cdc681083",
+      "gzip_bytes": 797755,
+      "gzip_sha256": "de5e98fb06ec11dfb2b9901979d8bb21ae67236cf89c463d784af0568486fce0",
+      "products": 37069,
+      "observations": 15011
+    },
+    {
+      "key": "comext/EXT_EU27_2020/2016/QUANTITY_IN_100KG",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=EXT_EU27_2020&flow=1&time=2016&indicators=QUANTITY_IN_100KG",
+      "path": "extensions/prices/data/raw/comext_EXT_EU27_2020_2016_QUANTITY_IN_100KG.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:28:18.126847+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:28:14 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6176372,
+      "sha256": "e68f2520df91de7a10e4cadd09c75b63551c2d4b8abf74a89ae5cf10cf4e7bb7",
+      "gzip_bytes": 796867,
+      "gzip_sha256": "17efc16f46a14ea4362287bd9c023d7e583bf00e171a70b0b91347f9bda88427",
+      "products": 37069,
+      "observations": 15011
+    },
+    {
+      "key": "comext/EXT_EU27_2020/2017/VALUE_IN_EUROS",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=EXT_EU27_2020&flow=1&time=2017&indicators=VALUE_IN_EUROS",
+      "path": "extensions/prices/data/raw/comext_EXT_EU27_2020_2017_VALUE_IN_EUROS.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:28:23.095294+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:28:18 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6176828,
+      "sha256": "e8d7577a95ef5706bb292792cb854f98e767ce7bf45c25cc86959f0d894f90d7",
+      "gzip_bytes": 798066,
+      "gzip_sha256": "5ea8a57204d0e94e386910c87d4e1b47963a3315dbbc25bc118552366c65e8c4",
+      "products": 37069,
+      "observations": 15285
+    },
+    {
+      "key": "comext/EXT_EU27_2020/2017/QUANTITY_IN_100KG",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=EXT_EU27_2020&flow=1&time=2017&indicators=QUANTITY_IN_100KG",
+      "path": "extensions/prices/data/raw/comext_EXT_EU27_2020_2017_QUANTITY_IN_100KG.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:28:27.521782+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:28:23 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6178803,
+      "sha256": "0e3dcbe0018a50d6d864068b3ab9ccd27294adc5fb991165f1256c5a375abab5",
+      "gzip_bytes": 797122,
+      "gzip_sha256": "a18e35a523ddf3270364458a2266af815c15f555c53f04e68712860e84656fde",
+      "products": 37069,
+      "observations": 15285
+    },
+    {
+      "key": "comext/EXT_EU27_2020/2018/VALUE_IN_EUROS",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=EXT_EU27_2020&flow=1&time=2018&indicators=VALUE_IN_EUROS",
+      "path": "extensions/prices/data/raw/comext_EXT_EU27_2020_2018_VALUE_IN_EUROS.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:28:32.458003+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:28:28 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6177191,
+      "sha256": "31ebcbebc7275bdf0a119a59c9298f9102870ce9e2cc53be7752546eb354d134",
+      "gzip_bytes": 798118,
+      "gzip_sha256": "19b9e72f98b83a3c58f2b056dc1bcccfa7294d071eed11dfeb8eb00230f7a0b8",
+      "products": 37069,
+      "observations": 15307
+    },
+    {
+      "key": "comext/EXT_EU27_2020/2018/QUANTITY_IN_100KG",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=EXT_EU27_2020&flow=1&time=2018&indicators=QUANTITY_IN_100KG",
+      "path": "extensions/prices/data/raw/comext_EXT_EU27_2020_2018_QUANTITY_IN_100KG.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:28:36.950185+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:28:32 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6178985,
+      "sha256": "bb00588d94104eef976ca292cea0847914421be84d346413d08e92ca15fffc9f",
+      "gzip_bytes": 797341,
+      "gzip_sha256": "170c35f52f8ae772084df85886dacec34981361f7e8f6d7e98fcf4aa87d3eaa1",
+      "products": 37069,
+      "observations": 15307
+    },
+    {
+      "key": "comext/EXT_EU27_2020/2019/VALUE_IN_EUROS",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=EXT_EU27_2020&flow=1&time=2019&indicators=VALUE_IN_EUROS",
+      "path": "extensions/prices/data/raw/comext_EXT_EU27_2020_2019_VALUE_IN_EUROS.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:28:41.904301+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:28:37 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6176835,
+      "sha256": "ba4a7374081154c4e1df4ed57d0eb93cfba8f916eae506e543d2778b6180aa50",
+      "gzip_bytes": 798304,
+      "gzip_sha256": "fc5f8d71fd0b743cc747b562d90d54cf2e432e455723853a1e8b0a7983fe0a38",
+      "products": 37069,
+      "observations": 15274
+    },
+    {
+      "key": "comext/EXT_EU27_2020/2019/QUANTITY_IN_100KG",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=EXT_EU27_2020&flow=1&time=2019&indicators=QUANTITY_IN_100KG",
+      "path": "extensions/prices/data/raw/comext_EXT_EU27_2020_2019_QUANTITY_IN_100KG.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:28:46.367647+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:28:42 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6178475,
+      "sha256": "b2eab58c73a40c5b6828a20f72c6714da07a910f5d976152aad85761a5190b7a",
+      "gzip_bytes": 797349,
+      "gzip_sha256": "bb5df612d416eb113550e648b3890db5a1b5661ce199bec3f74e0891f1f59ea2",
+      "products": 37069,
+      "observations": 15274
+    },
+    {
+      "key": "comext/EXT_EU27_2020/2020/VALUE_IN_EUROS",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=EXT_EU27_2020&flow=1&time=2020&indicators=VALUE_IN_EUROS",
+      "path": "extensions/prices/data/raw/comext_EXT_EU27_2020_2020_VALUE_IN_EUROS.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:28:51.124016+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:28:46 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6174527,
+      "sha256": "ea742a15c329fa36e0450cb8623dd633361838da9d702238930415471d3471f1",
+      "gzip_bytes": 797478,
+      "gzip_sha256": "bce896f05ce9791c74b00075cf0a91b9c835afdfc5daf7f669e42f46bcc92fc1",
+      "products": 37069,
+      "observations": 15071
+    },
+    {
+      "key": "comext/EXT_EU27_2020/2020/QUANTITY_IN_100KG",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=EXT_EU27_2020&flow=1&time=2020&indicators=QUANTITY_IN_100KG",
+      "path": "extensions/prices/data/raw/comext_EXT_EU27_2020_2020_QUANTITY_IN_100KG.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:28:56.426529+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:28:51 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6176200,
+      "sha256": "d5096a20fb7387a1b6e9657eb428610d7d93ac10f37a48a337862803ae1ecf5e",
+      "gzip_bytes": 796440,
+      "gzip_sha256": "9d92f5a36de62efd673a3944152482b9b9e285c929a1b12a530af30091d606d5",
+      "products": 37069,
+      "observations": 15071
+    },
+    {
+      "key": "comext/EXT_EU27_2020/2021/VALUE_IN_EUROS",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=EXT_EU27_2020&flow=1&time=2021&indicators=VALUE_IN_EUROS",
+      "path": "extensions/prices/data/raw/comext_EXT_EU27_2020_2021_VALUE_IN_EUROS.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:29:01.453692+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:28:56 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6173830,
+      "sha256": "ab82e65a2db239d4404ecdb066ecf7648a4bda3e72cd237e9a86a80d97aff3f4",
+      "gzip_bytes": 797100,
+      "gzip_sha256": "1a9c1aedcd75d5e8e3e3bde78237786e4f2a2e2a0c8c53c7af34d8fbb561ff5c",
+      "products": 37069,
+      "observations": 14942
+    },
+    {
+      "key": "comext/EXT_EU27_2020/2021/QUANTITY_IN_100KG",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=EXT_EU27_2020&flow=1&time=2021&indicators=QUANTITY_IN_100KG",
+      "path": "extensions/prices/data/raw/comext_EXT_EU27_2020_2021_QUANTITY_IN_100KG.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:29:06.217362+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:29:01 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6174929,
+      "sha256": "c623f61bea76094c2294fa349af16b2b6c09dab6b3563405b806408b5e8fc366",
+      "gzip_bytes": 796235,
+      "gzip_sha256": "3a07ad19cf003f9535f32c4169670a7f5cdc67fc501ae6a7c1096b0def02f564",
+      "products": 37069,
+      "observations": 14942
+    },
+    {
+      "key": "comext/EXT_EU27_2020/2022/VALUE_IN_EUROS",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=EXT_EU27_2020&flow=1&time=2022&indicators=VALUE_IN_EUROS",
+      "path": "extensions/prices/data/raw/comext_EXT_EU27_2020_2022_VALUE_IN_EUROS.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:29:11.261029+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:29:06 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6180720,
+      "sha256": "e4acabeade9b9be3a9c8459b6676e16501b4b9b3eb972b7fcf03acee8acd2bc7",
+      "gzip_bytes": 798585,
+      "gzip_sha256": "2a41a56a26fdac7ea192b99bfcd6969826ad04ca86a00f06d762e1b63d39c69f",
+      "products": 37069,
+      "observations": 15610
+    },
+    {
+      "key": "comext/EXT_EU27_2020/2022/QUANTITY_IN_100KG",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=EXT_EU27_2020&flow=1&time=2022&indicators=QUANTITY_IN_100KG",
+      "path": "extensions/prices/data/raw/comext_EXT_EU27_2020_2022_QUANTITY_IN_100KG.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:29:15.756651+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:29:11 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6180873,
+      "sha256": "b26a93c84c171b4fd78f46acdcd4052fe1a37a719ff0702c59663cb43f5837b3",
+      "gzip_bytes": 797568,
+      "gzip_sha256": "9cfcbc19ef3e79b33bf34f697c2d319e8e02411fc4c5d33768300d407c2f4525",
+      "products": 37069,
+      "observations": 15610
+    },
+    {
+      "key": "comext/EXT_EU27_2020/2023/VALUE_IN_EUROS",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=EXT_EU27_2020&flow=1&time=2023&indicators=VALUE_IN_EUROS",
+      "path": "extensions/prices/data/raw/comext_EXT_EU27_2020_2023_VALUE_IN_EUROS.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:29:20.715183+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:29:16 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6179334,
+      "sha256": "bf4ce9be5c91b9ce3d89a72d3fded5f80d2a905f79b7b9b06134b9a54b3a2eab",
+      "gzip_bytes": 798345,
+      "gzip_sha256": "97b183ecf41402b22622fc86cafa606a7eacecf866d3e2592690bb8616f137bc",
+      "products": 37069,
+      "observations": 15509
+    },
+    {
+      "key": "comext/EXT_EU27_2020/2023/QUANTITY_IN_100KG",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=EXT_EU27_2020&flow=1&time=2023&indicators=QUANTITY_IN_100KG",
+      "path": "extensions/prices/data/raw/comext_EXT_EU27_2020_2023_QUANTITY_IN_100KG.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:29:25.496962+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:29:21 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6179261,
+      "sha256": "ed5a1f15d57c77affce119f5683874426eed350e1a8bf8caff916ab02192b103",
+      "gzip_bytes": 796909,
+      "gzip_sha256": "4f0031f644483adbd7699bb0cfcb33b515c27c49c49bea9a0e434cafa60c6bfb",
+      "products": 37069,
+      "observations": 15509
+    },
+    {
+      "key": "comext/EXT_EU27_2020/2024/VALUE_IN_EUROS",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=EXT_EU27_2020&flow=1&time=2024&indicators=VALUE_IN_EUROS",
+      "path": "extensions/prices/data/raw/comext_EXT_EU27_2020_2024_VALUE_IN_EUROS.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:29:30.511243+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:29:26 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6180022,
+      "sha256": "a214a21a5d643bd733c9e12d512b4a634f7587148bb4c267796f44d31a31437a",
+      "gzip_bytes": 798538,
+      "gzip_sha256": "c50e6f14c128c2cc4c2a962ca273e3a57a99a64b3210b9ed343ac868cb943ac2",
+      "products": 37069,
+      "observations": 15680
+    },
+    {
+      "key": "comext/EXT_EU27_2020/2024/QUANTITY_IN_100KG",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?format=JSON&lang=EN&freq=A&reporter=DE&partner=EXT_EU27_2020&flow=1&time=2024&indicators=QUANTITY_IN_100KG",
+      "path": "extensions/prices/data/raw/comext_EXT_EU27_2020_2024_QUANTITY_IN_100KG.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:29:34.776853+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:29:31 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 6180397,
+      "sha256": "4cc78f133146efd70469b950fff748ab9e58d97e7b7a3b6425a5b6041387e4c0",
+      "gzip_bytes": 797148,
+      "gzip_sha256": "e83421151fa9c333c90c4f567308274520f3a95c0c8610e37ae9e2ac82d08bf2",
+      "products": 37069,
+      "observations": 15680
+    },
+    {
+      "key": "eurostat/deflator",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_a64?lang=en&geo=DE&nace_r2=C&na_item=P1&unit=PD15_NAC&sinceTimePeriod=2010",
+      "path": "extensions/prices/data/raw/nama_10_a64_DE_C_P1_PD15_NAC.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:29:35.217491+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:29:35 GMT",
+        "Content-Type": "application/json"
+      },
+      "bytes": 3458,
+      "sha256": "c99935f1e78f0bad55376b637262aaccbeaa287d2f6f10278b713ebad082fcd9",
+      "gzip_bytes": 1476,
+      "gzip_sha256": "8c3f8c7d997a72246ec78bfa982e4571df0a7b59275d58703e881e7b41ad973a",
+      "observations": 16,
+      "updated": "2026-10-06T11:00:00+0200"
+    },
+    {
+      "key": "ecb/eur_cny",
+      "url": "https://data-api.ecb.europa.eu/service/data/EXR/A.CNY.EUR.SP00.A?format=jsondata&startPeriod=2010&endPeriod=2024",
+      "path": "extensions/prices/data/raw/ecb_EXR_A_CNY_EUR.json.gz",
+      "retrieved_at_utc": "2026-10-06T13:29:35.705959+00:00",
+      "http_headers": {
+        "Date": "Tue, 06 Oct 2026 13:29:35 GMT",
+        "Content-Type": "application/vnd.sdmx.data+json;version=1.0.0-wd"
+      },
+      "bytes": 5078,
+      "sha256": "44924c1ef1bd098b11b5110d46a8b621645c66f9778ac76cdaf2ebb76ae2de2e",
+      "gzip_bytes": 1494,
+      "gzip_sha256": "981091e693c46192d7459f47a0bbadd8600126b5b2356b8aa0327208f1bcdf85",
+      "observations": 15
+    }
+  ],
+  "completed_at_utc": "2026-10-06T13:29:36.006685+00:00"
+}
